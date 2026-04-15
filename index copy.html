@@ -1,0 +1,291 @@
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Micro Clues to Macro Events: Training-Free Retrieval of Multi-Event Videos</title>
+    <meta name="description" content="We've presented Clarity, a minimalist and elegant website template for AI research.">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="robots" content="all">
+    <meta content="en_EN" property="og:locale">
+    <meta content="website" property="og:type">
+    <meta content="https://shikun.io/projects/clarity" property="og:url">
+    <meta content="Clarity" property="og:title">
+    <meta content="Website Template for AI Research" property="og:description">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@your_twitter_id">
+    <meta name="twitter:description" content="Clarity: A Minimalist Website Template for AI Research">
+    <meta name="twitter:image:src" content="assets/figures/clarity.png">
+    
+    <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/main_free.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="clarity/clarity.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/foundation.min.css">
+    <link href="assets/fontawesome-free-7.2.0-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+    <script src="assets/scripts/navbar.js"></script>  <!-- Comment to remove table of content. -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            "HTML-CSS": {
+              scale: 95,
+              fonts: ["Gyre-Pagella"],
+              imageFont: null,
+              undefinedFamily: "'Arial Unicode MS', cmbright"
+            },
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+          });
+    </script>
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* Root fix:
+           remove inherited container paddings for first screen so title width is not constrained
+           by .container + .blog-intro(no-cover) double paddings in main_free.css */
+        #first-content.container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        #first-content .blog-title.no-cover .blog-intro {
+            padding: 4vh 0 !important;
+        }
+
+        /* Local typography tuning for the title + abstract block */
+        #first-content .blog-title.no-cover .blog-intro .hero-header {
+            width: 100%;
+            margin: 0 auto 10px;
+            padding: 0 clamp(16px, 2.4vw, 44px);
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        #first-content .blog-title.no-cover .blog-intro .hero-title {
+            font-size: clamp(34px, 4.2vw, 56px);
+            line-height: 1.12;
+            letter-spacing: -0.01em;
+            max-width: none;
+            padding: 0 !important;
+            margin: 0 auto 8px;
+            text-align: center;
+        }
+
+        #first-content .blog-title.no-cover .blog-intro .abstract-panel {
+            width: min(980px, calc(100vw - 48px));
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #first-content .blog-title.no-cover .blog-intro .abstract-title {
+            margin: 6px 0 0;
+            padding: 10px 0 4px;
+            text-align: left;
+            font-size: 1.15em;
+            font-weight: 600;
+        }
+
+        #first-content .blog-title.no-cover .blog-intro p.abstract.abstract-body {
+            margin: 0;
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+            font-family: "Charter", sans-serif;
+            font-size: 1em;
+            line-height: 1.65;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Title Page -->
+    <!-- Dark Theme Example: Change the background colour dark and change the following div "blog-title" into "blog-title white". -->
+    <div class="container blog" id="first-content" style="background-color: #E0E4E6;">
+        <!-- If you don't have a project cover: Change "blog-title" into "blog-title no-cover"  -->
+        <div class="blog-title no-cover">
+            <div class="blog-intro">
+                <div class="hero-header">
+                    <h1 class="title hero-title">From Micro Clues to Macro Events:<br>Training-Free Retrieval of Multi-Event Videos</h1>
+                </div>
+
+                <div class="abstract-panel">
+                    <h2 class="abstract-title">Abstract</h2>
+                    <p class="abstract abstract-body">
+                        Multi-event video-text retrieval is challenging because long videos and long-form descriptions are not aligned as flat one-to-one semantic units. A candidate video may contain multiple semantic scopes, while a description may target only part of the video and mix global narrative with local evidence. This creates a scope-evidence mismatch, where flat matching either preserves coarse relevance while missing decisive clues, or overreacts to local evidence without establishing a globally valid match. To address this issue, we propose <b>MoMo</b>, a training-free framework for structured multi-event video-text alignment and retrieval. Instead of absorbing structural complexity through additional task-specific training, MoMo organizes text and video into retrieval-compatible structures and performs <b>MacrO</b>-scope and <b>MicrO</b>-evidence alignment through joint cross-level evaluation. In this way, candidate ranking is determined not only by high-level semantic compatibility, but also by whether event-local evidence can verify the matched scope, whether description-level support remains sufficiently complete, and whether the final match is temporally plausible. Extensive experiments on Charades-Event and ActivityNet-Event show that this structured training-free formulation substantially improves multi-event retrieval over strong baselines. Code and data will be open-sourced at <a href="https://momoevent.github.io">https://momoevent.github.io</a>.
+                    </p>
+                </div>
+
+                <div>
+                    <!-- Using FontAwesome Pro -->
+                    <!-- <div class="info">
+                        <div>
+                            <a href="https://arxiv.org" class="button icon" style="background-color: rgba(255, 255, 255, 0.3)"> Paper <i class="far fa-book-open"></i></a> &nbsp;&nbsp; 
+                            <a href="https://github.com" class="button icon" style="background-color: rgba(255, 255, 255, 0.3)">Code <i class="far fa-code"></i></a>  &nbsp;&nbsp; 
+                            <a href="https://www.microsoft.com/en-gb/microsoft-365/powerpoint" class="button icon" style="background-color: rgba(255, 255, 255, 0.3);">Slides <i class="far fa-presentation"></i></a>  &nbsp;&nbsp; 
+                            <a href="https://huggingface.co/spaces" class="button icon" style="background-color: rgba(255, 255, 255, 0.3)">Demo <i class="fa-light fa-face-smiling-hands"></i></a>
+                        </div>
+                    </div> -->
+
+                    <!-- Using FontAwesome Free -->
+                    <div class="info">
+                        <div>
+                            <a href="https://arxiv.org" class="button icon" style="background-color: rgba(255, 255, 255, 0.2)"> Paper <i class="fa-regular fa-file-lines"></i></a> &nbsp;&nbsp; 
+                            <a href="https://github.com" class="button icon" style="background-color: rgba(255, 255, 255, 0.2)">Code <i class="fa-solid fa-code"></i></a>  &nbsp;&nbsp; 
+                            <a href="https://www.microsoft.com/en-gb/microsoft-365/powerpoint" class="button icon" style="background-color: rgba(255, 255, 255, 0.2);">Slides <i class="fa-regular fa-file-powerpoint"></i></a> &nbsp;&nbsp; 
+                            <a href="https://huggingface.co/spaces/" class="button icon" style="background-color: rgba(255, 255, 255, 0.2)">Demo <i class="fa-brands fa-hugging-face"></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container blog main first" id="blog-main">
+        <h1 >
+            Introduction
+        </h1>
+        <p class='text'>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Urna non ligula sed ante ultricies. Nam nam tortor elit turpis fermentum praesent. Tristique porttitor sodales rhoncus duis tellus mus vivamus lacus. Nam platea lectus aliquam placerat; quis dignissim nisi ornare. Habitant himenaeos adipiscing dictum fringilla metus.
+        </p>
+
+        <p class="text">
+            Sagittis donec nibh etiam leo eget iaculis proin. Dapibus morbi vitae ad vestibulum montes odio varius. Ullamcorper finibus nibh suscipit libero velit suspendisse. Potenti potenti risus integer libero semper potenti vivamus. Libero cras lectus netus faucibus nisl. Congue aliquet congue ante netus eu, vestibulum arcu. Scelerisque tempor taciti senectus mus penatibus condimentum consequat in. Tempor conubia molestie tristique; orci taciti augue. Justo ultrices consequat hac vivamus proin sodales.
+        </p>
+    </div>
+
+    <div class="container blog main gray">
+        <img src="clarity/images/vit.png">
+        <p class="caption">
+            Erat id non venenatis nullam leo nisl risus fames. Quis montes tortor aenean posuere non. Maximus dui cras enim tristique; ipsum pellentesque ut. Mauris hac felis elit scelerisque nascetur risus adipiscing ultrices. Quis augue pulvinar laoreet facilisis vel. Pharetra blandit nunc id, sem cubilia sit porttitor. Montes hendrerit vestibulum vulputate tincidunt facilisis metus. Interdum mi vivamus nunc consectetur adipiscing; aptent semper dictum.
+        </p>
+    </div>
+
+    <div class="container blog main">
+        <h1>Results</h1>
+        <p class="text">
+            Arcu imperdiet nunc, dignissim ornare arcu nam eros cras venenatis. Non volutpat parturient luctus eros litora natoque; elementum dui. Nulla cubilia et nascetur dictum nisi phasellus. Natoque himenaeos porta vulputate interdum id mollis. Fames diam integer semper ligula per. Sapien ex magnis pellentesque neque rhoncus conubia. Purus torquent nunc ligula auctor cras pharetra. Porttitor vulputate dis ante suspendisse a iaculis massa sagittis.
+        </p>
+    </div>
+
+    <div class="container blog extra-large gray">
+        <div class="slide-menu">
+            <ul class="dots" id="slide-menu">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+        </div>
+       
+        <div class="slide-content", style="display: block;">
+            <div class="columns-4">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+            </div>
+            <p class="caption">
+                Nulla quis porttitor varius phasellus dolor curae primis. Suscipit sit adipiscing nibh justo hac. Turpis massa ridiculus sit, finibus quis litora sagittis torquent. Dignissim suscipit quam curabitur sit velit, rhoncus tincidunt purus? At netus efficitur penatibus purus amet urna etiam. Leo neque ligula varius lacinia torquent vehicula. Tempus non mauris vel placerat natoque.
+            </p>
+        </div>
+
+        <div class="slide-content", style="display: none;">
+            <div class="columns-6">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+            </div>
+            <p class="caption">
+                Nulla quis porttitor varius phasellus dolor curae primis. Suscipit sit adipiscing nibh justo hac. Turpis massa ridiculus sit, finibus quis litora sagittis torquent. Dignissim suscipit quam curabitur sit velit, rhoncus tincidunt purus? At netus efficitur penatibus purus amet urna etiam. Leo neque ligula varius lacinia torquent vehicula. Tempus non mauris vel placerat natoque.
+            </p>
+        </div>
+
+        <div class="slide-content", style="display: none;">
+            <div class="columns-8">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+                <img src="https://clickprops.co.uk/wp-content/uploads/2022/05/PP15PS-California-Blue.jpg">
+            </div>
+            <p class="caption">
+                Nulla quis porttitor varius phasellus dolor curae primis. Suscipit sit adipiscing nibh justo hac. Turpis massa ridiculus sit, finibus quis litora sagittis torquent. Dignissim suscipit quam curabitur sit velit, rhoncus tincidunt purus? At netus efficitur penatibus purus amet urna etiam. Leo neque ligula varius lacinia torquent vehicula. Tempus non mauris vel placerat natoque.
+            </p>
+        </div>
+    </div>
+
+    <div class="container blog main">
+        <h1>Additional Analysis</h1>
+        <h2>Observation 1</h2>
+        <p class="text">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos sociosqu facilisi ante; cubilia sociosqu magna libero. Dignissim vehicula felis taciti sollicitudin quam ligula a, vivamus porta. Tellus facilisi pharetra non posuere a sapien. Sagittis felis lectus ac interdum pretium sit himenaeos.
+        </p>
+        <ol>
+            <li>
+                <p class="text">Conubia aliquet semper inceptos ultricies vel metus fusce litora. </p>
+            </li>
+            <li>
+                <p class="text">Ultricies dis vehicula non lobortis hac sagittis urna dignissim ex. 
+                </p>
+            </li>
+        </ol>
+
+        <h2>Observation 2</h2>
+        <p class="text">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos sociosqu facilisi ante; cubilia sociosqu magna libero. Dignissim vehicula felis taciti sollicitudin quam ligula a, vivamus porta. Tellus facilisi pharetra non posuere a sapien. Sagittis felis lectus ac interdum pretium sit himenaeos.
+        </p>
+
+        <ul >
+            <li>
+                <p class="text">Conubia aliquet semper inceptos ultricies vel metus fusce litora. </p>
+            </li>
+            <li>
+                <p class="text">Ultricies dis vehicula non lobortis hac sagittis urna dignissim ex. 
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container blog main">
+        <h1>Conclusion</h1>
+        <p class="text">
+            Per aptent diam; ut in mauris ultricies torquent conubia dolor. Aliquet venenatis sapien, dictum finibus ad dui. Finibus sollicitudin nullam consectetur malesuada molestie semper dolor. Platea eget hac cursus aptent maecenas penatibus vulputate. Ligula libero torquent sit per praesent praesent. Sodales risus mattis enim odio risus tristique. Dapibus vivamus quis scelerisque sollicitudin penatibus placerat erat. Ante aliquet vel; morbi quisque leo morbi. Ac sollicitudin imperdiet lacus integer cursus metus parturient euismod sociosqu.
+        </p>
+    </div>
+
+    <div class="container blog main">
+        <h1>Citation</h1>
+        <p class="text">
+            Dictumst eu himenaeos malesuada nisi eros auctor id suspendisse. Ipsum parturient est vitae proin maecenas. Nulla mollis vivamus cras nam dapibus consectetur. Id efficitur ac ultricies ornare at litora. Vestibulum nibh cursus eu gravida vivamus sem vulputate. Montes nisi ipsum urna vitae semper suscipit.
+        </p>
+
+    </div>
+
+    <!-- Footer Page -->
+    <footer>
+        <div class="container">
+            <p>
+                This website is built on the <a href="https://shikun.io/projects/clarity">Clarity Template</a>, designed by <a href="https://shikun.io/">Shikun Liu</a>.
+            </p>
+        </div>    
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="clarity/clarity.js"></script>    
+    <script src="assets/scripts/main.js"></script>    
+    </html>
+</body>
