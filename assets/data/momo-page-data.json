@@ -22,27 +22,22 @@
       "annotation": {
         "duration": 123.09,
         "sentences": [
-          "A man stands up and walks onto a stage.",
-          " The man starts playing a flute on the stage.",
-          " A woman is holding a cigarette watching.",
-          " The man steps on the tables and continues playing."
+          "A man is seen speaking to the camera and leads a man up onto a stage.",
+          " The man begins playing the flute while audience members watch him on the side.",
+          " The man plays all around the audience as well as in the bathroom and performs several tricks with the flute."
         ],
         "timestamps": [
           [
-            4.31,
-            17.85
+            0,
+            36.93
           ],
           [
-            17.85,
-            60.93
+            34.46,
+            91.7
           ],
           [
-            26.46,
-            27.08
-          ],
-          [
-            64.01,
-            74.47
+            72.01,
+            121.24
           ]
         ]
       },
@@ -463,7 +458,7 @@
       "positive_texts": [
         {
           "query_id": "v_GoFV8lTD4ug_q000",
-          "text": "a man is seen speaking to the camera and leads a man up onto a stage",
+          "text": "A man is seen speaking to the camera and leads a man up onto a stage.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -496,7 +491,7 @@
         },
         {
           "query_id": "v_GoFV8lTD4ug_q001",
-          "text": "the man begins playing the flute while audience members watch him on the side",
+          "text": "The man begins playing the flute while audience members watch him on the side.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -516,7 +511,7 @@
         },
         {
           "query_id": "v_GoFV8lTD4ug_q002",
-          "text": "the man plays all around the audience as well as in the bathroom and performs several tricks with the flute",
+          "text": "The man plays all around the audience as well as in the bathroom and performs several tricks with the flute.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -563,7 +558,7 @@
       "best_topk": [
         {
           "query_id": "v_GoFV8lTD4ug_q002",
-          "text": "the man plays all around the audience as well as in the bathroom and performs several tricks with the flute",
+          "text": "The man plays all around the audience as well as in the bathroom and performs several tricks with the flute.",
           "rank": 1,
           "score": 6.321272667264566e-05,
           "is_pos": true,
@@ -608,7 +603,7 @@
         },
         {
           "query_id": "v_y7i-jRmrwnI_q001",
-          "text": "she takes a drink out of a wine glass",
+          "text": "She takes a drink out of a wine glass.",
           "rank": 2,
           "score": 6.169128027977422e-05,
           "is_pos": false,
@@ -628,7 +623,7 @@
         },
         {
           "query_id": "v_DYwF_1xX4dU_q001",
-          "text": "the man then places the flute up to his lips and begins playing one note for a very long time",
+          "text": "The man then places the flute up to his lips and begins playing one note for a very long time.",
           "rank": 3,
           "score": 6.130320980446413e-05,
           "is_pos": false,
@@ -654,7 +649,7 @@
         },
         {
           "query_id": "v_0KqeKi2CBqg_q001",
-          "text": "a man walks in and sits with her in a restaurant as they talk",
+          "text": "A man walks in and sits with her in a restaurant as they talk.",
           "rank": 4,
           "score": 6.124904757598415e-05,
           "is_pos": false,
@@ -699,7 +694,7 @@
       "baseline_topk": [
         {
           "query_id": "v_fG7iLOObw30_q001",
-          "text": "a collage of pictures of actresses and singers",
+          "text": "A collage of pictures of actresses and singers.",
           "rank": 1,
           "score": 0.28614771366119385,
           "is_pos": false,
@@ -719,7 +714,7 @@
         },
         {
           "query_id": "v_1scjpxusQx0_q001",
-          "text": "a montage of still shots shows up",
+          "text": "A montage of still shots shows up.",
           "rank": 2,
           "score": 0.2691492736339569,
           "is_pos": false,
@@ -739,7 +734,7 @@
         },
         {
           "query_id": "v_ieWgalZPc2g_q000",
-          "text": "various men and women are shown in different circumstances where they look like they are either in physical or emotional distress",
+          "text": "Various men and women are shown in different circumstances where they look like they are either in physical or emotional distress.",
           "rank": 3,
           "score": 0.2655814588069916,
           "is_pos": false,
@@ -759,7 +754,7 @@
         },
         {
           "query_id": "v_LUDZ7e0RdEE_q002",
-          "text": "these are all scenes from a movie",
+          "text": "These are all scenes from a movie.",
           "rank": 4,
           "score": 0.2629139721393585,
           "is_pos": false,
@@ -797,22 +792,22 @@
       "annotation": {
         "duration": 106.35,
         "sentences": [
-          "Several shots are shown of people warming up that leads into them lifting weights.",
-          " A man is seen speaking to the camera while more people lift weights.",
-          " Several others are see speaking as well as more weight lifting."
+          "A woman lifts a weight over her head.",
+          " A man in a yellow shirt is sitting at a desk.",
+          " A woman in a purple shirt is sitting on a bed."
         ],
         "timestamps": [
           [
             0,
-            20.21
+            17.55
           ],
           [
-            18.61,
-            57.43
+            37.22,
+            39.35
           ],
           [
-            58.49,
-            103.69
+            70.72,
+            72.32
           ]
         ]
       },
@@ -1238,7 +1233,7 @@
       "positive_texts": [
         {
           "query_id": "v_4zLTW7lT3fs_q000",
-          "text": "a woman lifts a weight over her head",
+          "text": "A woman lifts a weight over her head.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1258,7 +1253,7 @@
         },
         {
           "query_id": "v_4zLTW7lT3fs_q001",
-          "text": "a man in a yellow shirt is sitting at a desk",
+          "text": "A man in a yellow shirt is sitting at a desk.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1285,7 +1280,7 @@
         },
         {
           "query_id": "v_4zLTW7lT3fs_q002",
-          "text": "a woman in a purple shirt is sitting on a bed",
+          "text": "A woman in a purple shirt is sitting on a bed.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1314,7 +1309,7 @@
       "best_topk": [
         {
           "query_id": "v_4zLTW7lT3fs_q002",
-          "text": "a woman in a purple shirt is sitting on a bed",
+          "text": "A woman in a purple shirt is sitting on a bed.",
           "rank": 1,
           "score": 6.30514623480849e-05,
           "is_pos": true,
@@ -1341,7 +1336,7 @@
         },
         {
           "query_id": "v_DJE9nX2qKYs_q002",
-          "text": "she lifts the weight up over her head",
+          "text": "She lifts the weight up over her head.",
           "rank": 2,
           "score": 6.270628364291042e-05,
           "is_pos": false,
@@ -1361,7 +1356,7 @@
         },
         {
           "query_id": "v_4zLTW7lT3fs_q000",
-          "text": "a woman lifts a weight over her head",
+          "text": "A woman lifts a weight over her head.",
           "rank": 3,
           "score": 6.263746035983786e-05,
           "is_pos": true,
@@ -1381,7 +1376,7 @@
         },
         {
           "query_id": "v_GyBIC-DBoss_q002",
-          "text": "the woman picked up the barbell pushed the barbell up put the barbell down and let it go then do it again",
+          "text": "The woman picked up the barbell, pushed the barbell up, put the barbell down and let it go then do it again.",
           "rank": 4,
           "score": 6.219937495188788e-05,
           "is_pos": false,
@@ -1421,7 +1416,7 @@
       "baseline_topk": [
         {
           "query_id": "v_ieWgalZPc2g_q000",
-          "text": "various men and women are shown in different circumstances where they look like they are either in physical or emotional distress",
+          "text": "Various men and women are shown in different circumstances where they look like they are either in physical or emotional distress.",
           "rank": 1,
           "score": 0.28879186511039734,
           "is_pos": false,
@@ -1441,7 +1436,7 @@
         },
         {
           "query_id": "v_rIr091-LMGY_q003",
-          "text": "clips of different couples with the man putting make up on the womans faces",
+          "text": "Clips of different couples with the man putting make up on the woman's faces.",
           "rank": 2,
           "score": 0.27932968735694885,
           "is_pos": false,
@@ -1461,7 +1456,7 @@
         },
         {
           "query_id": "v_rIr091-LMGY_q004",
-          "text": "scenes of the men putting make up on the womans eyes",
+          "text": "Scenes of the men putting make up on the woman's eyes.",
           "rank": 3,
           "score": 0.2712736129760742,
           "is_pos": false,
@@ -1481,7 +1476,7 @@
         },
         {
           "query_id": "v_S8RXX1uOGgQ_q000",
-          "text": "a group of boys and girls are shown in various photos together",
+          "text": "A group of boys and girls are shown in various photos together.",
           "rank": 4,
           "score": 0.2696611285209656,
           "is_pos": false,
@@ -1519,27 +1514,27 @@
       "annotation": {
         "duration": 192.49,
         "sentences": [
-          "A woman is seen speaking to the camera and shows off a wooden table.",
-          " She then sands down the table and dips a brush into paint.",
-          " She then paints all around the table while sanding more and finally laying down wax.",
-          " She measures the table and cuts out paper to put on top and shows off the table in the end her speaking more."
+          "A woman is seen speaking to the camera and pans around an old table.",
+          " The girl is then seen outside sanding down the table and leads into her painting the table.",
+          " Several shots of the table are shown  as well as lists drawn out, paper being rolled, and laid out onto the table.",
+          " Finally the table is complete and is shown again inside next to a dress while the woman finishes speaking."
         ],
         "timestamps": [
           [
             0,
-            53.9
+            26.95
           ],
           [
-            46.2,
-            132.82
+            23.1,
+            98.17
           ],
           [
-            84.7,
-            158.81
+            72.19,
+            149.18
           ],
           [
-            155.92,
-            186.72
+            145.33,
+            192.49
           ]
         ]
       },
@@ -1768,7 +1763,7 @@
       "positive_texts": [
         {
           "query_id": "v_4ImpZRtbzYw_q000",
-          "text": "a woman is seen speaking to the camera and pans around an old table",
+          "text": "A woman is seen speaking to the camera and pans around an old table.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1794,7 +1789,7 @@
         },
         {
           "query_id": "v_4ImpZRtbzYw_q001",
-          "text": "the girl is then seen outside sanding down the table and leads into her painting the table",
+          "text": "The girl is then seen outside sanding down the table and leads into her painting the table.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1829,7 +1824,7 @@
         },
         {
           "query_id": "v_4ImpZRtbzYw_q002",
-          "text": "several shots of the table are shown as well as lists drawn out paper being rolled and laid out onto the table",
+          "text": "Several shots of the table are shown  as well as lists drawn out, paper being rolled, and laid out onto the table.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1867,7 +1862,7 @@
         },
         {
           "query_id": "v_4ImpZRtbzYw_q003",
-          "text": "finally the table is complete and is shown again inside next to a dress while the woman finishes speaking",
+          "text": "Finally the table is complete and is shown again inside next to a dress while the woman finishes speaking.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -1904,7 +1899,7 @@
       "best_topk": [
         {
           "query_id": "v_R2EZlSlDCuE_q003",
-          "text": "next the woman finish to paint the table with the stencil",
+          "text": "Next, the woman finish to paint the table with the stencil.",
           "rank": 1,
           "score": 6.371615017997101e-05,
           "is_pos": false,
@@ -1924,7 +1919,7 @@
         },
         {
           "query_id": "v__3xMhj4mbsk_q002",
-          "text": "a lady paints the end table with a greenish paint",
+          "text": "A lady paints the end table with a greenish paint.",
           "rank": 2,
           "score": 6.293145997915417e-05,
           "is_pos": false,
@@ -1944,7 +1939,7 @@
         },
         {
           "query_id": "v_4ImpZRtbzYw_q001",
-          "text": "the girl is then seen outside sanding down the table and leads into her painting the table",
+          "text": "The girl is then seen outside sanding down the table and leads into her painting the table.",
           "rank": 3,
           "score": 6.28609413979575e-05,
           "is_pos": true,
@@ -1979,7 +1974,7 @@
         },
         {
           "query_id": "v_q_nBBJS-eJo_q001",
-          "text": "the man rub the vaseline with the brush on all sides of the block then spray paint it with white paint",
+          "text": "The man rub the vaseline with the brush on all sides of the block, then spray paint it with white paint.",
           "rank": 4,
           "score": 6.224882235983387e-05,
           "is_pos": false,
@@ -2007,7 +2002,7 @@
       "baseline_topk": [
         {
           "query_id": "v_uDmEOkAXTfo_q003",
-          "text": "the lady flips through a hairstyle book",
+          "text": "The lady flips through a hairstyle book.",
           "rank": 1,
           "score": 0.2599647641181946,
           "is_pos": false,
@@ -2027,7 +2022,7 @@
         },
         {
           "query_id": "v_juiMCvZUYwk_q002",
-          "text": "she rips out pages from a music book",
+          "text": "She rips out pages from a music book.",
           "rank": 2,
           "score": 0.2558968663215637,
           "is_pos": false,
@@ -2047,7 +2042,7 @@
         },
         {
           "query_id": "v_PsddM2OmOGo_q002",
-          "text": "she sits comfortably in a chair and is seen holding several different wallpapers against the wall",
+          "text": "She sits comfortably in a chair and is seen holding several different wallpapers against the wall.",
           "rank": 3,
           "score": 0.25579801201820374,
           "is_pos": false,
@@ -2073,7 +2068,7 @@
         },
         {
           "query_id": "v_uIOIcv5MhuA_q001",
-          "text": "the blond woman opens a carton of cigarettes places a cigarette in her mouth lights a match and then lights the cigarette",
+          "text": "The blond woman opens a carton of cigarettes places a cigarette in her mouth lights a match and then lights the cigarette.",
           "rank": 4,
           "score": 0.2516450881958008,
           "is_pos": false,
@@ -2129,10 +2124,11 @@
       "annotation": {
         "duration": 176.52,
         "sentences": [
-          "Two girls are standing outside a building.",
-          " They are holding strings going into the air.",
-          " They are flying kites in the sky.",
-          " Another kid is shown flying a kite."
+          "Two women are standing flying kites with another young man on a street and they are really happy.",
+          " They twirl the strings around in the air.",
+          " The boy twirls the string hard around to make the kite fly while the girls continue as well.",
+          " The kites are high in the sky and a woman walks by and watches as another woman walks towards the three kids.",
+          " Another young boy in a blue shirt walks by the crowd and leans and watches the three."
         ],
         "timestamps": [
           [
@@ -2140,15 +2136,19 @@
             176.52
           ],
           [
-            5.3,
-            176.52
+            41.48,
+            74.14
           ],
           [
-            21.18,
-            176.52
+            74.14,
+            108.56
           ],
           [
-            91.79,
+            108.56,
+            154.45
+          ],
+          [
+            154.45,
             176.52
           ]
         ]
@@ -2378,7 +2378,7 @@
       "positive_texts": [
         {
           "query_id": "v_TqcoukXhXeA_q000",
-          "text": "two women are standing flying kites with another young man on a street and they are really happy",
+          "text": "Two women are standing flying kites with another young man on a street and they are really happy.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -2429,7 +2429,7 @@
         },
         {
           "query_id": "v_TqcoukXhXeA_q001",
-          "text": "they twirl the strings around in the air",
+          "text": "They twirl the strings around in the air.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -2449,7 +2449,7 @@
         },
         {
           "query_id": "v_TqcoukXhXeA_q002",
-          "text": "the boy twirls the string hard around to make the kite fly while the girls continue as well",
+          "text": "The boy twirls the string hard around to make the kite fly while the girls continue as well.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -2481,7 +2481,7 @@
         },
         {
           "query_id": "v_TqcoukXhXeA_q003",
-          "text": "the kites are high in the sky and a woman walks by and watches as another woman walks towards the three kids",
+          "text": "The kites are high in the sky and a woman walks by and watches as another woman walks towards the three kids.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -2526,7 +2526,7 @@
         },
         {
           "query_id": "v_TqcoukXhXeA_q004",
-          "text": "another young boy in a blue shirt walks by the crowd and leans and watches the three",
+          "text": "Another young boy in a blue shirt walks by the crowd and leans and watches the three.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -2560,7 +2560,7 @@
       "best_topk": [
         {
           "query_id": "v_QMm6gYzsMw8_q000",
-          "text": "there are 3 women standing side by side on a tiled floor outdoors and a scenery barely visible right behind them",
+          "text": "There are 3 women standing side by side on a tiled floor outdoors and a scenery barely visible right behind them.",
           "rank": 1,
           "score": 6.073638724046759e-05,
           "is_pos": false,
@@ -2595,7 +2595,7 @@
         },
         {
           "query_id": "v_r97vYbzloD8_q000",
-          "text": "a lady stand outside with her hands in the air",
+          "text": "A lady stand outside with her hands in the air.",
           "rank": 2,
           "score": 6.068194852559827e-05,
           "is_pos": false,
@@ -2622,7 +2622,7 @@
         },
         {
           "query_id": "v_TqcoukXhXeA_q000",
-          "text": "two women are standing flying kites with another young man on a street and they are really happy",
+          "text": "Two women are standing flying kites with another young man on a street and they are really happy.",
           "rank": 3,
           "score": 6.064878107281402e-05,
           "is_pos": true,
@@ -2673,7 +2673,7 @@
         },
         {
           "query_id": "v_altXks0a0qY_q001",
-          "text": "the woman are waving and a man behind the camera is asking them to wave look and say hi at the camera",
+          "text": "The woman are waving and  a man behind the camera is asking them to wave, look and say hi at the camera.",
           "rank": 4,
           "score": 5.94824377913028e-05,
           "is_pos": false,
@@ -2713,7 +2713,7 @@
       "baseline_topk": [
         {
           "query_id": "v_OS-h1xzAZno_q001",
-          "text": "a person in a red shirt walks by",
+          "text": "A person in a red shirt walks by.",
           "rank": 1,
           "score": 0.2886022925376892,
           "is_pos": false,
@@ -2733,7 +2733,7 @@
         },
         {
           "query_id": "v_LUDZ7e0RdEE_q000",
-          "text": "the outside of a building is shown as a young boy walks out",
+          "text": "The outside of a building is shown as a young boy walks out.",
           "rank": 2,
           "score": 0.2843107283115387,
           "is_pos": false,
@@ -2760,7 +2760,7 @@
         },
         {
           "query_id": "v_6LLDsbc8XMM_q001",
-          "text": "the men continue spinning around one another and ends with a picture and a man walking away",
+          "text": "The men continue spinning around one another and ends with a picture and a man walking away.",
           "rank": 3,
           "score": 0.28236475586891174,
           "is_pos": false,
@@ -2786,7 +2786,7 @@
         },
         {
           "query_id": "v_S8RXX1uOGgQ_q000",
-          "text": "a group of boys and girls are shown in various photos together",
+          "text": "A group of boys and girls are shown in various photos together.",
           "rank": 4,
           "score": 0.28080806136131287,
           "is_pos": false,
@@ -2824,26 +2824,26 @@
       "annotation": {
         "duration": 143.04,
         "sentences": [
-          "A woman is crouched down painting a fence while talking with another girl in a yard.",
-          " The girl who is recording the is also helping to paint the fence while talking to the camera.",
-          " The girls begin to play back and forth dabbing each other with the paint.",
-          " One of the girls gets up and begins to chase the other girl."
+          "A woman and a person paint a fence color red while the woman talks.",
+          " The woman puts paint on the arm of the person, then they continue painting the fence.",
+          " The woman shows two brushes, she has paint on her arm.",
+          " Suddenly, the woman runs chasing the person."
         ],
         "timestamps": [
           [
             0,
-            127.3
+            37.19
           ],
           [
-            0,
-            114.43
+            38.62,
+            117.29
           ],
           [
-            36.47,
-            127.3
+            117.29,
+            130.88
           ],
           [
-            127.3,
+            130.16,
             143.04
           ]
         ]
@@ -3110,7 +3110,7 @@
       "positive_texts": [
         {
           "query_id": "v_wu0G4yQIwKo_q000",
-          "text": "a woman and a person paint a fence color red while the woman talks",
+          "text": "A woman and a person paint a fence color red while the woman talks.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3136,7 +3136,7 @@
         },
         {
           "query_id": "v_wu0G4yQIwKo_q001",
-          "text": "the woman puts paint on the arm of the person then they continue painting the fence",
+          "text": "The woman puts paint on the arm of the person, then they continue painting the fence.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3162,7 +3162,7 @@
         },
         {
           "query_id": "v_wu0G4yQIwKo_q002",
-          "text": "the woman shows two brushes she has paint on her arm",
+          "text": "The woman shows two brushes, she has paint on her arm.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3188,7 +3188,7 @@
         },
         {
           "query_id": "v_wu0G4yQIwKo_q003",
-          "text": "suddenly the woman runs chasing the person",
+          "text": "Suddenly, the woman runs chasing the person.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3210,7 +3210,7 @@
       "best_topk": [
         {
           "query_id": "v_wu0G4yQIwKo_q000",
-          "text": "a woman and a person paint a fence color red while the woman talks",
+          "text": "A woman and a person paint a fence color red while the woman talks.",
           "rank": 1,
           "score": 6.280377419898286e-05,
           "is_pos": true,
@@ -3236,7 +3236,7 @@
         },
         {
           "query_id": "v_wu0G4yQIwKo_q001",
-          "text": "the woman puts paint on the arm of the person then they continue painting the fence",
+          "text": "The woman puts paint on the arm of the person, then they continue painting the fence.",
           "rank": 2,
           "score": 6.246362318051979e-05,
           "is_pos": true,
@@ -3262,7 +3262,7 @@
         },
         {
           "query_id": "v_8RMrbKCQheM_q002",
-          "text": "the camera pans to a woman beside him also painting the fence",
+          "text": "The camera pans to a woman beside him also painting the fence.",
           "rank": 3,
           "score": 6.169296830194071e-05,
           "is_pos": false,
@@ -3282,7 +3282,7 @@
         },
         {
           "query_id": "v_gqK_jApRT5E_q002",
-          "text": "as the people paint the fence several still shots of the people painting appear",
+          "text": "As the people paint the fence several still shots of the people painting appear.",
           "rank": 4,
           "score": 6.125080108176917e-05,
           "is_pos": false,
@@ -3304,7 +3304,7 @@
       "baseline_topk": [
         {
           "query_id": "v_3RTmWrwgKek_q001",
-          "text": "the boy hopes all the way down and back while grabbing the pebble and others cheer",
+          "text": "The boy hopes all the way down and back while grabbing the pebble and others cheer.",
           "rank": 1,
           "score": 0.2798612713813782,
           "is_pos": false,
@@ -3347,7 +3347,7 @@
         },
         {
           "query_id": "v_9SY9ufDznFQ_q003",
-          "text": "we see a bunch of slow motion shot blocks",
+          "text": "We see a bunch of slow motion shot blocks.",
           "rank": 2,
           "score": 0.27664580941200256,
           "is_pos": false,
@@ -3367,7 +3367,7 @@
         },
         {
           "query_id": "v_biyf6Q-xF0M_q001",
-          "text": "there is a building made of bricks and a man with an array of predecorated pumpkins",
+          "text": "There is a building made of bricks, and a man with an array of predecorated pumpkins.",
           "rank": 3,
           "score": 0.27413511276245117,
           "is_pos": false,
@@ -3393,7 +3393,7 @@
         },
         {
           "query_id": "v_ku65ME0vW8s_q005",
-          "text": "boy climbs the stairs with a smile",
+          "text": "Boy climbs the stairs with a smile.",
           "rank": 4,
           "score": 0.27125880122184753,
           "is_pos": false,
@@ -3431,22 +3431,22 @@
       "annotation": {
         "duration": 115.03,
         "sentences": [
-          "A man stands at the podium to say a few words and there's also people shown holding up trophies and talking.",
-          " People are riding on fat fast brown horses and they were hitting the ball using croquet sticks.",
-          "  Many models, important people, and even a special handsome prince speaks in front of the camera."
+          "Four men are holding a trophy over their head.",
+          " People are riding horses on a field.",
+          " A man in a suit is standing up talking into a microphone."
         ],
         "timestamps": [
           [
             0,
-            44.29
+            5.18
           ],
           [
-            44.29,
-            94.33
+            47.16,
+            63.27
           ],
           [
-            94.33,
-            115.03
+            75.92,
+            82.82
           ]
         ]
       },
@@ -3748,7 +3748,7 @@
       "positive_texts": [
         {
           "query_id": "v_9ZboVy59qrw_q000",
-          "text": "four men are holding a trophy over their head",
+          "text": "Four men are holding a trophy over their head.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3768,7 +3768,7 @@
         },
         {
           "query_id": "v_9ZboVy59qrw_q001",
-          "text": "people are riding horses on a field",
+          "text": "People are riding horses on a field.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3795,7 +3795,7 @@
         },
         {
           "query_id": "v_9ZboVy59qrw_q002",
-          "text": "a man in a suit is standing up talking into a microphone",
+          "text": "A man in a suit is standing up talking into a microphone.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -3823,7 +3823,7 @@
       "best_topk": [
         {
           "query_id": "v_9ZboVy59qrw_q000",
-          "text": "four men are holding a trophy over their head",
+          "text": "Four men are holding a trophy over their head.",
           "rank": 1,
           "score": 6.41915830783546e-05,
           "is_pos": true,
@@ -3843,7 +3843,7 @@
         },
         {
           "query_id": "v_oUQPIZu5bVU_q002",
-          "text": "a team groups together holding a trophy",
+          "text": "A team groups together holding a trophy.",
           "rank": 2,
           "score": 6.351328192977235e-05,
           "is_pos": false,
@@ -3869,7 +3869,7 @@
         },
         {
           "query_id": "v_G00TjQ7JJ8Y_q002",
-          "text": "they are engaged in a game of polo",
+          "text": "They are engaged in a game of polo.",
           "rank": 3,
           "score": 6.342033884720877e-05,
           "is_pos": false,
@@ -3889,7 +3889,7 @@
         },
         {
           "query_id": "v_rKtktLDSOpA_q005",
-          "text": "we see he people playing polo again",
+          "text": "We see he people playing polo again.",
           "rank": 4,
           "score": 6.326197762973607e-05,
           "is_pos": false,
@@ -3911,7 +3911,7 @@
       "baseline_topk": [
         {
           "query_id": "v_xb8iMASjw1A_q001",
-          "text": "different celebrities introduce events at a ski resort",
+          "text": "Different celebrities introduce events at a ski resort.",
           "rank": 1,
           "score": 0.28280338644981384,
           "is_pos": false,
@@ -3938,7 +3938,7 @@
         },
         {
           "query_id": "v_VFqkLp5mzBM_q003",
-          "text": "prince harry speaks to a crowd before going back to the newsroom",
+          "text": "Prince Harry speaks to a crowd before going back to the newsroom.",
           "rank": 2,
           "score": 0.27055251598358154,
           "is_pos": false,
@@ -3977,7 +3977,7 @@
         },
         {
           "query_id": "v_656VWQU5dgE_q000",
-          "text": "we see a crowd running and various sports images",
+          "text": "We see a crowd running and various sports images.",
           "rank": 3,
           "score": 0.26660624146461487,
           "is_pos": false,
@@ -4003,7 +4003,7 @@
         },
         {
           "query_id": "v_VFqkLp5mzBM_q001",
-          "text": "several people wearing hats are seen outdoors at a derby as a the prince of wales goes by",
+          "text": "Several people wearing hats are seen outdoors at a derby as a the Prince of Wales goes by.",
           "rank": 4,
           "score": 0.2654189169406891,
           "is_pos": false,
@@ -4056,51 +4056,21 @@
       "annotation": {
         "duration": 118.14,
         "sentences": [
-          "A man with disheveled hair talks to the camera while standing next to a table football table.",
-          " The man holds a coin up to the camera.",
-          " The man inserts the coin into the table.",
-          " the man jams the coin mechanism with a knife.",
-          " The man uses a mechanism to insert multiple table football balls onto the table.",
-          " A closeup of the ball dispenser mechanism is shown.",
-          " The man plays table football by himself, scoring several goals.",
-          " Another closeup of the ball dispenser is shown.",
-          " The man smiles at the camera."
+          "A man is seen speaking to the camera and holding up a coin to put in a machine.",
+          " The man puts the coin in as well as a knife and begins playing a game of fooseball using a lever moving the ball around the side.",
+          " He ends by smiling to the camera and giving a thumbs up."
         ],
         "timestamps": [
           [
             0,
-            10.63
+            27.17
           ],
           [
-            10.04,
-            15.95
+            21.27,
+            105.15
           ],
           [
-            15.95,
-            56.12
-          ],
-          [
-            39.58,
-            53.76
-          ],
-          [
-            56.12,
-            71.48
-          ],
-          [
-            72.66,
-            85.65
-          ],
-          [
-            88.02,
-            102.79
-          ],
-          [
-            103.97,
-            115.19
-          ],
-          [
-            115.19,
+            105.15,
             118.14
           ]
         ]
@@ -4253,7 +4223,7 @@
       "positive_texts": [
         {
           "query_id": "v_rMZtiiLAqoY_q000",
-          "text": "a man is seen speaking to the camera and holding up a coin to put in a machine",
+          "text": "A man is seen speaking to the camera and holding up a coin to put in a machine.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4279,7 +4249,7 @@
         },
         {
           "query_id": "v_rMZtiiLAqoY_q001",
-          "text": "the man puts the coin in as well as a knife and begins playing a game of fooseball using a lever moving the ball around the side",
+          "text": "The man puts the coin in as well as a knife and begins playing a game of fooseball using a lever moving the ball around the side.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4311,7 +4281,7 @@
         },
         {
           "query_id": "v_rMZtiiLAqoY_q002",
-          "text": "he ends by smiling to the camera and giving a thumbs up",
+          "text": "He ends by smiling to the camera and giving a thumbs up.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4339,7 +4309,7 @@
       "best_topk": [
         {
           "query_id": "v_DP9hfhq8sro_q000",
-          "text": "a foosball table is on a tiled floor",
+          "text": "A foosball table is on a tiled floor.",
           "rank": 1,
           "score": 6.086852590669878e-05,
           "is_pos": false,
@@ -4366,7 +4336,7 @@
         },
         {
           "query_id": "v_rMZtiiLAqoY_q001",
-          "text": "the man puts the coin in as well as a knife and begins playing a game of fooseball using a lever moving the ball around the side",
+          "text": "The man puts the coin in as well as a knife and begins playing a game of fooseball using a lever moving the ball around the side.",
           "rank": 2,
           "score": 6.018057683832012e-05,
           "is_pos": true,
@@ -4398,7 +4368,7 @@
         },
         {
           "query_id": "v_8-QcL1k5n6k_q002",
-          "text": "we see the mans hand on the handle",
+          "text": "We see the man's hand on the handle.",
           "rank": 3,
           "score": 5.9977126511512324e-05,
           "is_pos": false,
@@ -4418,7 +4388,7 @@
         },
         {
           "query_id": "v_LAicExwwM54_q001",
-          "text": "he was able to get one out from underneath and then begins to press down on some metal",
+          "text": "He was able to get one out from underneath and then begins to press down on some metal.",
           "rank": 4,
           "score": 5.9660145780071616e-05,
           "is_pos": false,
@@ -4446,7 +4416,7 @@
       "baseline_topk": [
         {
           "query_id": "v_81k4vwur1Gk_q000",
-          "text": "a person is seen grabbing a pot of coffee while laughing to the camera and wandering around an office",
+          "text": "A person is seen grabbing a pot of coffee while laughing to the camera and wandering around an office.",
           "rank": 1,
           "score": 0.28240060806274414,
           "is_pos": false,
@@ -4489,7 +4459,7 @@
         },
         {
           "query_id": "v_B-6kP8M_GmM_q001",
-          "text": "scenes are shown of him playing the game along with several images of him standing",
+          "text": "Scenes are shown of him playing the game, along with several images of him standing.",
           "rank": 2,
           "score": 0.28125131130218506,
           "is_pos": false,
@@ -4515,7 +4485,7 @@
         },
         {
           "query_id": "v_YYmx8EHIjAE_q001",
-          "text": "shortly after a man walks in the room holding a piece of tile as he walks across the room",
+          "text": "Shortly after, a man walks in the room holding a piece of tile as he walks across the room.",
           "rank": 3,
           "score": 0.27651602029800415,
           "is_pos": false,
@@ -4558,7 +4528,7 @@
         },
         {
           "query_id": "v_Jsx38_s3Mnc_q000",
-          "text": "man is walking into a room and stands in font of a table",
+          "text": "man is walking into a room and stands in font of a table.",
           "rank": 4,
           "score": 0.2756715714931488,
           "is_pos": false,
@@ -4611,32 +4581,37 @@
       "annotation": {
         "duration": 57.21,
         "sentences": [
-          "The logo \"Carjam TV\" and \"World's Best Car Videos\" appears on screen.",
-          " A car wash is shown with women wearing provacative clothing.",
-          " A young man is dousing cars with mud and eating a candy bar.",
-          "  The dirty cars proceed to the car wash.",
-          "  A Snicker's candy bar is shown followed by the \"Carjam TV\" logo."
+          "Girls are standing around a car washing it in bikinis.",
+          " A woman climbs on top of the car.",
+          " Two women grab hoses and start hosing the car down.",
+          " The women start drying the car.",
+          " A man pours mud on top of a car and eats a candy bar.",
+          " There is a line of cars waiting to get into the car wash."
         ],
         "timestamps": [
           [
             0,
-            2.57
-          ],
-          [
-            2.86,
             29.75
           ],
           [
+            14.02,
+            15.16
+          ],
+          [
+            17.74,
+            21.17
+          ],
+          [
+            26.89,
+            29.18
+          ],
+          [
             29.75,
-            46.34
+            57.21
           ],
           [
             46.92,
             50.63
-          ],
-          [
-            50.92,
-            57.21
           ]
         ]
       },
@@ -4916,7 +4891,7 @@
       "positive_texts": [
         {
           "query_id": "v_z08g5S7J-CY_q000",
-          "text": "girls are standing around a car washing it in bikinis",
+          "text": "Girls are standing around a car washing it in bikinis.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4951,7 +4926,7 @@
         },
         {
           "query_id": "v_z08g5S7J-CY_q001",
-          "text": "a woman climbs on top of the car",
+          "text": "A woman climbs on top of the car.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4971,7 +4946,7 @@
         },
         {
           "query_id": "v_z08g5S7J-CY_q002",
-          "text": "two women grab hoses and start hosing the car down",
+          "text": "Two women grab hoses and start hosing the car down.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -4997,7 +4972,7 @@
         },
         {
           "query_id": "v_z08g5S7J-CY_q003",
-          "text": "the women start drying the car",
+          "text": "The women start drying the car.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5017,7 +4992,7 @@
         },
         {
           "query_id": "v_z08g5S7J-CY_q004",
-          "text": "a man pours mud on top of a car and eats a candy bar",
+          "text": "A man pours mud on top of a car and eats a candy bar.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5043,7 +5018,7 @@
         },
         {
           "query_id": "v_z08g5S7J-CY_q005",
-          "text": "there is a line of cars waiting to get into the car wash",
+          "text": "There is a line of cars waiting to get into the car wash.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5072,7 +5047,7 @@
       "best_topk": [
         {
           "query_id": "v_z08g5S7J-CY_q000",
-          "text": "girls are standing around a car washing it in bikinis",
+          "text": "Girls are standing around a car washing it in bikinis.",
           "rank": 1,
           "score": 6.481918535428122e-05,
           "is_pos": true,
@@ -5107,7 +5082,7 @@
         },
         {
           "query_id": "v_yeLB4QXA3NQ_q003",
-          "text": "a man pulls money from his pocket and we see cars being washed",
+          "text": "A man pulls money from his pocket and we see cars being washed.",
           "rank": 2,
           "score": 6.426822073990479e-05,
           "is_pos": false,
@@ -5133,7 +5108,7 @@
         },
         {
           "query_id": "v_mpLYUgMhacA_q002",
-          "text": "cars are prked on a side of the street",
+          "text": "cars are prked on a side of the street.",
           "rank": 3,
           "score": 6.380133709171787e-05,
           "is_pos": false,
@@ -5160,7 +5135,7 @@
         },
         {
           "query_id": "v_yACg55C3IlM_q002",
-          "text": "they continue to wash the vehicle and then the girls walks over and grabs the water hose",
+          "text": "They continue to wash the vehicle and then the girls walks over and grabs the water hose.",
           "rank": 4,
           "score": 6.370133633026853e-05,
           "is_pos": false,
@@ -5194,7 +5169,7 @@
       "baseline_topk": [
         {
           "query_id": "v_N2hi_TNBk94_q000",
-          "text": "the pictures of the young people in the bus and the in the car are being shown",
+          "text": "The pictures of the young people in the bus and the in the car are being shown.",
           "rank": 1,
           "score": 0.27795907855033875,
           "is_pos": false,
@@ -5233,7 +5208,7 @@
         },
         {
           "query_id": "v_rIr091-LMGY_q003",
-          "text": "clips of different couples with the man putting make up on the womans faces",
+          "text": "Clips of different couples with the man putting make up on the woman's faces.",
           "rank": 2,
           "score": 0.2705293297767639,
           "is_pos": false,
@@ -5253,7 +5228,7 @@
         },
         {
           "query_id": "v_1scjpxusQx0_q001",
-          "text": "a montage of still shots shows up",
+          "text": "A montage of still shots shows up.",
           "rank": 3,
           "score": 0.2701149582862854,
           "is_pos": false,
@@ -5273,7 +5248,7 @@
         },
         {
           "query_id": "v_yRgei7gpr-I_q002",
-          "text": "several pictures of magazine covers are shown",
+          "text": "Several pictures of magazine covers are shown.",
           "rank": 4,
           "score": 0.2697749733924866,
           "is_pos": false,
@@ -5311,37 +5286,27 @@
       "annotation": {
         "duration": 128.59,
         "sentences": [
-          "A lady brings a bowl of popcorn.",
-          " People sit on a couch in front of  TV.",
-          " The people faces are covered with a black cloth.",
-          " Individuals raise black paintball guns.",
-          " The people sitting on the white couch are shot with paint balls.",
-          " The credits and associated clips are shown."
+          "People sits on a couch watching TV and eating pop corn.",
+          " A woman and and a man talk in the TV.",
+          " People put black bag on their heads.",
+          " Then a group of snipers fires colored balls to people and stuff."
         ],
         "timestamps": [
           [
             0,
-            0.64
+            31.51
           ],
           [
-            1.29,
-            80.37
+            5.79,
+            7.07
           ],
           [
-            32.79,
-            34.72
+            33.43,
+            36.01
           ],
           [
-            38.58,
-            43.08
-          ],
-          [
-            43.72,
-            88.73
-          ],
-          [
-            84.23,
-            128.59
+            37.29,
+            88.09
           ]
         ]
       },
@@ -5631,7 +5596,7 @@
       "positive_texts": [
         {
           "query_id": "v_B7t85SESTXI_q000",
-          "text": "people sits on a couch watching tv and eating pop corn",
+          "text": "People sits on a couch watching TV and eating pop corn.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5674,7 +5639,7 @@
         },
         {
           "query_id": "v_B7t85SESTXI_q001",
-          "text": "a woman and and a man talk in the tv",
+          "text": "A woman and and a man talk in the TV.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5694,7 +5659,7 @@
         },
         {
           "query_id": "v_B7t85SESTXI_q002",
-          "text": "people put black bag on their heads",
+          "text": "People put black bag on their heads.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5714,7 +5679,7 @@
         },
         {
           "query_id": "v_B7t85SESTXI_q003",
-          "text": "then a group of snipers fires colored balls to people and stuff",
+          "text": "Then a group of snipers fires colored balls to people and stuff.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -5736,7 +5701,7 @@
       "best_topk": [
         {
           "query_id": "v_B7t85SESTXI_q002",
-          "text": "people put black bag on their heads",
+          "text": "People put black bag on their heads.",
           "rank": 1,
           "score": 6.289334851317108e-05,
           "is_pos": true,
@@ -5756,7 +5721,7 @@
         },
         {
           "query_id": "v_B7t85SESTXI_q000",
-          "text": "people sits on a couch watching tv and eating pop corn",
+          "text": "People sits on a couch watching TV and eating pop corn.",
           "rank": 2,
           "score": 6.149442197056487e-05,
           "is_pos": true,
@@ -5799,7 +5764,7 @@
         },
         {
           "query_id": "v_YeZz5PZiiwU_q001",
-          "text": "they are in a hotel room where they are watching tv and relaxing",
+          "text": "They are in a hotel room where they are watching tv and relaxing.",
           "rank": 3,
           "score": 5.995809624437243e-05,
           "is_pos": false,
@@ -5834,7 +5799,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q012",
-          "text": "the clip ends with paint splash",
+          "text": "The clip ends with paint splash.",
           "rank": 4,
           "score": 5.993544255034067e-05,
           "is_pos": false,
@@ -5856,7 +5821,7 @@
       "baseline_topk": [
         {
           "query_id": "v_0PmrImNqA2w_q000",
-          "text": "we see an opening screen with four images and people painting",
+          "text": "We see an opening screen with four images and people painting.",
           "rank": 1,
           "score": 0.29563629627227783,
           "is_pos": false,
@@ -5882,7 +5847,7 @@
         },
         {
           "query_id": "v_gIf0VWXI_DY_q000",
-          "text": "the outside of a tattoo studio is shown and then they move into the inside and show various art work",
+          "text": "The outside of a tattoo studio is shown and then they move into the inside and show various art work.",
           "rank": 2,
           "score": 0.27324214577674866,
           "is_pos": false,
@@ -5921,7 +5886,7 @@
         },
         {
           "query_id": "v_rIr091-LMGY_q003",
-          "text": "clips of different couples with the man putting make up on the womans faces",
+          "text": "Clips of different couples with the man putting make up on the woman's faces.",
           "rank": 3,
           "score": 0.2717815339565277,
           "is_pos": false,
@@ -5941,7 +5906,7 @@
         },
         {
           "query_id": "v_1UgjxeAPq_A_q000",
-          "text": "the intro screen appears with the words howcast a flag banner with the words how to paint with oils appear and various people are show painting on canvases",
+          "text": "The intro screen appears with the words Howcast, a flag banner with the words \"HOW TO PAINT WITH OILS\" appear and various people are show painting on canvases.",
           "rank": 4,
           "score": 0.27100223302841187,
           "is_pos": false,
@@ -5979,22 +5944,72 @@
       "annotation": {
         "duration": 114.06,
         "sentences": [
-          "A man is seen kneeling down putting a pair of stilts on and a helmet.",
-          " He's shown bouncing all around the city while speaking to the camera.",
-          " He continues moving around the city jumping and hopping and helps others in a gym use the stilts."
+          "Paint splashes are on the screen with mylorraine spelled out.",
+          " A man is attaching metal stilts to his legs and a helmet to his head.",
+          " He is jumping and doing tricks with the metal stilts.",
+          " He is marching in place on the stilts.",
+          "  He jumps over a bench.",
+          " He is being interviewed about the stilts while clips are being shown on ways to use the stilts.",
+          " He is walking normal on the stilts.",
+          " The man is talking again.",
+          "  There are more scenes of him bouncing around on the stilts.",
+          "  A group of children and adults are playing on the stilts.",
+          " An instructor is helping gear up a man with the stilts.",
+          "  The student is being interviewed.",
+          " The clip ends with paint splash."
         ],
         "timestamps": [
           [
             0,
-            27.94
+            3.99
           ],
           [
-            21.1,
-            76.99
+            3.99,
+            11.98
           ],
           [
-            67.29,
-            111.21
+            11.98,
+            19.39
+          ],
+          [
+            19.39,
+            25.09
+          ],
+          [
+            25.09,
+            27.37
+          ],
+          [
+            27.37,
+            61.02
+          ],
+          [
+            61.02,
+            66.72
+          ],
+          [
+            66.72,
+            77.56
+          ],
+          [
+            77.56,
+            87.25
+          ],
+          [
+            87.25,
+            95.24
+          ],
+          [
+            95.24,
+            100.37
+          ],
+          [
+            100.37,
+            107.21
+          ],
+          [
+            107.21,
+            114.06
           ]
         ]
       },
@@ -6310,7 +6325,7 @@
       "positive_texts": [
         {
           "query_id": "v_M6FdaEstXbI_q000",
-          "text": "paint splashes are on the screen with mylorraine spelled out",
+          "text": "Paint splashes are on the screen with mylorraine spelled out.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6330,7 +6345,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q001",
-          "text": "a man is attaching metal stilts to his legs and a helmet to his head",
+          "text": "A man is attaching metal stilts to his legs and a helmet to his head.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6356,7 +6371,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q002",
-          "text": "he is jumping and doing tricks with the metal stilts",
+          "text": "He is jumping and doing tricks with the metal stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6382,7 +6397,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q003",
-          "text": "he is marching in place on the stilts",
+          "text": "He is marching in place on the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6402,7 +6417,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q004",
-          "text": "he jumps over a bench",
+          "text": "He jumps over a bench.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6422,7 +6437,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q005",
-          "text": "he is being interviewed about the stilts while clips are being shown on ways to use the stilts",
+          "text": "He is being interviewed about the stilts while clips are being shown on ways to use the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6442,7 +6457,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q006",
-          "text": "he is walking normal on the stilts",
+          "text": "He is walking normal on the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6462,7 +6477,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q007",
-          "text": "the man is talking again",
+          "text": "The man is talking again.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6482,7 +6497,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q008",
-          "text": "there are more scenes of him bouncing around on the stilts",
+          "text": "There are more scenes of him bouncing around on the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6502,7 +6517,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q009",
-          "text": "a group of children and adults are playing on the stilts",
+          "text": "A group of children and adults are playing on the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6522,7 +6537,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q010",
-          "text": "an instructor is helping gear up a man with the stilts",
+          "text": "An instructor is helping gear up a man with the stilts.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6542,7 +6557,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q011",
-          "text": "the student is being interviewed",
+          "text": "The student is being interviewed.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6562,7 +6577,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q012",
-          "text": "the clip ends with paint splash",
+          "text": "The clip ends with paint splash.",
           "rank": null,
           "score": null,
           "is_pos": null,
@@ -6584,7 +6599,7 @@
       "best_topk": [
         {
           "query_id": "v_M6FdaEstXbI_q000",
-          "text": "paint splashes are on the screen with mylorraine spelled out",
+          "text": "Paint splashes are on the screen with mylorraine spelled out.",
           "rank": 1,
           "score": 6.301470421021804e-05,
           "is_pos": true,
@@ -6604,7 +6619,7 @@
         },
         {
           "query_id": "v_GNg5kjnJlOE_q003",
-          "text": "a series of video showing people using the spring legs to perform a variety of tricks in various public environments is shown",
+          "text": "A series of video showing people using the spring legs to perform a variety of tricks in various public environments is shown.",
           "rank": 2,
           "score": 6.243424286367372e-05,
           "is_pos": false,
@@ -6631,7 +6646,7 @@
         },
         {
           "query_id": "v_cLTDcBhgRw8_q000",
-          "text": "a man sits on a picnic bench while wearing jump stilts",
+          "text": "A man sits on a picnic bench while wearing jump stilts.",
           "rank": 3,
           "score": 6.196970207383856e-05,
           "is_pos": false,
@@ -6651,7 +6666,7 @@
         },
         {
           "query_id": "v_M6FdaEstXbI_q002",
-          "text": "he is jumping and doing tricks with the metal stilts",
+          "text": "He is jumping and doing tricks with the metal stilts.",
           "rank": 4,
           "score": 6.195870082592592e-05,
           "is_pos": true,
@@ -6679,7 +6694,7 @@
       "baseline_topk": [
         {
           "query_id": "v_-UWE4jXuLoo_q000",
-          "text": "several images appear showing various instructionals for skateboarding",
+          "text": "Several images appear, showing various instructionals for skateboarding.",
           "rank": 1,
           "score": 0.3024590015411377,
           "is_pos": false,
@@ -6699,7 +6714,7 @@
         },
         {
           "query_id": "v_IjwOh2YmT9U_q002",
-          "text": "the man begins to skateboard all over the city during day and nightwearing different clothes and appearing in different locations of the city while normal people in the city do their own thing around him or watch him",
+          "text": "The man begins to skateboard all over the city during day and night,wearing different clothes and appearing in different locations of the city while normal people in the city do their own thing around him or watch him.",
           "rank": 2,
           "score": 0.28606972098350525,
           "is_pos": false,
@@ -6742,7 +6757,7 @@
         },
         {
           "query_id": "v_B-6kP8M_GmM_q001",
-          "text": "scenes are shown of him playing the game along with several images of him standing",
+          "text": "Scenes are shown of him playing the game, along with several images of him standing.",
           "rank": 3,
           "score": 0.28427115082740784,
           "is_pos": false,
@@ -6768,7 +6783,7 @@
         },
         {
           "query_id": "v_8nhuvbFSSmw_q000",
-          "text": "several shots are shown of a city that are followed by many clips of people riding around on skateboards",
+          "text": "Several shots are shown of a city that are followed by many clips of people riding around on skateboards.",
           "rank": 4,
           "score": 0.28165143728256226,
           "is_pos": false,
@@ -6799,7 +6814,7 @@
   "text_to_video": [
     {
       "query_id": "v_Q3tPDohXUYc_q002",
-      "query_text": "a woman raises a white flag and the mans shot is shown again in slow motion",
+      "query_text": "A woman raises a white flag and the man's shot is shown again in slow motion.",
       "case_rank": 1,
       "category": "sports",
       "reason": "Long-jump slow-motion query has concise but non-trivial text structure and good retrieval contrast.",
@@ -6844,22 +6859,22 @@
           "annotation": {
             "duration": 202.39,
             "sentences": [
-              "An old black and white video is shown.",
-              " Several track athletes take turns running down the track.",
-              " They take flying leaps into a sand pit."
+              "A large track is shown followed by people keeping score and athletes running down a track.",
+              " Several people are seen running down the track into a sand pit while others watch on the sides.",
+              " The audience continues to cheer and watch the athletes as they run down the track."
             ],
             "timestamps": [
               [
-                0,
-                41.49
+                3.04,
+                54.64
               ],
               [
-                56.67,
-                137.62
+                57.68,
+                151.79
               ],
               [
-                147.74,
-                202.39
+                153.81,
+                199.35
               ]
             ]
           },
@@ -7292,21 +7307,31 @@
           "annotation": {
             "duration": 33.83,
             "sentences": [
-              "A woman is standing on a roof top with a man.",
-              " He is playing a flute while she moves around.",
-              " The woman is flying a kite to the music."
+              "A lady stand outside with her hands in the air.",
+              " The lady is looking up at the sky.",
+              " The lady approaches a male who is holding a hallow stick.",
+              " The lady moves forward and waves her hands.",
+              " The lady turns toward the man with her hand extended and smiles."
             ],
             "timestamps": [
               [
                 0,
-                4.23
+                30.28
               ],
               [
-                6.09,
-                23.68
+                0,
+                28.25
               ],
               [
-                24.02,
+                2.03,
+                6.26
+              ],
+              [
+                20.47,
+                27.91
+              ],
+              [
+                32.31,
                 33.83
               ]
             ]
@@ -7425,21 +7450,21 @@
           "annotation": {
             "duration": 45.79,
             "sentences": [
-              "A girl wearing a white blouse swings a wooden bat at a pinata.",
-              " While the girl is swinging at the pinata someone is raising and lowering the pinata with a rope.",
-              "The girl continues swinging the wooden bat relentlessly at the pinata."
+              "A man in blue helps a woman point towards a pinata and backs away.",
+              " A lady attempts to hit a pinata at a party.",
+              " The man talks to the lady and she drops the stick and gives up."
             ],
             "timestamps": [
               [
                 0,
-                5.72
+                3.89
               ],
               [
-                5.72,
-                31.6
+                1.6,
+                43.96
               ],
               [
-                31.6,
+                43.04,
                 45.79
               ]
             ]
@@ -7497,26 +7522,21 @@
           "annotation": {
             "duration": 58.35,
             "sentences": [
-              "A tall,thin black male athlete is standing on a track asking the crowd to clap for him.",
-              "Once he is ready,he takes off down the runway and does his steps for a triple jump before finally landing in the pit.",
-              "When complete,the woman holds up a white flag to ensure that he didn't scratch and an instant replay is shown.",
-              "Finally,the score flashes across the bottom and the male throws up his muscles because he achieved higher than his score before."
+              "An athlete is seen standing on a track line clapping his arms in the air while several others stand and watch around him.",
+              " The man then runs down the track and jumps into a large sand pit.",
+              " A woman raises a white flag and the man's shot is shown again in slow motion."
             ],
             "timestamps": [
               [
                 0,
-                5.54
+                9.63
               ],
               [
-                5.54,
-                23.34
+                9.04,
+                34.14
               ],
               [
-                23.05,
-                48.43
-              ],
-              [
-                48.14,
+                35.01,
                 58.35
               ]
             ]
@@ -7721,26 +7741,26 @@
           "annotation": {
             "duration": 181.72,
             "sentences": [
-              "woman is doing somersaults holding baton.",
-              " woman is in a competition in the middle of stage doing a choreography with a baton.",
-              " a couple is doing a choreography with batons.",
-              " a woman is in the middle of a court in a roofed gym andin a soccer field."
+              "This woman is twirling her baton and doing cartwheels and such, trying to persuade how baton is a sport.",
+              " They give plenty of reasons why they consider baton to be a sport.",
+              " Women and men can do it, they can practice in the streets, they can perform for judges and as duet.",
+              " One woman even handles her batons while they are on fire, its very impressive."
             ],
             "timestamps": [
               [
                 0,
-                89.95
+                23.62
               ],
               [
-                89.95,
-                117.21
+                23.62,
+                84.5
               ],
               [
-                117.21,
-                135.38
+                84.5,
+                137.2
               ],
               [
-                135.38,
+                137.2,
                 181.72
               ]
             ]
@@ -7906,21 +7926,16 @@
           "annotation": {
             "duration": 66.39,
             "sentences": [
-              "People are standing near a tree.",
-              " A woman is putting blindfold to the other girl and rotate her several times.",
-              " The girl walked towards the pinata and hit it."
+              "A couple people are seen walking over to a pinata and being being blindfolded by another.",
+              " The person is then spun around and takes several hits at the pinata."
             ],
             "timestamps": [
               [
                 0,
-                14.94
+                26.89
               ],
               [
-                7.97,
-                42.16
-              ],
-              [
-                36.18,
+                25.56,
                 66.39
               ]
             ]
@@ -8038,21 +8053,21 @@
           "annotation": {
             "duration": 45.79,
             "sentences": [
-              "A girl wearing a white blouse swings a wooden bat at a pinata.",
-              " While the girl is swinging at the pinata someone is raising and lowering the pinata with a rope.",
-              "The girl continues swinging the wooden bat relentlessly at the pinata."
+              "A man in blue helps a woman point towards a pinata and backs away.",
+              " A lady attempts to hit a pinata at a party.",
+              " The man talks to the lady and she drops the stick and gives up."
             ],
             "timestamps": [
               [
                 0,
-                5.72
+                3.89
               ],
               [
-                5.72,
-                31.6
+                1.6,
+                43.96
               ],
               [
-                31.6,
+                43.04,
                 45.79
               ]
             ]
@@ -8110,27 +8125,27 @@
           "annotation": {
             "duration": 16.93,
             "sentences": [
-              "A female athlete with a Russian uniform is standing outside of a field on a blue track.",
-              "The lady then takes off running while holding a pole in her hand.",
-              "When ready,the lady starts to pole vault and clears the height and lands on the mat.",
-              "Once complete,she jumps up and down,happy that her jump was successful as the crowd begins to cheer for her."
+              "We see a lady running with a pole.",
+              " The lady pole vaults and hits the mat.",
+              " The lady stands and raises her hands in the air as the crowd cheers.",
+              " The lady shakes her head and points and continues cheering."
             ],
             "timestamps": [
               [
                 0,
-                4.23
+                4.49
               ],
               [
-                4.32,
-                10.33
+                4.57,
+                8.04
               ],
               [
-                10.33,
-                15.07
-              ],
-              [
-                15.57,
+                8.97,
                 16.93
+              ],
+              [
+                13.71,
+                14.98
               ]
             ]
           },
@@ -8248,22 +8263,22 @@
           "annotation": {
             "duration": 197.1,
             "sentences": [
-              "two woman stand by a body of water holding bows and arrows.",
-              " they each take turns shooting a bow across the water onto a target.",
-              " a bigger group of people are then shown having the same target practice."
+              "A woman is standing on a boat alone.",
+              " Several people are standing on the water shooting arrows at her from a bow.",
+              " A man in a white shirt is holding a camera next to them."
             ],
             "timestamps": [
               [
                 0,
-                44.35
+                9.85
               ],
               [
-                30.55,
-                134.03
-              ],
-              [
-                127.13,
+                23.65,
                 197.1
+              ],
+              [
+                89.68,
+                94.61
               ]
             ]
           },
@@ -8580,22 +8595,22 @@
           "annotation": {
             "duration": 71.66,
             "sentences": [
-              "A man is seen standing on a roof with a small child.",
-              " The child holds up a kite and the man pulls on the string.",
-              " The two continue to work together and walk around the roof."
+              "A man is seen standing on a roof with a young child holding up a kite.",
+              " The camera pans all around the kite flying in the sky.",
+              " The man is seen helping the boy in the end and grabbing the kite."
             ],
             "timestamps": [
               [
-                0.36,
-                18.99
+                0,
+                17.2
               ],
               [
-                15.41,
-                49.44
+                17.91,
+                53.03
               ],
               [
-                43.35,
-                69.51
+                47.65,
+                68.07
               ]
             ]
           },
@@ -8694,7 +8709,7 @@
     },
     {
       "query_id": "v_aBdrTqSnWbw_q000",
-      "query_text": "a person in military style clothing runs through a course and takes cover wooden logs stacked up",
+      "query_text": "A person in military style clothing runs through a course and takes cover wooden logs stacked up.",
       "case_rank": 5,
       "category": "field_action",
       "reason": "Obstacle-course/military-style query is visually distinct and matches a well-segmented target video.",
@@ -8748,27 +8763,17 @@
           "annotation": {
             "duration": 207.7,
             "sentences": [
-              "A man is seen gearing up and walking through a forest with others.",
-              " They walk to a paintball field and aim their guns around the area.",
-              " The men then begin shooting others and playing paintball.",
-              " The men continue to play and walk around."
+              "a cabin in the woods is shown and a people wearing camouflage suits practicing shots to the cabin and hiding behind trees.",
+              " men start shoting smoke bullets to the cabin."
             ],
             "timestamps": [
               [
                 0,
-                46.73
+                72.7
               ],
               [
-                40.5,
-                122.54
-              ],
-              [
-                113.2,
-                167.2
-              ],
-              [
-                151.62,
-                203.55
+                73.73,
+                207.7
               ]
             ]
           },
@@ -9202,22 +9207,32 @@
           "annotation": {
             "duration": 121.21,
             "sentences": [
-              "The outside of a paintball store is shown.",
-              " A man talks to the camera from inside the store, interspersed by scenes of people engaging in paintball.",
-              " An ending title text on white background is shown."
+              "A person in military style clothing runs through a course and takes cover wooden logs stacked up.",
+              " A person in military style clothing stands aiming his gun over a concrete wall before ducking behind it for cover.",
+              " A man runs out from a house onto a grass field with a paintball gun.",
+              " A man runs around a houses then dives behind a wall for cover.",
+              " A man talks in a paintball shop behind the counter."
             ],
             "timestamps": [
               [
-                1.21,
-                6.67
+                9.09,
+                15.76
               ],
               [
-                6.67,
-                119.39
+                37.57,
+                41.82
               ],
               [
-                120,
-                121.21
+                76.97,
+                82.42
+              ],
+              [
+                103.63,
+                112.12
+              ],
+              [
+                7.27,
+                117.57
               ]
             ]
           },
@@ -9498,22 +9513,22 @@
           "annotation": {
             "duration": 124.9,
             "sentences": [
-              "People are standing in a tower.",
-              " They shoot smoke bombs at people down below.",
-              " People begin to shoot guns in a field."
+              "A close up of a pole is seen followed by people standing an talking to one another.",
+              " More shots are shown of people sitting around while wearing paintball gear.",
+              " The people are then seen in many clips playing paintball with one another as well as machines rolling."
             ],
             "timestamps": [
               [
-                5.62,
-                23.73
+                0,
+                33.72
               ],
               [
-                33.72,
-                36.22
+                37.47,
+                88.68
               ],
               [
-                33.72,
-                124.9
+                88.68,
+                123.65
               ]
             ]
           },
@@ -10127,26 +10142,36 @@
           "annotation": {
             "duration": 121.48,
             "sentences": [
-              "A black pistol is shown on the bottom middle of the camera aiming out into a grassy field with barricades.",
-              "Shortly after,the person begins to move in the field looking for targets to fire his paint balls at.",
-              "The person moves from one wooden house to another without being seen and sets up to fire at a target.",
-              "Three people appear and circles appear around them while tips come across the screen."
+              "a gun is making shots in a open area.",
+              " person with his face cover appears walking holding something on his hand.",
+              " person is walking in the open field by abandoned houses.",
+              " paintball tactics appears on the screen while a person is walking with the gun staying up.",
+              " other person appears in the field and the person prepares to shot them.",
+              " person holding the gun run through the field and hides behind some rubbers to shot the enemies."
             ],
             "timestamps": [
               [
                 0,
-                34.01
+                3.64
               ],
               [
-                34.62,
-                78.35
+                3.04,
+                8.5
               ],
               [
-                78.96,
-                106.9
+                8.5,
+                16.4
               ],
               [
-                106.29,
+                16.4,
+                46.77
+              ],
+              [
+                46.77,
+                60.74
+              ],
+              [
+                60.74,
                 121.48
               ]
             ]
@@ -10417,37 +10442,32 @@
           "annotation": {
             "duration": 144.24,
             "sentences": [
-              "Soldiers walk holding firearms and wearing military outfit, one man wears a camouflage.",
-              " The soldiers shoot to others while protected their bodies behind large containers and walls.",
-              " Men run to the woods, and the man with the camouflage shoots to others.",
-              " Other men search on abandoned house while shooting.",
-              " Some soldiers run to a trench for protection and load his firearm.",
-              " Men continue running and shooting near a tunnel and a helicopter."
+              "Soldiers holds firearms in a training camp wearing camouflage clothes, then, the men run to fight in a field shooting while their firearms.",
+              " After, the soldiers run to the woods firing their rifles, and a man wearing a leafy poncho camouflage on head  fire his gun in the wood.",
+              " After other soldiers run and shoot while searching abandoned shelters.",
+              " Then, the soldiers run on a trench to search a safe place while firing their firearms.",
+              " A soldier walk with his rifle inside a a tunnel."
             ],
             "timestamps": [
               [
                 0.72,
-                30.29
-              ],
-              [
-                31.01,
                 51.93
               ],
               [
-                52.65,
-                67.79
+                51.93,
+                67.07
               ],
               [
-                67.79,
-                96.64
+                68.52,
+                99.53
               ],
               [
-                97.36,
-                113.23
+                99.53,
+                114.67
               ],
               [
-                113.95,
-                144.24
+                115.39,
+                123.33
               ]
             ]
           },
@@ -10644,27 +10664,22 @@
           "annotation": {
             "duration": 186.02,
             "sentences": [
-              "man is standing in an open court playing paintball walking and hiding behind cones.",
-              " other players are standing inside a house and gets out to start shooting someone from the other team and hiding behind stacks.",
-              " people from the other team are shooting and hiding himslf behind a small wooden bridge on the court.",
-              " men are in a small paintball court playing."
+              "A camera pans all around a paintball course and shows a person aiming off into the distance.",
+              " More people are seen walking around with gear on and aiming guns.",
+              " People gesture to themselves and continue to aim off in the distance and run around."
             ],
             "timestamps": [
               [
                 0,
-                20.46
+                85.57
               ],
               [
-                20.46,
-                44.64
+                54.87,
+                133
               ],
               [
-                44.64,
-                186.02
-              ],
-              [
-                0,
-                186.02
+                105.1,
+                183.23
               ]
             ]
           },
@@ -10845,27 +10860,17 @@
           "annotation": {
             "duration": 207.7,
             "sentences": [
-              "A man is seen gearing up and walking through a forest with others.",
-              " They walk to a paintball field and aim their guns around the area.",
-              " The men then begin shooting others and playing paintball.",
-              " The men continue to play and walk around."
+              "a cabin in the woods is shown and a people wearing camouflage suits practicing shots to the cabin and hiding behind trees.",
+              " men start shoting smoke bullets to the cabin."
             ],
             "timestamps": [
               [
                 0,
-                46.73
+                72.7
               ],
               [
-                40.5,
-                122.54
-              ],
-              [
-                113.2,
-                167.2
-              ],
-              [
-                151.62,
-                203.55
+                73.73,
+                207.7
               ]
             ]
           },
@@ -11299,21 +11304,31 @@
           "annotation": {
             "duration": 159.52,
             "sentences": [
-              "A large group of men are outside a warehouse.",
-              " They run in, hiding behind obstacles.",
-              " They have paintball guns, which they shoot at each other."
+              "A group of men wearing military fatigues and armed with paintball guns prepare to enter a building.",
+              " The men break the door down and enter a room in an attack formation that looks like a kitchen with a yellow refrigerator.",
+              " The men then enter an empty bedroom crouched and ready for combat.",
+              " They enter another room wear the encounter the enemy and begin shooting at each other.",
+              " The men in the military fatigues in an offensive position maneuver throughout the building going from room to room looking for their opponents."
             ],
             "timestamps": [
               [
                 0,
-                20.74
+                3.19
               ],
               [
-                24.73,
-                85.34
+                3.19,
+                16.75
               ],
               [
-                86.94,
+                16.75,
+                36.69
+              ],
+              [
+                36.69,
+                78.17
+              ],
+              [
+                78.17,
                 159.52
               ]
             ]
@@ -11619,21 +11634,26 @@
           "annotation": {
             "duration": 142.5,
             "sentences": [
-              "a group of people put on paintball gear.",
-              " They hide behind several obstacles in the field.",
-              " Then they jump out and shoot at each other with the paint bullets."
+              "A man is holding a paintball gun in his hand.",
+              " He runs out from behind a building, shooting at the other players.",
+              " The players shoot back as he runs at top speed.",
+              " They continue through the course, reloading."
             ],
             "timestamps": [
               [
                 0,
-                19.95
+                9.98
               ],
               [
-                23.51,
-                116.85
+                17.81,
+                61.28
               ],
               [
-                119.7,
+                66.98,
+                124.69
+              ],
+              [
+                125.4,
                 142.5
               ]
             ]
@@ -11805,26 +11825,36 @@
           "annotation": {
             "duration": 121.48,
             "sentences": [
-              "A black pistol is shown on the bottom middle of the camera aiming out into a grassy field with barricades.",
-              "Shortly after,the person begins to move in the field looking for targets to fire his paint balls at.",
-              "The person moves from one wooden house to another without being seen and sets up to fire at a target.",
-              "Three people appear and circles appear around them while tips come across the screen."
+              "a gun is making shots in a open area.",
+              " person with his face cover appears walking holding something on his hand.",
+              " person is walking in the open field by abandoned houses.",
+              " paintball tactics appears on the screen while a person is walking with the gun staying up.",
+              " other person appears in the field and the person prepares to shot them.",
+              " person holding the gun run through the field and hides behind some rubbers to shot the enemies."
             ],
             "timestamps": [
               [
                 0,
-                34.01
+                3.64
               ],
               [
-                34.62,
-                78.35
+                3.04,
+                8.5
               ],
               [
-                78.96,
-                106.9
+                8.5,
+                16.4
               ],
               [
-                106.29,
+                16.4,
+                46.77
+              ],
+              [
+                46.77,
+                60.74
+              ],
+              [
+                60.74,
                 121.48
               ]
             ]
@@ -12086,7 +12116,7 @@
     },
     {
       "query_id": "v_R4oYA0Zu-m0_q002",
-      "query_text": "the girls hug their boyfriends then play table tennis",
+      "query_text": "The girls hug their boyfriends then play table tennis.",
       "case_rank": 9,
       "category": "social_game",
       "reason": "Interpersonal transition into table tennis gives a strong text-to-video structure example.",
@@ -12131,22 +12161,37 @@
           "annotation": {
             "duration": 215.74,
             "sentences": [
-              "A car pulls into a driveway and women get out.",
-              " They lie down in front of a pool, then follow a group of men down to the water.",
-              " They ride on the waves together as they are pulled by a boat."
+              "A group of girls get out a a jeep in swimsuits and walk into a house.",
+              " The group of girls disrobe inside the home and walk outside to the pool area.",
+              " The girls hug their boyfriends then play table tennis.",
+              " The group walks down to the boat dock.",
+              " The group prepares the equipment on the boat and put on water skis.",
+              " The group rides wake boards in a lake behind a boat."
             ],
             "timestamps": [
               [
                 0,
-                25.89
+                16.18
               ],
               [
-                30.2,
-                114.34
+                17.26,
+                33.44
               ],
               [
-                125.13,
-                215.74
+                36.68,
+                58.25
+              ],
+              [
+                56.09,
+                84.14
+              ],
+              [
+                86.29,
+                144.54
+              ],
+              [
+                146.7,
+                212.5
               ]
             ]
           },
@@ -12394,32 +12439,22 @@
           "annotation": {
             "duration": 168.37,
             "sentences": [
-              "Two men play ping pong in a room with many tables.",
-              " The camera moves to a player helping another with his serve.",
-              " The camera pans to another table being played.",
-              " The camera once again pans to a fourth table.",
-              " The camera pans around the entire room."
+              "People are playing ping pong in a room.",
+              " A man picks a ball up off a table and starts playing ping pong.",
+              " A man and a girl are playing a game of ping pong."
             ],
             "timestamps": [
               [
                 0,
-                23.57
+                157.42
               ],
               [
-                23.57,
-                57.25
+                36.2,
+                45.46
               ],
               [
-                57.25,
-                111.96
-              ],
-              [
-                112.81,
-                135.54
-              ],
-              [
-                137.22,
-                168.37
+                59.77,
+                111.12
               ]
             ]
           },
@@ -12545,22 +12580,27 @@
           "annotation": {
             "duration": 49.98,
             "sentences": [
-              "Two people are seen playing ping pong while a group of people watch on the side.",
-              " The boys hit the ball back and fourth to one another.",
-              " They continue playing the game with each other."
+              "Two boys are playing table tennis.",
+              " The boy in a white, tee shirt places the handle put of the paddle on this chin before he serves.",
+              " The ball bounces of the table and falls to the ground.",
+              " A man waves his hands gesturing to the players."
             ],
             "timestamps": [
               [
-                1.25,
-                49.23
+                0,
+                49.48
               ],
               [
-                4,
-                21.74
+                7.5,
+                9
               ],
               [
-                20.49,
-                47.23
+                25.99,
+                28.74
+              ],
+              [
+                43.99,
+                48.98
               ]
             ]
           },
@@ -12810,22 +12850,22 @@
           "annotation": {
             "duration": 71.7,
             "sentences": [
-              "The woman is talking to the little girl.",
-              " A person is throwing balls to the girl at the table tennis and she hit the balls.",
-              " The girl is playing table tennis with the older woman."
+              "Ellen is seen hosting a segment with a small girl on stage and her mother.",
+              " She speaks to the two and leads into clips of the girl playing ping pong with another.",
+              " Ellen and the girl play together involving a giant racket and speaking to the camera."
             ],
             "timestamps": [
               [
-                0,
-                16.13
+                0.36,
+                44.1
               ],
               [
-                15.06,
-                45.17
+                15.42,
+                54.85
               ],
               [
-                21.87,
-                71.7
+                51.27,
+                71.35
               ]
             ]
           },
@@ -12980,22 +13020,27 @@
           "annotation": {
             "duration": 60.65,
             "sentences": [
-              "two men and two women are playing table soccer and showing the table.",
-              " a man and a woman are in a living room playing table soccer.",
-              " people are in a comercial showing the socer table and playing."
+              "We see an opening title screen.",
+              " We see a foosball table and see people playing on the table.",
+              " We see a person add a point by moving a silver bobble.",
+              " We see a person score a point We then see the ending screen."
             ],
             "timestamps": [
               [
                 0,
-                28.81
+                2.12
               ],
               [
-                28.81,
-                60.65
+                2.43,
+                42.76
               ],
               [
-                0,
-                60.65
+                19.41,
+                21.53
+              ],
+              [
+                34.27,
+                37.6
               ]
             ]
           },
@@ -13240,22 +13285,27 @@
           "annotation": {
             "duration": 33.41,
             "sentences": [
-              "two boys are playing ping pong in a big room.",
-              " two boys from the nickelodeon drake and josh show are playing ping pong.",
-              " two men in their bedroom  are playing ping pong."
+              "A young man ring a flat bell on front a ping pong table.",
+              " The young man and person move around the ping pong racket.",
+              " Then, the young man serves the ball and both start to play.",
+              " After, the person hit a ball to the window and brakes the glass."
             ],
             "timestamps": [
               [
                 0,
-                33.41
+                0.5
               ],
               [
-                0,
-                33.25
+                0.67,
+                19.21
               ],
               [
-                0.84,
-                33.41
+                19.38,
+                25.9
+              ],
+              [
+                26.23,
+                32.08
               ]
             ]
           },
@@ -13411,22 +13461,22 @@
           "annotation": {
             "duration": 71.7,
             "sentences": [
-              "The woman is talking to the little girl.",
-              " A person is throwing balls to the girl at the table tennis and she hit the balls.",
-              " The girl is playing table tennis with the older woman."
+              "Ellen is seen hosting a segment with a small girl on stage and her mother.",
+              " She speaks to the two and leads into clips of the girl playing ping pong with another.",
+              " Ellen and the girl play together involving a giant racket and speaking to the camera."
             ],
             "timestamps": [
               [
-                0,
-                16.13
+                0.36,
+                44.1
               ],
               [
-                15.06,
-                45.17
+                15.42,
+                54.85
               ],
               [
-                21.87,
-                71.7
+                51.27,
+                71.35
               ]
             ]
           },
@@ -13581,32 +13631,22 @@
           "annotation": {
             "duration": 168.37,
             "sentences": [
-              "Two men play ping pong in a room with many tables.",
-              " The camera moves to a player helping another with his serve.",
-              " The camera pans to another table being played.",
-              " The camera once again pans to a fourth table.",
-              " The camera pans around the entire room."
+              "People are playing ping pong in a room.",
+              " A man picks a ball up off a table and starts playing ping pong.",
+              " A man and a girl are playing a game of ping pong."
             ],
             "timestamps": [
               [
                 0,
-                23.57
+                157.42
               ],
               [
-                23.57,
-                57.25
+                36.2,
+                45.46
               ],
               [
-                57.25,
-                111.96
-              ],
-              [
-                112.81,
-                135.54
-              ],
-              [
-                137.22,
-                168.37
+                59.77,
+                111.12
               ]
             ]
           },
@@ -13732,22 +13772,27 @@
           "annotation": {
             "duration": 49.98,
             "sentences": [
-              "Two people are seen playing ping pong while a group of people watch on the side.",
-              " The boys hit the ball back and fourth to one another.",
-              " They continue playing the game with each other."
+              "Two boys are playing table tennis.",
+              " The boy in a white, tee shirt places the handle put of the paddle on this chin before he serves.",
+              " The ball bounces of the table and falls to the ground.",
+              " A man waves his hands gesturing to the players."
             ],
             "timestamps": [
               [
-                1.25,
-                49.23
+                0,
+                49.48
               ],
               [
-                4,
-                21.74
+                7.5,
+                9
               ],
               [
-                20.49,
-                47.23
+                25.99,
+                28.74
+              ],
+              [
+                43.99,
+                48.98
               ]
             ]
           },
@@ -13997,27 +14042,22 @@
           "annotation": {
             "duration": 231.99,
             "sentences": [
-              "A boy and two girls are playing beer pong in a crowded room.",
-              " One girl pushes the other to the ground and jumps over her a few times.",
-              " They make different poses being silly when they throw the ping pong ball, laughing a lot.",
-              " At the end the boy leaves the game."
+              "Two people are seen speaking to one another and lead into a game of beer pong.",
+              " The two throw the balls back and fourth while gesturing to others and one jumping on her friend.",
+              " The game continues on with the man and woman throwing the ball and leads into the woman's friend throwing the ball."
             ],
             "timestamps": [
               [
-                0,
-                231.99
+                9.28,
+                89.32
               ],
               [
-                37.12,
-                60.32
+                63.8,
+                170.51
               ],
               [
-                136.87,
-                209.95
-              ],
-              [
-                226.19,
-                231.99
+                176.31,
+                227.35
               ]
             ]
           },
@@ -14383,7 +14423,7 @@
     },
     {
       "query_id": "v_JLDZdxTf5TA_q001",
-      "query_text": "a man plays the bagpipes in front of a group of people who are watching and looking apprehensive in reaction to the playing",
+      "query_text": "A man plays the bagpipes in front of a group of people who are watching and looking apprehensive in reaction to the playing.",
       "case_rank": 15,
       "category": "performance",
       "reason": "Public bagpipe performance adds event diversity without overlapping heavily with the V2T set.",
@@ -14428,21 +14468,16 @@
           "annotation": {
             "duration": 69.45,
             "sentences": [
-              "A group has gathered in the streets.",
-              " They are taking pictures of a group of men in kilts.",
-              " The men are playing sets of bagpipes."
+              "A small group of people are seen standing in a circle playing instruments together while a large group of people watch on the sides.",
+              " The people continue playing together as the crowd watches the people play from a far."
             ],
             "timestamps": [
               [
                 0,
-                6.6
+                23.61
               ],
               [
-                9.72,
-                41.67
-              ],
-              [
-                43.75,
+                22.92,
                 69.45
               ]
             ]
@@ -14509,22 +14544,22 @@
           "annotation": {
             "duration": 100.1,
             "sentences": [
-              "A man is seen standing outside playing a set of bagpipes.",
-              " The man plays while people walk in and out of frame.",
-              " The man continues to play moving his hands up and down."
+              "A man is standing in front of a building playing the bag pipes.",
+              " People are standing around watching him.",
+              " He finishes playing and starts to put the bag pipes down."
             ],
             "timestamps": [
               [
                 0,
-                23.02
+                100.1
               ],
               [
-                26.03,
-                67.57
+                1,
+                100.1
               ],
               [
-                62.06,
-                97.6
+                99.1,
+                100.1
               ]
             ]
           },
@@ -14581,21 +14616,21 @@
           "annotation": {
             "duration": 217.07999999999998,
             "sentences": [
-              "A funeral is in progress inside a building.",
-              " A band marches in and plays music.",
-              " The group sits in the pews as they mourn."
+              "a marching band is standing in front of a church.",
+              " people are sitting on large benches inside the church.",
+              " a wooden urn is in the middle of the church with a flag on top."
             ],
             "timestamps": [
               [
                 0,
-                27.14
+                198.63
               ],
               [
-                39.08,
-                136.76
+                0,
+                217.08
               ],
               [
-                162.81,
+                2.17,
                 217.08
               ]
             ]
@@ -14856,22 +14891,27 @@
           "annotation": {
             "duration": 125.69,
             "sentences": [
-              "Three people are sitting on the couch while a man is holding a bagpipe and another woman sitting on the floor.",
-              " The man began playing his bagpipe while the woman get up and sat on the couch.",
-              " The man stop playing and the woman in blue began laughing and singing."
+              "A man plays the bagpipes in front of a group of apprehensive looking friends in a living room environment.",
+              "  A man plays the bagpipes in front of a group of people who are watching and looking apprehensive in reaction to the playing.",
+              "  The man begins to talk to them and one of the women on the couch begins to sing back to him at which point the woman next to her begins to laugh.",
+              "  The man with the bagpipes takes the bagpipes, dismally, and throws them on a neighboring couch."
             ],
             "timestamps": [
               [
-                0,
-                30.17
+                9.43,
+                125.69
               ],
               [
-                16.34,
-                89.24
+                20.11,
+                37.71
               ],
               [
-                35.82,
-                99.92
+                37.71,
+                82.33
+              ],
+              [
+                82.96,
+                86.73
               ]
             ]
           },
@@ -15110,21 +15150,21 @@
           "annotation": {
             "duration": 27.93,
             "sentences": [
-              "The young boy is blowing his bagpipe a his fingers press the pole.",
-              " The people are passing by as the boy play the bag pipe.",
-              " The boy paused for few seconds, then continue to play the pipe."
+              "A young man plays the bagpipes on the street.",
+              " People pass him by on the sidewalk.",
+              " The words \"SuperPopVIP\" are watermarked on the video."
             ],
             "timestamps": [
               [
                 0,
-                5.17
+                2.23
               ],
               [
-                0.84,
-                23.74
+                2.37,
+                6.84
               ],
               [
-                19.83,
+                6.98,
                 27.93
               ]
             ]
@@ -15194,22 +15234,22 @@
           "annotation": {
             "duration": 100.1,
             "sentences": [
-              "A man is seen standing outside playing a set of bagpipes.",
-              " The man plays while people walk in and out of frame.",
-              " The man continues to play moving his hands up and down."
+              "A man is standing in front of a building playing the bag pipes.",
+              " People are standing around watching him.",
+              " He finishes playing and starts to put the bag pipes down."
             ],
             "timestamps": [
               [
                 0,
-                23.02
+                100.1
               ],
               [
-                26.03,
-                67.57
+                1,
+                100.1
               ],
               [
-                62.06,
-                97.6
+                99.1,
+                100.1
               ]
             ]
           },
@@ -15266,21 +15306,16 @@
           "annotation": {
             "duration": 69.45,
             "sentences": [
-              "A group has gathered in the streets.",
-              " They are taking pictures of a group of men in kilts.",
-              " The men are playing sets of bagpipes."
+              "A small group of people are seen standing in a circle playing instruments together while a large group of people watch on the sides.",
+              " The people continue playing together as the crowd watches the people play from a far."
             ],
             "timestamps": [
               [
                 0,
-                6.6
+                23.61
               ],
               [
-                9.72,
-                41.67
-              ],
-              [
-                43.75,
+                22.92,
                 69.45
               ]
             ]
@@ -15347,21 +15382,21 @@
           "annotation": {
             "duration": 27.93,
             "sentences": [
-              "The young boy is blowing his bagpipe a his fingers press the pole.",
-              " The people are passing by as the boy play the bag pipe.",
-              " The boy paused for few seconds, then continue to play the pipe."
+              "A young man plays the bagpipes on the street.",
+              " People pass him by on the sidewalk.",
+              " The words \"SuperPopVIP\" are watermarked on the video."
             ],
             "timestamps": [
               [
                 0,
-                5.17
+                2.23
               ],
               [
-                0.84,
-                23.74
+                2.37,
+                6.84
               ],
               [
-                19.83,
+                6.98,
                 27.93
               ]
             ]
@@ -15429,27 +15464,22 @@
           "annotation": {
             "duration": 144.2,
             "sentences": [
-              "About ten people dressed in all blue and black uniforms are outside of a yellow building holding their instruments varying from wind pipes and different types of drums.",
-              "The bass drum begins hitting his drum and then the band begins playing their part song in unison.",
-              "As they are playing,people continue to walk by while a crowd of students sit in blue chairs to the left of them and watch.",
-              "Towards the end of their performance,a man comes in the middle of the circle and begins taking pictures of the boys as they play."
+              "A large group of people are seen standing in a circle holding instruments.",
+              " The group then begins playing the instruments together while people walk in and out frame.",
+              " The people continue to play with one another while a man take their pictures."
             ],
             "timestamps": [
               [
                 0,
-                40.37
+                36.77
               ],
               [
-                40.37,
-                86.52
+                24.51,
+                113.19
               ],
               [
-                86.52,
-                131.22
-              ],
-              [
-                131.22,
-                144.2
+                96.61,
+                141.31
               ]
             ]
           },
@@ -15576,21 +15606,26 @@
           "annotation": {
             "duration": 134.7,
             "sentences": [
-              "A kid is standing up playing the bag pipes.",
-              " People are sitting in front of him watching.",
-              " He stops playing and walks off."
+              "a young girl is standing in front of a crowd.",
+              " She is playing the bagpipes.",
+              " When she finishes, she walks away.",
+              " A woman jumps up and chases after her."
             ],
             "timestamps": [
               [
                 0,
-                125.27
+                9.43
               ],
               [
-                0,
-                134.7
+                10.78,
+                121.9
               ],
               [
-                125.27,
+                121.9,
+                129.98
+              ],
+              [
+                131.33,
                 134.7
               ]
             ]
@@ -15682,7 +15717,7 @@
     },
     {
       "query_id": "v_HytB88Fhqw8_q002",
-      "query_text": "men are in baths showein and standing in towels while a man is talking to them",
+      "query_text": "men are in baths showein and standing in towels while a man is talking to them.",
       "case_rank": 18,
       "category": "indoor_dialogue",
       "reason": "Indoor bathhouse/towel scene keeps the set visually distinct while using a stable mp4 target video.",
@@ -15744,21 +15779,36 @@
           "annotation": {
             "duration": 96.5,
             "sentences": [
-              "Several team members are playing on a field at night.",
-              " They are also shown in the locker rooms and showers.",
-              " They dress up and go to see a gift wrapping expert, who teaches them how to wrap presents."
+              "men are wrapping a gift in a small room.",
+              " men are playing rugby in a field in the night.",
+              " men are in baths showein and standing in towels while a man is talking to them.",
+              " men are going up the stairs and are in a trophy room.",
+              " woman is talking to men that are in a room and shows them a red gift.",
+              " men start wraping the gift and using some plastic tape."
             ],
             "timestamps": [
               [
                 0,
-                14.48
+                8.69
               ],
               [
-                16.89,
-                61.28
+                8.2,
+                12.55
               ],
               [
-                63.21,
+                12.55,
+                24.13
+              ],
+              [
+                24.13,
+                31.36
+              ],
+              [
+                31.36,
+                54.52
+              ],
+              [
+                55.01,
                 96.5
               ]
             ]
@@ -15994,31 +16044,41 @@
           "annotation": {
             "duration": 166.67000000000002,
             "sentences": [
-              "kids are practicing sumo wrestling in a gym room and talking to the camera about their experience.",
-              " men are in an office, shake their hands and are talking about their sumo experience.",
-              " girls are doing gymnastics in a stage.",
-              " men are doing jumps on a pole in stage.",
-              " a lot of people are walking on the sidewalk and again in stage men are doing jumps."
+              "We we boys in diaper sumo gear running around in a gym, the boys then begin to wrestle.",
+              " We see two of the boys being interviewed by two men.",
+              " The boys wrestle again and we see images of men wrestlers.",
+              " An interviewer walks into an office an talks to a man.",
+              " We see a circus show in an empty stadium.",
+              " We see scene of the city with buildings and people.",
+              " We see the man talk again and the circus."
             ],
             "timestamps": [
               [
                 0,
-                55.84
+                40.83
               ],
               [
-                55.84,
-                86.67
+                40.83,
+                46.67
               ],
               [
-                86.67,
-                98.34
+                46.67,
+                60
               ],
               [
-                98.34,
-                113.34
+                60,
+                83.34
               ],
               [
-                113.34,
+                83.34,
+                115.84
+              ],
+              [
+                117.5,
+                145.84
+              ],
+              [
+                150.01,
                 166.67
               ]
             ]
@@ -16342,22 +16402,32 @@
           "annotation": {
             "duration": 190.24,
             "sentences": [
-              "a crowd is gathered at an indoor swimming pool.",
-              " several people are in the pool throwing a ball around.",
-              " two teams play water polo."
+              "Teams of athletes line up out of the pool.",
+              " Teams play a game of water polo passing and shooting the ball at the goal.",
+              " A coach talks with the swimmers during a break.",
+              " The team passes between players in a circle surrounding the goal before making the shot past the goalie.",
+              " The swimmers shake hands after the game outside of the pool."
             ],
             "timestamps": [
               [
-                0,
-                54.22
+                19.02,
+                27.59
               ],
               [
-                29.49,
-                123.66
+                35.19,
+                170.27
               ],
               [
-                104.63,
-                190.24
+                87.51,
+                91.32
+              ],
+              [
+                121.75,
+                135.07
+              ],
+              [
+                171.22,
+                178.83
               ]
             ]
           },
@@ -16801,77 +16871,32 @@
           "annotation": {
             "duration": 200.3,
             "sentences": [
-              "People are standing or sitting around with phones and cameras waiting for a cover object to be revealed.",
-              " The black cloth is removed and seven sumo are uncovered.",
-              " The sumo do a performance for the people waiting.",
-              " The sumo run through the neighborhood.",
-              " The sumo surprise passerby as they interact.",
-              "  The sumo drink milk.",
-              " A sumo donks a basketball into the hoop.",
-              " The sumo run on the beach.",
-              " A flock of birds fly in the sky.",
-              " The sumo jog with headlight bands on their forehead.",
-              " The sumo sit at a gas station to eat Chinese food in a picnic type setting.",
-              " A vehicle appears directly where the sumo were sitting.",
-              " The vehicle moves on a road.",
-              " The credits of the clip are shown."
+              "Several people are outside with their phones waiting to see a performance of some sort.",
+              "After,a black sheet comes down and six sumo wrestlers begin dancing before they take off running.",
+              "As they run through trash cans,a group of cheerleaders are also running and the sumo wrestlers stop short to not run into the cheer leaders.",
+              "They continue running through the city doing various activities such as going to bars,drinking milk and eating at the gas station.",
+              "The video then changes to animated and other video links become present."
             ],
             "timestamps": [
               [
                 0,
-                6.01
+                33.05
               ],
               [
-                8.01,
-                11.02
+                33.05,
+                57.09
               ],
               [
-                15.02,
-                30.04
+                57.09,
+                96.14
               ],
               [
-                31.05,
-                149.22
-              ],
-              [
-                40.06,
-                105.16
-              ],
-              [
-                85.13,
-                87.13
-              ],
-              [
-                108.16,
-                109.16
-              ],
-              [
-                110.16,
-                128.19
-              ],
-              [
-                118.18,
-                119.18
-              ],
-              [
-                129.19,
-                147.22
-              ],
-              [
-                151.23,
-                156.23
+                96.14,
+                157.23
               ],
               [
                 157.23,
-                161.24
-              ],
-              [
-                166.25,
-                179.27
-              ],
-              [
-                181.27,
-                199.3
+                200.3
               ]
             ]
           },
@@ -17114,21 +17139,46 @@
           "annotation": {
             "duration": 72.33,
             "sentences": [
-              "A diver walks to the end of the diving board.",
-              " He prepares himself for the jump as a man is being interviewed.",
-              " The diver plummets from the board next to another man into the water."
+              "We see an opening title screen.",
+              " We see an older man being interviewed.",
+              " We see two men on a diving board.",
+              " We see the older man talk again.",
+              " We see the divers dive in the water.",
+              " We see an interview with a family outside the arena.",
+              " We se the divers on their boards and the family is interviewed again.",
+              " We see the ending title screens."
             ],
             "timestamps": [
               [
                 0,
-                10.85
+                3.62
               ],
               [
-                15.55,
-                44.48
+                3.62,
+                7.59
               ],
               [
-                47.38,
+                7.96,
+                18.44
+              ],
+              [
+                19.17,
+                24.95
+              ],
+              [
+                25.32,
+                43.76
+              ],
+              [
+                44.12,
+                51.72
+              ],
+              [
+                52.08,
+                69.08
+              ],
+              [
+                69.44,
                 72.33
               ]
             ]
@@ -17330,21 +17380,21 @@
           "annotation": {
             "duration": 75.02,
             "sentences": [
-              "A sumo wrestling match is about to start.",
-              "  They start and the black guy loses.",
-              "  He falls towards the camera."
+              "The man in white uniform fixed the chubby man's belt.",
+              " Two men entered the ring and squat and clapped their hands, stood and bow to each other.",
+              " The men are squatting, and started to push each other, the skinny man was able to push the chubby man outside the ring."
             ],
             "timestamps": [
               [
                 0,
-                13.88
+                6
               ],
               [
-                15.38,
-                66.4
+                5.25,
+                47.27
               ],
               [
-                69.4,
+                43.51,
                 75.02
               ]
             ]
@@ -17442,46 +17492,21 @@
           "annotation": {
             "duration": 207.94,
             "sentences": [
-              "A black and white image of several men is shown.",
-              " Three men drop shoes on the ground and puts them on.",
-              " A fourth man talks to the three men while holding a pair of shoes.",
-              " The fourth man talks to the camera while demonstrating how to wear and remove shoes.",
-              " A new man walks through the middle of the camera frame.",
-              " The black and white still image is shown again.",
-              " A black screen with scrolling white text is shown.",
-              " A black and white still image from a different part of the video is shown."
+              "men are standing in the entrance of a house taking off the shoes and talknig to another man.",
+              " man kneel down and put a flip flops.",
+              " a big paragraph is shown on screen."
             ],
             "timestamps": [
               [
-                8.32,
-                18.71
+                0,
+                75.9
               ],
               [
-                19.75,
-                33.27
+                75.9,
+                120.6
               ],
               [
-                33.27,
-                48.86
-              ],
-              [
-                48.86,
-                119.56
-              ],
-              [
-                119.56,
-                122.68
-              ],
-              [
-                122.68,
-                137.24
-              ],
-              [
-                137.24,
-                193.38
-              ],
-              [
-                194.42,
+                121.64,
                 207.94
               ]
             ]
@@ -17654,21 +17679,16 @@
           "annotation": {
             "duration": 51.69,
             "sentences": [
-              "A man is leaning foward on a bench.",
-              " Another man is applying suntan lotion onto his back.",
-              " He stands up when the man is done with the lotion."
+              "A couple of men are inside a boat, laughing and talking.",
+              " They then pretend to fight before turning the camera off."
             ],
             "timestamps": [
               [
                 0,
-                3.62
+                20.42
               ],
               [
-                7.75,
-                33.34
-              ],
-              [
-                35.41,
+                22.74,
                 51.69
               ]
             ]
@@ -17759,31 +17779,26 @@
           "annotation": {
             "duration": 167.63,
             "sentences": [
-              "A man in a bathroom hands another man an item then pulls down, and takes off his pants.",
-              " The man holds a can and puts it on the counter.",
-              " The man then sits down and sprays his leg with shaving cream and rubs it on his leg.",
-              " The man then shaves his calf with a razor as another person holds a camera and films it.",
-              " A person rubs his left in a smooth shaved spot."
+              "A young man is in a bathroom attempting to shave his legs.",
+              "  He takes off his pants, shakes the shaving cream can, sits on the toilet and puts his leg up.",
+              "  As other girls tease him about it he puts his leg up and lathers up his leg.",
+              "  He shaves his leg while the sink water runs then a girl touches the shaved area of his leg."
             ],
             "timestamps": [
               [
                 0,
-                20.12
-              ],
-              [
-                20.95,
-                40.23
-              ],
-              [
-                40.23,
-                107.28
-              ],
-              [
-                106.44,
                 167.63
               ],
               [
-                165.95,
+                0,
+                60.35
+              ],
+              [
+                81.3,
+                108.12
+              ],
+              [
+                108.12,
                 167.63
               ]
             ]
@@ -17919,27 +17934,17 @@
           "annotation": {
             "duration": 39.57,
             "sentences": [
-              "A group of young men are gathered in a darkly colored room.",
-              " One of them, who appears to be drunk, starts throwing darts.",
-              " He then throws a dart at the cameraman.",
-              " The camera then violently shakes."
+              "These for men are all standing in the room trowing darts at the dart board.",
+              " One of them throws a dart at the camera because he missed one time."
             ],
             "timestamps": [
               [
                 0,
-                9.3
+                31.06
               ],
               [
-                9.5,
-                25.32
-              ],
-              [
-                25.52,
-                28.09
-              ],
-              [
-                28.29,
-                39.57
+                26.11,
+                26.71
               ]
             ]
           },
@@ -18095,7 +18100,7 @@
     },
     {
       "query_id": "v_VhzPqd0Su5I_q000",
-      "query_text": "a persons feet are seen standing on the ground when a hand comes in an grabs the camera",
+      "query_text": "A person's feet are seen standing on the ground when a hand comes in an grabs the camera.",
       "case_rank": 2,
       "category": "camera_pov",
       "reason": "POV-style camera interaction is visually distinctive and expands the query distribution beyond standard event narration.",
@@ -18147,21 +18152,16 @@
           "annotation": {
             "duration": 95.3,
             "sentences": [
-              "A view of the grass is shown, then a close up of a hand, and finally a man is shown riding on a riding lawn mower in a very large grassy area surrounded by a lot of trees.",
-              "The man waves to the camera, gives a peace sign, then drinks from a can.",
-              " More of the yard and trees are shown and the man on the lawnmower gives one more wave with his left hand."
+              "A person's feet are seen standing on the ground when a hand comes in an grabs the camera.",
+              " Another person is seen riding a lawn mower around the lawn and the camera watching him move and wave."
             ],
             "timestamps": [
               [
                 0,
-                54.79
+                37.17
               ],
               [
-                54.79,
-                75.28
-              ],
-              [
-                75.28,
+                30.49,
                 95.3
               ]
             ]
@@ -18324,21 +18324,16 @@
           "annotation": {
             "duration": 69.36,
             "sentences": [
-              "An individual's feet are shown next to a pair of shoes.",
-              " The individual puts socks on his feet.",
-              " The individual puts the shoes on his feet."
+              "A person's feet are shown around a set of shoes and then begins putting socks on his feet.",
+              " He then puts his shoes on afterwards and ties them up, ending with his feet together and ready to go."
             ],
             "timestamps": [
               [
                 0,
-                5.55
+                27.05
               ],
               [
-                5.9,
-                25.32
-              ],
-              [
-                25.32,
+                20.46,
                 69.36
               ]
             ]
@@ -18428,21 +18423,16 @@
           "annotation": {
             "duration": 97.75999999999999,
             "sentences": [
-              "woman is standing in a room laying on the wall holding socks and putthing them on the feet.",
-              " the woman put the brown boots on the right shoe and tie the laces.",
-              " the woman grabs the other shoe and put it on the left foot and tie the laces."
+              "A person's feet and legs are shown followed by the person putting socks on and rolling their pants over the socks.",
+              " The person then puts a pair of shoes on and tying them and ending by standing up straight."
             ],
             "timestamps": [
               [
                 0,
-                31.28
+                31.77
               ],
               [
-                31.28,
-                50.83
-              ],
-              [
-                50.83,
+                32.75,
                 97.76
               ]
             ]
@@ -18560,26 +18550,31 @@
           "annotation": {
             "duration": 223.21,
             "sentences": [
-              "A young man is talking with a nike shoes on his lap, lifting and holding the shoes while he continue on talking.",
-              " A pair of shoes is put in very dirty sink, after lifting and showing each shoes, a series of cleaning procedure are done in each shoes, these includes brushing the sides with a small brush and toothbrush with liquid solution and then wiping them with a cloth,  cleaning those small and hard to reach area with a unknown cleaner using cotton swabs and finally cleaning the sole and rinsing it using tap water.",
-              " The materials used in cleaning are wash and clean up and the shoes are rinse again.",
-              " The shoes are dried in a concrete near a grassy area, lift for a while  and finally worn by the owner, turning and showing how clean the shoes are and then walks away."
+              "A boy in a red shirt is sitting down holding a shoe.",
+              " He puts the pair of shoes in a sink.",
+              " He starts washing the shoes with soap and a rag in the sink.",
+              " He takes the shoes outside and shows them.",
+              " He puts them on and walks on a sidewalk."
             ],
             "timestamps": [
               [
                 0,
-                52.46
+                51.34
               ],
               [
-                52.46,
-                147.32
+                53.57,
+                79.24
               ],
               [
-                148.44,
-                160.71
+                79.24,
+                162.95
               ],
               [
-                161.83,
+                167.41,
+                200.89
+              ],
+              [
+                200.89,
                 223.21
               ]
             ]
@@ -18697,21 +18692,21 @@
           "annotation": {
             "duration": 36.13,
             "sentences": [
-              "A person is sitting on a bed.",
-              " They put their socks on their feet.",
-              " They then put their shoes on their feet."
+              "woman is siting in a bed and its putting white socks.",
+              " woman grab the shoes from the floor and wear them.",
+              " when the shoes are in the feet the camera make a zoom on them."
             ],
             "timestamps": [
               [
                 0,
-                36.13
-              ],
-              [
-                7.05,
-                19.87
+                19.51
               ],
               [
                 19.51,
+                32.16
+              ],
+              [
+                32.16,
                 36.13
               ]
             ]
@@ -18825,22 +18820,27 @@
           "annotation": {
             "duration": 144.61,
             "sentences": [
-              "A kneeing man talks to the camera.",
-              " The man uses some shoe polish to polish a pair of black shoes.",
-              " The man holds up and displays the polished shoes."
+              "A newspaper is lying on the ground, and a boy is kneeling beside it.",
+              " He shows off a black shoe, which he intends to polish.",
+              " He shows the camera his polish and brush, then sets about polishing the shoe with the brush and polish.",
+              " When he is done, he shows off the finished product."
             ],
             "timestamps": [
               [
-                4.34,
-                10.85
+                0,
+                13.02
               ],
               [
-                10.12,
-                121.48
+                13.74,
+                20.97
               ],
               [
-                121.48,
-                138.11
+                25.31,
+                113.52
+              ],
+              [
+                122.92,
+                144.61
               ]
             ]
           },
@@ -19058,22 +19058,42 @@
           "annotation": {
             "duration": 208.68,
             "sentences": [
-              "A man is dancing on the sidewalk.",
-              " Another person's feet are shown dancing.",
-              " Words are shown on the screen."
+              "There's a man wearing blue jeans and sneakers tap dancing on a sidewalk.",
+              " He begins first by spreading his feet shoulder width apart and then picks up speed to dance fast.",
+              " He continues dancing rhythmically in fast motion, as he alternates his feet to tap the ground.",
+              " He dances by tapping his heel first, followed by tapping his toes.",
+              " He continues the steps by alternating the speed by moving slow to moving fast.",
+              " He takes a little pause and then restarts his dance moves as he goes sideways and in front and back motion.",
+              " He also goes in a circular motion as he alternates between his feet to tap the floor."
             ],
             "timestamps": [
               [
                 0,
-                104.34
+                200.33
               ],
               [
-                103.3,
-                208.68
+                5.22,
+                24
               ],
               [
-                186.77,
-                189.9
+                12.52,
+                175.29
+              ],
+              [
+                60.52,
+                182.59
+              ],
+              [
+                117.9,
+                171.12
+              ],
+              [
+                124.16,
+                179.46
+              ],
+              [
+                148.16,
+                191.98
               ]
             ]
           },
@@ -19172,21 +19192,16 @@
           "annotation": {
             "duration": 97.75999999999999,
             "sentences": [
-              "woman is standing in a room laying on the wall holding socks and putthing them on the feet.",
-              " the woman put the brown boots on the right shoe and tie the laces.",
-              " the woman grabs the other shoe and put it on the left foot and tie the laces."
+              "A person's feet and legs are shown followed by the person putting socks on and rolling their pants over the socks.",
+              " The person then puts a pair of shoes on and tying them and ending by standing up straight."
             ],
             "timestamps": [
               [
                 0,
-                31.28
+                31.77
               ],
               [
-                31.28,
-                50.83
-              ],
-              [
-                50.83,
+                32.75,
                 97.76
               ]
             ]
@@ -19304,21 +19319,21 @@
           "annotation": {
             "duration": 145.45,
             "sentences": [
-              "A view is seen of someone's feet as they step on a bed.",
-              " The person walks around on the covers.",
-              " The person sits on the bed, clacking their shoes together."
+              "The feet step on the bed and the floral sheet.",
+              " The person sat down and wipe the shoes on the floral sheet.",
+              " The person wipe the blanket on the shoe."
             ],
             "timestamps": [
               [
                 0,
-                17.45
+                145.45
               ],
               [
-                21.82,
-                109.81
+                30.54,
+                79.27
               ],
               [
-                112,
+                72.72,
                 145.45
               ]
             ]
@@ -19546,22 +19561,22 @@
           "annotation": {
             "duration": 22.9,
             "sentences": [
-              "A close up of a person's leg is shown with a man kneeling in front.",
-              " The person then begins shining the shoes of another.",
-              " He continues to rub down the shoes while looking all around."
+              "A person wearing a black hat is sitting down.",
+              " They shine someone's shoe with a black rag.",
+              " They put their hand on the table."
             ],
             "timestamps": [
               [
-                0.23,
-                5.95
+                0,
+                22.9
               ],
               [
-                5.72,
-                15.23
+                0.69,
+                22.21
               ],
               [
-                14.65,
-                21.41
+                22.44,
+                22.9
               ]
             ]
           },
@@ -19633,7 +19648,7 @@
     },
     {
       "query_id": "v_E2Vd-sOC_ik_q005",
-      "query_text": "several more men are shown on stilts in an atrium where they are jumping on their stilts",
+      "query_text": "Several more men are shown on stilts in an atrium where they are jumping on their stilts.",
       "case_rank": 8,
       "category": "atrium_performance",
       "reason": "Atrium stilt-jumping scene gives a strong repetitive-motion query with clearly segmented target video.",
@@ -19687,22 +19702,42 @@
           "annotation": {
             "duration": 105.42,
             "sentences": [
-              "A person is shown in several clips bouncing around on stilts.",
-              " A man hosts a news segment and shows more people bouncing around past others.",
-              " A man speaks to the camera while more people jump on stilts and the host speaks."
+              "There's a person shown on a Newstime segment going on Poweriser stilts across a town through the streets.",
+              " The news anchor representing Newstime is talking about the stilts.",
+              " The person on stilts goes through the city and on sidewalks.",
+              " He is then interviewed by another person to talk about his stunts on the stilts.",
+              " He jumps up high on the stilts as onlooker on the street watch him.",
+              " Several more men are shown on stilts in an atrium where they are jumping on their stilts.",
+              " The news anchor is back to finish his news segment and sign off."
             ],
             "timestamps": [
               [
                 0,
-                36.37
+                88.02
               ],
               [
-                30.57,
-                78.01
+                9.49,
+                33.21
               ],
               [
-                68.52,
-                104.89
+                31.1,
+                60.62
+              ],
+              [
+                57.98,
+                75.37
+              ],
+              [
+                72.21,
+                88.02
+              ],
+              [
+                84.86,
+                93.82
+              ],
+              [
+                94.35,
+                105.42
               ]
             ]
           },
@@ -20240,26 +20275,26 @@
           "annotation": {
             "duration": 150.09,
             "sentences": [
-              "A man is bouncing outside on the concrete.",
-              " Other people are shown using the same contraptions.",
-              " They bounce around sidewalks in public.",
-              " They jump around on and off stairs."
+              "Outside in a a town there are many people jumping around on pogo stick jumping shoes.",
+              " They are having jumping and walking all down the street very casually having a great time.",
+              " It's a gathering of people that are all bouncing around using these contraptions.",
+              " Some of them are jumping on the bench and back down."
             ],
             "timestamps": [
               [
-                0,
-                150.09
+                0.75,
+                29.27
               ],
               [
-                9.76,
-                150.09
+                29.27,
+                71.29
               ],
               [
-                23.26,
-                150.09
+                71.29,
+                109.57
               ],
               [
-                81.05,
+                109.57,
                 150.09
               ]
             ]
@@ -20546,37 +20581,22 @@
           "annotation": {
             "duration": 192.77,
             "sentences": [
-              "The credits of the clip are shown.",
-              " People are walking and jumping a heighten hurdle with leg extensions.",
-              " A girl falls and messes up the heighten hurdle.",
-              " Guys sit and take off extensions.",
-              " A person dressed in a costume with leg extension walks around.",
-              " The credits of the video are shown."
+              "People are walking on stilts on mats.",
+              " A man jumps over a bar in stilts.",
+              " People are sitting on the floor watching."
             ],
             "timestamps": [
               [
-                0,
-                3.86
+                13.49,
+                192.77
               ],
               [
-                16.39,
-                187.95
+                39.52,
+                47.23
               ],
               [
-                68.43,
-                69.4
-              ],
-              [
-                88.68,
-                105.06
-              ],
-              [
-                150.36,
-                160.97
-              ],
-              [
-                164.82,
-                185.06
+                96.39,
+                106.03
               ]
             ]
           },
@@ -20828,21 +20848,21 @@
           "annotation": {
             "duration": 21.73,
             "sentences": [
-              "A group of boys are on the sidewalk of a street.",
-              " They are bouncing around on stilts.",
-              " They continue talking as they bounce and walk."
+              "Men are hopping and walking around on artificial legs that are attached to their own legs.",
+              " An older man stops them to talk to them.",
+              " A  young man walks by."
             ],
             "timestamps": [
               [
                 0,
-                3.04
+                10
               ],
               [
-                3.37,
-                13.58
+                10,
+                18.91
               ],
               [
-                14.56,
+                18.91,
                 21.73
               ]
             ]
@@ -20952,22 +20972,67 @@
           "annotation": {
             "duration": 213.0,
             "sentences": [
-              "People are doing back flips on mats.",
-              " A man is jumping and running on stilts.",
-              " People are sitting on a bench wearing stilts."
+              "We see a map on an opening screen.",
+              " We then see some still images.",
+              " We see images of  men doing back flips.",
+              " We see stills of men on jump stilts.",
+              " We see men on jump stilts in various locations.",
+              " A man tries to drink water out of a fountain.",
+              " We see men in jump stilts do flips.",
+              " A man falls into cushions.",
+              " Men walk on a boardwalk another holds a fence and jumps.",
+              " A person jumps on a garbage can.",
+              " We see still images of the people.",
+              " We then see the closing title screen."
             ],
             "timestamps": [
               [
-                13.84,
+                0,
+                1.06
+              ],
+              [
+                1.06,
+                11.71
+              ],
+              [
+                11.71,
                 27.69
               ],
               [
-                31.95,
-                199.15
+                29.82,
+                51.12
               ],
               [
-                202.35,
-                203.41
+                52.18,
+                195.96
+              ],
+              [
+                68.16,
+                73.48
+              ],
+              [
+                99.04,
+                108.63
+              ],
+              [
+                108.63,
+                111.82
+              ],
+              [
+                156.55,
+                170.4
+              ],
+              [
+                192.76,
+                195.96
+              ],
+              [
+                198.09,
+                206.61
+              ],
+              [
+                208.74,
+                213
               ]
             ]
           },
@@ -21368,21 +21433,21 @@
           "annotation": {
             "duration": 21.73,
             "sentences": [
-              "A group of boys are on the sidewalk of a street.",
-              " They are bouncing around on stilts.",
-              " They continue talking as they bounce and walk."
+              "Men are hopping and walking around on artificial legs that are attached to their own legs.",
+              " An older man stops them to talk to them.",
+              " A  young man walks by."
             ],
             "timestamps": [
               [
                 0,
-                3.04
+                10
               ],
               [
-                3.37,
-                13.58
+                10,
+                18.91
               ],
               [
-                14.56,
+                18.91,
                 21.73
               ]
             ]
@@ -21492,27 +21557,37 @@
           "annotation": {
             "duration": 210.32999999999998,
             "sentences": [
-              "The man in white shirt is standing and talking to the camera.",
-              " The young man jumps high with stilts on and he flip over and landed upright.",
-              " The young man flip back over and jumped back.",
-              " The young man jumps and does stunts while on stilts."
+              "A guy is outdoors near a body of water.",
+              " The credits of the clip are shown.",
+              " The guy is moving and flipping with leg extensions.",
+              " A man backs up and looks on at the guy.",
+              " The guy stops flipping and just stands with the leg extensions.",
+              " The credits of the video are shown."
             ],
             "timestamps": [
               [
-                0,
-                23.14
+                1.05,
+                10.52
               ],
               [
-                11.57,
-                66.25
+                12.62,
+                15.77
               ],
               [
-                42.07,
-                96.75
+                17.88,
+                173.52
               ],
               [
-                62.05,
-                210.33
+                12.62,
+                55.74
+              ],
+              [
+                174.57,
+                207.17
+              ],
+              [
+                191.4,
+                204.02
               ]
             ]
           },
@@ -21721,22 +21796,17 @@
           "annotation": {
             "duration": 235.22,
             "sentences": [
-              "Two men are playing kick dance at the center of the circle.",
-              " One man in blue pants joined the dance then the other man went off the stage.",
-              " One man will join the dance and then other man will get off the stage."
+              "A large group of people are seen sitting around a circle when two men perform kicks and tricks around one another.",
+              " More people enter the circle pit and transition with one another still performing various flips and kicks around one another."
             ],
             "timestamps": [
               [
                 0,
-                235.22
+                197.58
               ],
               [
-                30.58,
-                235.22
-              ],
-              [
-                30.58,
-                226.99
+                57.63,
+                232.87
               ]
             ]
           },
@@ -21951,22 +22021,22 @@
           "annotation": {
             "duration": 52.08,
             "sentences": [
-              "A man is standing on stilts in a room.",
-              " He is painting the ceiling in a room.",
-              " He walks over and bends down to pick something up."
+              "A man is seen standing on a pair of stilts while standing in front of a wall.",
+              " The man is plastering the wall using a slider and holding himself up.",
+              " The man walks around the room to grab more plaster and finishes the ceiling and walks away."
             ],
             "timestamps": [
               [
                 0,
-                52.08
+                14.06
               ],
               [
-                0,
-                50.52
+                10.42,
+                37.24
               ],
               [
-                25,
-                26.82
+                34.9,
+                51.3
               ]
             ]
           },
@@ -22032,31 +22102,26 @@
           "annotation": {
             "duration": 48.65,
             "sentences": [
-              "There's a gymnast dressed red leotards performing gymnastics on a horse bar in an indoor gym with another gymnast, some judges and spectators.",
-              " The gymnast begins by getting onto the horse bar and does some front and back hand springs.",
-              " He continues doing the hand springs and then does a hand stand for a few seconds.",
-              " Then he swings back down again in another front hand spring.",
-              " He continues to do some more back and front hand springs and then jumps back down in a triple twist jump, off of the horse bar."
+              "A gymnast performs on the even bars while tuning and flipping.",
+              " A person behind the gymnast perform cartwheels and flips in the air on the center of the gym.",
+              " The gymnast swing from the border of the bars, the jumps to stand on the hands and make tuns.",
+              " Then, the gymnast flips in the air and lands stand on the mat."
             ],
             "timestamps": [
               [
                 0,
-                48.65
+                26.51
               ],
               [
-                3.89,
-                41.35
+                9,
+                18.97
               ],
               [
-                9.24,
-                31.13
+                26.76,
+                43.78
               ],
               [
-                27,
-                39.65
-              ],
-              [
-                38.67,
+                43.78,
                 48.65
               ]
             ]
@@ -22176,7 +22241,7 @@
     },
     {
       "query_id": "v_HtkuvF7VbSQ_q003",
-      "query_text": "he walks out the door of the shop and walks down the street",
+      "query_text": "He walks out the door of the shop and walks down the street.",
       "case_rank": 12,
       "category": "street_transition",
       "reason": "Shop-to-street transition provides a clean temporal sequence and an everyday outdoor movement case.",
@@ -22234,22 +22299,22 @@
           "annotation": {
             "duration": 81.22,
             "sentences": [
-              "A man is seen speaking to the camera and shows people smoking.",
-              " Several packs of cigarettes are shown with more people smoking.",
-              " A man ends by holding up a pack and speaking to the camera."
+              "A man is seen speaking to a camera and leads into video surveillance of two men walking into a store then driving away.",
+              " Shots are shown of the store, cigarettes, and people smoking cigarettes, followed by another man being interviewed and smiling to the camera.",
+              " One last man is seen holding a pack of cigarettes and speaking to the camera."
             ],
             "timestamps": [
               [
                 0,
-                14.21
+                17.87
               ],
               [
-                15.03,
-                56.04
+                17.87,
+                67.42
               ],
               [
-                48.33,
-                79.19
+                66.2,
+                81.22
               ]
             ]
           },
@@ -22468,36 +22533,26 @@
           "annotation": {
             "duration": 160.15,
             "sentences": [
-              "A boy is talking directly into a camera.",
-              " A guy uses a tattoo gun on a man's arm.",
-              " The man is upset by the tattoo procedure.",
-              " The man leaves the chair and walks out of the venue.",
-              " The man is walking down the sidewalk.",
-              " The boy laughs out loud."
+              "A man is sitting in a chair getting a tattoo.",
+              " He stands up and yells at the man tattooing.",
+              " A woman in a pink shirt is sitting in front of him.",
+              " He walks out the door of the shop and walks down the street."
             ],
             "timestamps": [
               [
-                0,
-                10.41
+                16.82,
+                84.88
               ],
               [
-                33.63,
-                128.92
+                84.08,
+                108.9
               ],
               [
-                36.03,
-                136.13
+                91.28,
+                102.5
               ],
               [
-                136.93,
-                146.54
-              ],
-              [
-                152.94,
-                156.95
-              ],
-              [
-                159.35,
+                140.93,
                 160.15
               ]
             ]
@@ -22707,42 +22762,42 @@
           "annotation": {
             "duration": 104.75,
             "sentences": [
-              "A guy enters a building through a door.",
-              " A guy greets two sitting individuals.",
-              " The guy point a gun at the individual pointing three guns.",
-              " A man hits the individual pointing guns with a bowling pin.",
-              " The guy pulls the head of the individual not pointing guns.",
-              " The man bowls with the individual's head.",
-              " The man tosses the head which the guy catches in a bag and shakes."
+              "A white man dressed in a black and white suit walks into a bowling alley and two men stand up to talk to him.",
+              " As soon as the suited man walks past them, the taller man and the suited man pulls out futurist guns and point it at one another.",
+              " From behind a suited black man walks behind them and he hits the taller guy in the head and they begin talking to the shorter man.",
+              "The white man walks to the shorter man and pulls his head off of his body and hands it to the black man.",
+              "The black man then takes the head and bowls with it by rolling it down the alley where it hits the pins and then rolls back in the return where the man retrieves the head again but drops it again.",
+              " The man picks the head up while it's still talking and he throws it to the white man who looks at it and tosses it back to the black man and on the side the body of the head is disapproving of it all.",
+              "The black man takes the head and puts his fingers into the nostrils of the head and rolls the head down the head between his legs where it rolls on to hit the last two standing pins."
             ],
             "timestamps": [
               [
                 0,
-                0.52
+                12.05
               ],
               [
-                2.62,
-                3.14
+                12.05,
+                22
               ],
               [
-                15.19,
-                23.04
+                22,
+                38.76
               ],
               [
-                24.09,
-                24.62
+                38.76,
+                53.94
               ],
               [
-                39.28,
-                40.85
+                53.42,
+                71.75
               ],
               [
-                56.04,
-                96.37
+                71.75,
+                91.13
               ],
               [
-                75.42,
-                83.27
+                91.13,
+                104.22
               ]
             ]
           },
@@ -23017,31 +23072,21 @@
           "annotation": {
             "duration": 108.02000000000001,
             "sentences": [
-              "A blurry black and white video plays of a woman opening glass doors as the video clears up and she enters the business and she sits down on a chair.",
-              "The woman is then shown sitting down with a male hairdresser behind her fussing with her hair, measuring it, washing it, and rinsing it.",
-              "The hairdresser has a pair of scissors in his hands and he starts cutting the woman's hair, combing it, sectioning it off, then blow dries and razors her hair.",
-              "The man is now blow drying and styling her hair with a blow dryer and his fingers.",
-              "When he's finished the woman shakes her head back and forth, walks from the chair, leaves the business through the glass doors, goes to the camera for a close up shot then walks away from the camera."
+              "A woman is seen walking down a sidewalk.",
+              " She gets her hair washed in a salon.",
+              " She then sits as her hair is combed, cut and styled."
             ],
             "timestamps": [
               [
                 0,
-                16.2
+                9.72
               ],
               [
-                16.2,
-                34.03
+                11.34,
+                63.19
               ],
               [
-                34.03,
-                78.85
-              ],
-              [
-                78.85,
-                88.58
-              ],
-              [
-                88.58,
+                63.19,
                 108.02
               ]
             ]
@@ -23266,22 +23311,22 @@
           "annotation": {
             "duration": 143.5,
             "sentences": [
-              "A person walks past the front of an ornate building.",
-              " A man inside is cleaning a woman's nose.",
-              " He inserts a piercing through her nostrils."
+              "A close up of a tattoo shop is shown followed by a girl sitting in a chair and looking excited.",
+              " A man then pierces the girls nose and puts a ring inside while she wipes it down.",
+              " The girl looks around all excited and her piercer is seen talking as well as it shown again."
             ],
             "timestamps": [
               [
-                0,
-                15.79
+                3.59,
+                43.05
               ],
               [
-                21.53,
-                66.01
+                32.29,
+                104.04
               ],
               [
-                69.6,
-                143.5
+                89.69,
+                141.35
               ]
             ]
           },
@@ -23455,21 +23500,21 @@
           "annotation": {
             "duration": 99.66,
             "sentences": [
-              "Several people are shown walking through a shopping center.",
-              " Some of the people are skating on inline skates.",
-              " They weave in and out of the foot traffic."
+              "A man is skating on inline roller skates amongst a crowded shopping area as other people are walking.",
+              " Several people stop to interview, talking to the camera and a person with a microphone.",
+              " The man is again shown skating interspersed with people talking."
             ],
             "timestamps": [
               [
                 0,
-                14.45
+                29.4
               ],
               [
-                18.94,
-                68.77
+                33.39,
+                84.71
               ],
               [
-                73.75,
+                87.2,
                 99.66
               ]
             ]
@@ -23671,27 +23716,22 @@
           "annotation": {
             "duration": 71.33,
             "sentences": [
-              "A man is at an ice cream stand.",
-              " Several customers stand by it.",
-              "  He does tricks as he hands out the ice cream.",
-              " Finally he gives the woman a cone."
+              "A man is seen standing behind a stand while others stand in front.",
+              " The man then grabs a stick and begins spinning around in a hole on the stand.",
+              " He hands the woman a cone and then puts ice cream on top."
             ],
             "timestamps": [
               [
                 0,
-                53.5
+                19.62
               ],
               [
-                2.85,
-                71.33
+                20.69,
+                52.79
               ],
               [
-                7.13,
-                71.33
-              ],
-              [
-                53.14,
-                71.33
+                50.29,
+                70.98
               ]
             ]
           },
@@ -23818,22 +23858,27 @@
           "annotation": {
             "duration": 45.07,
             "sentences": [
-              "A man is seen sitting on the ground cleaning a pair of shoes.",
-              " People walk in and out of frame as the man works.",
-              " The camera pans around cars and people."
+              "A man is kneeling on the ground shining a shoe.",
+              " He is rubbing the shoe with a yellow block.",
+              " A man in white walks down the sidewalk.",
+              " Traffic continues as normal down the highway."
             ],
             "timestamps": [
               [
                 0,
-                14.42
+                0.9
               ],
               [
-                11.94,
-                29.97
+                0.9,
+                30.42
               ],
               [
-                33.13,
-                44.39
+                30.42,
+                33.58
+              ],
+              [
+                33.58,
+                44.62
               ]
             ]
           },
@@ -23899,22 +23944,22 @@
           "annotation": {
             "duration": 48.09,
             "sentences": [
-              "A man jumps off stairs in roller blades.",
-              " He falls on the ground on top of the stairs.",
-              " A man watching him laughs at him."
+              "A person keeps falling down on roller blades.",
+              " They fall on their back on the stairs.",
+              " A man is shown laughing at him."
             ],
             "timestamps": [
               [
                 0,
-                4.57
+                48.09
               ],
               [
-                9.86,
-                14.19
+                31.5,
+                35.1
               ],
               [
-                33.18,
-                33.42
+                38.47,
+                38.71
               ]
             ]
           },
@@ -24059,10 +24104,11 @@
           "annotation": {
             "duration": 176.52,
             "sentences": [
-              "Two girls are standing outside a building.",
-              " They are holding strings going into the air.",
-              " They are flying kites in the sky.",
-              " Another kid is shown flying a kite."
+              "Two women are standing flying kites with another young man on a street and they are really happy.",
+              " They twirl the strings around in the air.",
+              " The boy twirls the string hard around to make the kite fly while the girls continue as well.",
+              " The kites are high in the sky and a woman walks by and watches as another woman walks towards the three kids.",
+              " Another young boy in a blue shirt walks by the crowd and leans and watches the three."
             ],
             "timestamps": [
               [
@@ -24070,15 +24116,19 @@
                 176.52
               ],
               [
-                5.3,
-                176.52
+                41.48,
+                74.14
               ],
               [
-                21.18,
-                176.52
+                74.14,
+                108.56
               ],
               [
-                91.79,
+                108.56,
+                154.45
+              ],
+              [
+                154.45,
                 176.52
               ]
             ]
@@ -24310,7 +24360,7 @@
     },
     {
       "query_id": "v_IjwOh2YmT9U_q000",
-      "query_text": "a black screen appears and a colorful website quickly appears on the left side of the screen and it says redbull dot com",
+      "query_text": "A black screen appears and a colorful website quickly appears on the left side of the screen and it say's RedBull dot COM.",
       "case_rank": 13,
       "category": "screen_media",
       "reason": "Screen/logo/webpage content introduces a media-centric query type absent from the other selected examples.",
@@ -24355,21 +24405,26 @@
           "annotation": {
             "duration": 176.26,
             "sentences": [
-              "A man is engaged in skateboarding outdoors.",
-              " He takes several ramps and skate parks.",
-              " He flips and turns through the city streets."
+              "A black screen appears and a colorful website quickly appears on the left side of the screen and it say's RedBull dot COM.",
+              "A man is shown jumping off of a chain link fence, white text appears on the screen that say's the man's name is \"DEREK SWAIM\".",
+              " The man begins to skateboard all over the city during day and night,wearing different clothes and appearing in different locations of the city while normal people in the city do their own thing around him or watch him.",
+              "A black screen appears and it includes the Red Bull website and the credits."
             ],
             "timestamps": [
               [
                 0,
-                18.51
+                1.76
               ],
               [
-                29.96,
-                105.76
+                1.76,
+                7.05
               ],
               [
-                126.91,
+                7.05,
+                171.86
+              ],
+              [
+                171.86,
                 176.26
               ]
             ]
@@ -24929,31 +24984,21 @@
           "annotation": {
             "duration": 25.43,
             "sentences": [
-              "The credits of the clip are shown.",
-              " A guy shoots a toy gun.",
-              " The guy adds small, yellow balls to the paintball gun.",
-              " The guy gives a thumbs up.",
-              " The credits of the video are shown."
+              "A man is shown in a field shooting a paint ball gun.",
+              "He then stops and flashes a thumbs up at the screen.",
+              "Once he is done,a black screen appears and a url is shown in white words."
             ],
             "timestamps": [
               [
-                0.13,
-                3.56
+                0,
+                19.32
               ],
               [
-                5.09,
-                18.05
+                19.2,
+                21.1
               ],
               [
-                12.97,
-                14.49
-              ],
-              [
-                19.32,
-                21.48
-              ],
-              [
-                21.87,
+                21.36,
                 25.43
               ]
             ]
@@ -25038,21 +25083,21 @@
           "annotation": {
             "duration": 208.77,
             "sentences": [
-              "A couple of men are talking to the camera inside a club.",
-              " They set up a table with cups and balls.",
-              " They are engaged in a game of beer pong."
+              "A couple of people are playing the game of pong.",
+              " They throw balls, trying to get them into cups.",
+              " A man talks to the camera during the game."
             ],
             "timestamps": [
               [
                 0,
-                19.83
+                49.06
               ],
               [
-                24.01,
-                137.79
+                51.15,
+                154.49
               ],
               [
-                146.14,
+                155.53,
                 208.77
               ]
             ]
@@ -25592,27 +25637,32 @@
           "annotation": {
             "duration": 32.14,
             "sentences": [
-              "A man appears in a small body of water holding on to a rope attached to a boat,gliding across the water.",
-              "All of a sudden,he reappears with a burger and a shake in hand and sailing but he isn't holding on.",
-              "Another man then comes along in the water and the two begin to box.",
-              "Finally,a commercial add for Dairy Queen comes on showing that you can get a burger and a shake for three dollars and ninety nine cents."
+              "A man water ski pulled by a boat, then the driver of the boat gives thump up while a woman watch him.",
+              " The man holds a sandwich with his right hand and the rope with the left hand.",
+              " Then, the man free the rope and takes from his behind a cup, after the rope seems floating in the air.",
+              " The man continues water skiing in the river.",
+              " Suddenly, a person comes water skiing and hit the man who hit back in his face, and the person falls in the water."
             ],
             "timestamps": [
               [
-                0,
-                3.86
+                1.77,
+                8.19
               ],
               [
-                3.7,
-                14.94
+                8.19,
+                10.93
               ],
               [
-                13.98,
-                27.64
+                11.09,
+                13.5
               ],
               [
-                27.8,
-                32.14
+                13.5,
+                19.12
+              ],
+              [
+                19.28,
+                25.23
               ]
             ]
           },
@@ -25794,21 +25844,21 @@
           "annotation": {
             "duration": 55.26,
             "sentences": [
-              "A recording of a computer screen is shown.",
-              " In it, a man is choosing a kind of liquor.",
-              " He is then shown with an assortment of beers as he talks."
+              "A guy talks about different alcohol drinks.",
+              "the guy goes to a store and seems to be picking out some alcohol drinks.",
+              "finally the guy takes a sip of some beer that he has poured in a glass mug."
             ],
             "timestamps": [
               [
-                0,
-                7.18
+                6.63,
+                55.26
               ],
               [
-                7.18,
-                29.57
+                11.88,
+                55.26
               ],
               [
-                32.33,
+                51.12,
                 55.26
               ]
             ]
@@ -26038,27 +26088,22 @@
           "annotation": {
             "duration": 62.16,
             "sentences": [
-              "Several individuals are shown assembling some sort of machine.",
-              " The machine is shown moving on its own.",
-              " One of the individuals plays table tennis with the machine.",
-              " A small boy plays table tennis with the machine as others watch on."
+              "A man is inside a building working with some kind of eqiupment.",
+              " He uses a computer to monitor the process.",
+              " We then see a man playing a game of table tennis against a large robotic machine."
             ],
             "timestamps": [
               [
-                1.86,
-                16.78
+                0,
+                9.01
               ],
               [
-                16.16,
-                21.45
+                10.26,
+                27.04
               ],
               [
-                21.45,
-                51.28
-              ],
-              [
-                52.53,
-                58.12
+                30.46,
+                62.16
               ]
             ]
           },
@@ -26245,22 +26290,42 @@
           "annotation": {
             "duration": 124.85,
             "sentences": [
-              "men are on the ocean doing windsurfing.",
-              " a lot of men are on olympics doing windsurf on ocean.",
-              " people is windsurfing in a competition on the sea."
+              "A woman spreads water with a hose in a boat.",
+              " People sail in a boat in the ocean.",
+              " Men compete in sailing boats while standing on the border of the boat.",
+              " Other people sails standing on sail surfboards.",
+              " Men sail on boats that have c-kites.",
+              " Several adds are displayed in the screen.",
+              " Women and men receive medals in a podium."
             ],
             "timestamps": [
               [
-                0,
-                124.85
+                6.24,
+                13.11
               ],
               [
-                0,
-                119.24
+                19.35,
+                27.47
               ],
               [
-                3.75,
-                124.85
+                32.46,
+                43.7
+              ],
+              [
+                48.07,
+                55.56
+              ],
+              [
+                56.18,
+                58.06
+              ],
+              [
+                63.68,
+                104.88
+              ],
+              [
+                105.5,
+                115.49
               ]
             ]
           },
@@ -26539,22 +26604,22 @@
           "annotation": {
             "duration": 183.72,
             "sentences": [
-              "A woman with purple hair is wearing headphones and talking.",
-              " She begins to play a video game on the screen.",
-              " Words come onto the screen at the end."
+              "A woman talks wearing headphones on the left corner while display a warning sign.",
+              " Suddenly, a cartoon characters appears in the screen and a game.",
+              " The woman continues taking while a game display in the screen."
             ],
             "timestamps": [
               [
-                1.84,
-                159.83
+                2.76,
+                44.09
               ],
               [
-                66.14,
-                159.83
+                46.85,
+                102.88
               ],
               [
-                159.83,
-                183.72
+                102.88,
+                178.21
               ]
             ]
           },
@@ -26682,41 +26747,31 @@
           "annotation": {
             "duration": 173.82999999999998,
             "sentences": [
-              "The words \"Redken Ready\" appear in large theater style lights behind a woman getting her hair done.",
-              " A man speak to the camera with a woman seated next to him.",
-              " Tools and products are listed for \"The Look\".",
-              " For \"The Prep\" the woman demonstrates spraying her hair.",
-              "  Then the woman shows the steps to braiding hair.",
-              " For the \"Finish\" she applies a spray product to keep the braid in place.",
-              " Finally the man returns to give tips on hair styling."
+              "A man and a woman are standing together talking on a studio set.",
+              "The woman then appears alone and starts to braid her hair in a large french braid.",
+              "After,several products including spray and brushes are shown as the necessary things to complete the look,The lady then comes back and goes step by step starting with a pony tail and separating her hair into equal strands until it is braided to the end.",
+              "Finally,the bottom is secured with a pony tail holder and she sprays her hair to ensure the style will be locked into place.",
+              "After,the male comes back and gives tips on hair and beauty."
             ],
             "timestamps": [
               [
                 0,
-                2.61
+                21.73
               ],
               [
-                2.61,
-                3.48
+                10.43,
+                18.25
               ],
               [
-                3.48,
-                37.37
+                18.25,
+                89.52
               ],
               [
-                38.24,
-                58.23
+                89.52,
+                147.75
               ],
               [
-                58.23,
-                112.12
-              ],
-              [
-                112.99,
-                151.23
-              ],
-              [
-                151.23,
+                147.75,
                 173.83
               ]
             ]
@@ -26915,22 +26970,17 @@
           "annotation": {
             "duration": 29.28,
             "sentences": [
-              "A person is seen walking into frame holding a racket.",
-              " The person moves around a bit and looks off in the distance.",
-              " A machine holding a racket is seen spinning around."
+              "A light is shown when a person walks into frame and presents a tennis racket to the light.",
+              " The person then passes an object back and fourth with a machine and using his racket."
             ],
             "timestamps": [
               [
-                0.29,
-                6.59
+                0,
+                6.44
               ],
               [
-                6.59,
-                19.62
-              ],
-              [
-                18.01,
-                28.11
+                6,
+                29.28
               ]
             ]
           },
@@ -27115,7 +27165,7 @@
     },
     {
       "query_id": "v_dBNZf90PLJ0_q005",
-      "query_text": "the cheer and celebrate in the end clinging their glasses together",
+      "query_text": "The cheer and celebrate in the end clinging their glasses together.",
       "case_rank": 19,
       "category": "celebration_social",
       "reason": "Clinking-glasses celebration gives a compact group-interaction example with readable query structure.",
@@ -27166,22 +27216,32 @@
           "annotation": {
             "duration": 197.57999999999998,
             "sentences": [
-              "A glass is pouring wine into glasses with two people cheering.",
-              " Two people are then seen decorating a tree and helping one another.",
-              " The people continue to move around the tree and cheers again and kiss."
+              "The camera shows a closeup of a hand pouring wine from a bottle into two glasses.",
+              " Hands grab the two glasses, clink them together, and move them out of scene.",
+              " The scene changes to closeups of Christmas decorations.",
+              " The scene transitions to showing a man and a woman decorating a Christmas tree.",
+              " The man and woman clink wine glasses together and kiss."
             ],
             "timestamps": [
               [
                 0,
-                20.75
+                14.82
               ],
               [
-                32.6,
-                126.45
+                15.81,
+                19.76
               ],
               [
-                116.57,
-                190.66
+                23.71,
+                48.41
+              ],
+              [
+                48.41,
+                182.76
+              ],
+              [
+                182.76,
+                187.7
               ]
             ]
           },
@@ -27352,26 +27412,26 @@
           "annotation": {
             "duration": 168.9,
             "sentences": [
-              "Several men sit around a table.",
-              " They are all holding beers.",
-              " One of them counts down something.",
-              " They then chug all of the beer."
+              "A group of men are sitting at a table drinking beer and chatting, they bring their drinks together and talk some more before starting to chug.",
+              " They all chug for as long as they can some finish and some don't.",
+              "They are laughing and talking about the results, one of them pouring on to little plates.",
+              " Then they all start getting rowdy and jumping around and yelling."
             ],
             "timestamps": [
               [
                 0,
-                168.9
+                39.69
               ],
               [
-                5.07,
-                109.79
+                39.69,
+                81.07
               ],
               [
-                63.34,
-                109.79
+                81.07,
+                124.14
               ],
               [
-                100.5,
+                124.14,
                 168.9
               ]
             ]
@@ -27499,32 +27559,37 @@
           "annotation": {
             "duration": 167.74,
             "sentences": [
-              "Pictures of people on a boat is shown.",
-              " After, a group of people gets ready to rafting.",
-              " The people take the boats in the river and sail.",
-              " People sail in calm waters, then they load the boats on the roof of a car.",
-              " After, they go to another rivers that has choppy waters, when finish rafting they drink."
+              "A tent with clothing items are shown and transitions into a picture of people and a title screen.",
+              " A large group of people are then seen holding and putting on wet suits and putting on life jackets while cheering with each other.",
+              " A man in a raft speaks to them and the people practice riding in the rafts while laughing.",
+              " The people climb down into the boat and begin riding down a hill into the boat.",
+              " They are then seen riding down the rough rivers and holding their sticks into the air.",
+              " The cheer and celebrate in the end clinging their glasses together."
             ],
             "timestamps": [
               [
-                5.87,
-                15.94
+                0,
+                23.48
               ],
               [
-                18.45,
-                62.9
+                21.81,
+                51.16
               ],
               [
-                63.74,
-                114.9
+                52.84,
+                93.1
               ],
               [
-                115.74,
-                119.93
+                86.39,
+                110.71
               ],
               [
-                121.61,
-                158.52
+                109.87,
+                148.45
+              ],
+              [
+                149.29,
+                167.74
               ]
             ]
           },
@@ -27958,27 +28023,27 @@
           "annotation": {
             "duration": 149.75,
             "sentences": [
-              "Several people in white uniforms stand on a field.",
-              " They run around it holding bats.",
-              " They hit a ball around the field.",
-              " They stand and talk to each other."
+              "Men wearing white uniforms are playing cricket on a field.",
+              " Three men talk to each other on the field.",
+              " A man falls onto the ground.",
+              " People standing on the field start to clap."
             ],
             "timestamps": [
               [
-                0,
+                2.25,
                 149.75
               ],
               [
-                11.98,
-                149.75
+                60.65,
+                65.14
               ],
               [
-                54.66,
-                149.75
+                113.06,
+                115.3
               ],
               [
-                74.87,
-                149.75
+                128.03,
+                132.53
               ]
             ]
           },
@@ -28344,21 +28409,21 @@
           "annotation": {
             "duration": 208.77,
             "sentences": [
-              "A couple of men are talking to the camera inside a club.",
-              " They set up a table with cups and balls.",
-              " They are engaged in a game of beer pong."
+              "A couple of people are playing the game of pong.",
+              " They throw balls, trying to get them into cups.",
+              " A man talks to the camera during the game."
             ],
             "timestamps": [
               [
                 0,
-                19.83
+                49.06
               ],
               [
-                24.01,
-                137.79
+                51.15,
+                154.49
               ],
               [
-                146.14,
+                155.53,
                 208.77
               ]
             ]
@@ -28900,22 +28965,22 @@
           "annotation": {
             "duration": 37.99,
             "sentences": [
-              "A small group of people are seen holding drinks and wearing costumes.",
-              " The group laughs with one another and speaks.",
-              " They then take a drink out of their glasses."
+              "People are standing in a room holding glasses of beer.",
+              " They stand around talking in costumes.",
+              " They all start drinking their beer at the same time."
             ],
             "timestamps": [
               [
                 0,
-                13.49
+                37.99
               ],
               [
-                11.02,
-                23.93
+                0,
+                30.01
               ],
               [
-                28.68,
-                37.04
+                30.39,
+                37.99
               ]
             ]
           },
@@ -29022,26 +29087,26 @@
           "annotation": {
             "duration": 168.9,
             "sentences": [
-              "Several men sit around a table.",
-              " They are all holding beers.",
-              " One of them counts down something.",
-              " They then chug all of the beer."
+              "A group of men are sitting at a table drinking beer and chatting, they bring their drinks together and talk some more before starting to chug.",
+              " They all chug for as long as they can some finish and some don't.",
+              "They are laughing and talking about the results, one of them pouring on to little plates.",
+              " Then they all start getting rowdy and jumping around and yelling."
             ],
             "timestamps": [
               [
                 0,
-                168.9
+                39.69
               ],
               [
-                5.07,
-                109.79
+                39.69,
+                81.07
               ],
               [
-                63.34,
-                109.79
+                81.07,
+                124.14
               ],
               [
-                100.5,
+                124.14,
                 168.9
               ]
             ]
@@ -29169,22 +29234,32 @@
           "annotation": {
             "duration": 197.57999999999998,
             "sentences": [
-              "A glass is pouring wine into glasses with two people cheering.",
-              " Two people are then seen decorating a tree and helping one another.",
-              " The people continue to move around the tree and cheers again and kiss."
+              "The camera shows a closeup of a hand pouring wine from a bottle into two glasses.",
+              " Hands grab the two glasses, clink them together, and move them out of scene.",
+              " The scene changes to closeups of Christmas decorations.",
+              " The scene transitions to showing a man and a woman decorating a Christmas tree.",
+              " The man and woman clink wine glasses together and kiss."
             ],
             "timestamps": [
               [
                 0,
-                20.75
+                14.82
               ],
               [
-                32.6,
-                126.45
+                15.81,
+                19.76
               ],
               [
-                116.57,
-                190.66
+                23.71,
+                48.41
+              ],
+              [
+                48.41,
+                182.76
+              ],
+              [
+                182.76,
+                187.7
               ]
             ]
           },
@@ -29355,22 +29430,27 @@
           "annotation": {
             "duration": 31.67,
             "sentences": [
-              "A man stands in front of several beers on a table while two others watch.",
-              " The man drinks all the beers in quick succession.",
-              " Two of the spectators pat the individual's shoulder."
+              "A guy drinks six cups of liquid one right after another.",
+              " The guy covers his mouth and lowers his head.",
+              " The guy wipes his forehead, stands up straight, and gestures to a guy next to him.",
+              " The credits associated to the clip is shown."
             ],
             "timestamps": [
               [
-                4.28,
-                5.07
+                5.38,
+                15.68
               ],
               [
-                5.23,
-                18.85
+                16.47,
+                25.02
               ],
               [
-                18.85,
-                27.71
+                25.18,
+                27.56
+              ],
+              [
+                28.19,
+                31.67
               ]
             ]
           },
@@ -29478,21 +29558,21 @@
           "annotation": {
             "duration": 8.22,
             "sentences": [
-              "A juvenile holds a jar of beer while a young person looks at him smiling.",
-              " Then, the juvenile drinks all the beer in one go.",
-              " After, the young person cheers."
+              "A man chugs an entire mug of beer.",
+              " The friends raises his arms and cheers.",
+              " The man sets down the mug."
             ],
             "timestamps": [
               [
                 0,
-                0.21
+                6.12
               ],
               [
-                0.33,
-                6.04
+                5.88,
+                8.22
               ],
               [
-                6.17,
+                5.92,
                 8.22
               ]
             ]
