@@ -1,0 +1,767 @@
+window.MOMO_RESULTS_DATA = {
+  "summary_cards": [
+    {
+      "id": "t2v_charades_r10",
+      "label": "T2V Charades",
+      "metric": "R@10",
+      "value": 19.73,
+      "reference_label": "vs baseline",
+      "reference_value": 14.65,
+      "delta": 5.08,
+      "tone": "blue"
+    },
+    {
+      "id": "t2v_activitynet_r1",
+      "label": "T2V ActivityNet",
+      "metric": "R@1",
+      "value": 24.33,
+      "reference_label": "vs best supervised",
+      "reference_value": 15.99,
+      "delta": 8.34,
+      "tone": "green"
+    },
+    {
+      "id": "v2t_activitynet_mrank",
+      "label": "V2T ActivityNet",
+      "metric": "mRank",
+      "value": 27.0,
+      "reference_label": "vs baseline",
+      "reference_value": 45.0,
+      "delta": -18.0,
+      "tone": "rose",
+      "lower_is_better": true
+    }
+  ],
+  "tables": [
+    {
+      "id": "t2v_activitynet",
+      "title": "ActivityNet Text2Video Retrieval",
+      "subtitle": "mRank and Recall@K on ActivityNet-Event.",
+      "dataset": "ActivityNet",
+      "task": "Text2Video",
+      "metric_mode": "single",
+      "columns": [
+        {
+          "key": "mrank",
+          "label": "mRank",
+          "lower_is_better": true,
+          "source_key": "activitynet_mrank"
+        },
+        {
+          "key": "r1",
+          "label": "R@1",
+          "source_key": "activitynet_r1"
+        },
+        {
+          "key": "r5",
+          "label": "R@5",
+          "source_key": "activitynet_r5"
+        },
+        {
+          "key": "r10",
+          "label": "R@10",
+          "source_key": "activitynet_r10"
+        },
+        {
+          "key": "r50",
+          "label": "R@50",
+          "source_key": "activitynet_r50"
+        }
+      ],
+      "rows": [
+        {
+          "method": "TC-MGC",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "10.10",
+            "r5": "28.30",
+            "r10": "40.60",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "T-MASS",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "12.80",
+            "r5": "31.60",
+            "r10": "44.10",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "Xpool",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "13.10",
+            "r5": "33.80",
+            "r10": "45.50",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "Singularity",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "22.00",
+            "r1": "9.29",
+            "r5": "24.96",
+            "r10": "36.26",
+            "r50": "65.55"
+          }
+        },
+        {
+          "method": "CLIP4Clip (mean)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "11.00",
+            "r1": "15.25",
+            "r5": "36.43",
+            "r10": "49.11",
+            "r50": "76.64"
+          }
+        },
+        {
+          "method": "CenterCLIP",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "11.00",
+            "r1": "15.53",
+            "r5": "37.21",
+            "r10": "49.78",
+            "r50": "77.19"
+          }
+        },
+        {
+          "method": "CLIP4Clip (tight)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "15.00",
+            "r1": "10.14",
+            "r5": "29.07",
+            "r10": "41.93",
+            "r50": "72.50"
+          }
+        },
+        {
+          "method": "MS-SL++",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "12.70",
+            "r5": "33.10",
+            "r10": "46.00",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "MeVTR (avg)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "11.00",
+            "r1": "15.99",
+            "r5": "37.13",
+            "r10": "49.60",
+            "r50": "76.66"
+          }
+        },
+        {
+          "method": "Cap4Video",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "6.30",
+            "r5": "20.40",
+            "r10": "30.90",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "MeVTR (max)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "13.00",
+            "r1": "14.93",
+            "r5": "34.44",
+            "r10": "46.36",
+            "r50": "74.65"
+          }
+        },
+        {
+          "method": "GMMFormer*",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "20.00",
+            "r1": "8.30",
+            "r5": "24.95",
+            "r10": "36.69",
+            "r50": "66.77"
+          }
+        },
+        {
+          "method": "InternVideo2-1b (Baseline)",
+          "type": "Training-Free",
+          "role": "baseline",
+          "values": {
+            "mrank": "11.00",
+            "r1": "17.40",
+            "r5": "37.72",
+            "r10": "49.36",
+            "r50": "73.78"
+          }
+        },
+        {
+          "method": "MoMo (Ours)",
+          "type": "Training-Free",
+          "role": "ours",
+          "values": {
+            "mrank": "7.00",
+            "r1": "24.33",
+            "r5": "47.07",
+            "r10": "58.64",
+            "r50": "81.14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "v2t_activitynet",
+      "title": "ActivityNet Video2Text Retrieval",
+      "subtitle": "Each Recall@K is Average / One-Hit / All-Hit.",
+      "dataset": "ActivityNet",
+      "task": "Video2Text",
+      "metric_mode": "triple",
+      "columns": [
+        {
+          "key": "mrank",
+          "label": "mRank",
+          "lower_is_better": true
+        },
+        {
+          "key": "r1",
+          "label": "R@1"
+        },
+        {
+          "key": "r5",
+          "label": "R@5"
+        },
+        {
+          "key": "r10",
+          "label": "R@10"
+        },
+        {
+          "key": "r50",
+          "label": "R@50"
+        }
+      ],
+      "rows": [
+        {
+          "method": "GMMFormer*",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "77.00",
+            "r1": "2.62 / 8.60 / -",
+            "r5": "10.11 / 28.71 / 0.47",
+            "r10": "17.14 / 43.63 / 1.40",
+            "r50": "45.00 / 80.56 / 13.93"
+          }
+        },
+        {
+          "method": "Singularity",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "64.50",
+            "r1": "4.83 / 14.68 / -",
+            "r5": "15.1 / 37.79 / 1.95",
+            "r10": "22.23 / 49.50 / 4.41",
+            "r50": "48.96 / 81.94 / 19.38"
+          }
+        },
+        {
+          "method": "CLIP4Clip (tight)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "49.50",
+            "r1": "5.23 / 16.45 / -",
+            "r5": "16.74 / 41.94 / 1.77",
+            "r10": "25.50 / 57.37 / 4.23",
+            "r50": "54.22 / 88.00 / 21.52"
+          }
+        },
+        {
+          "method": "MeVTR (max)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "49.00",
+            "r1": "6.98 / 22.72 / -",
+            "r5": "18.72 / 46.37 / 2.30",
+            "r10": "27.04 / 60.62 / 5.76",
+            "r50": "54.19 / 88.37 / 20.90"
+          }
+        },
+        {
+          "method": "CLIP4Clip (mean)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "39.00",
+            "r1": "6.60 / 20.74 / -",
+            "r5": "20.32 / 47.02 / 3.46",
+            "r10": "29.37 / 61.26 / 6.71",
+            "r50": "58.41 / 89.77 / 26.24"
+          }
+        },
+        {
+          "method": "CenterCLIP",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "38.00",
+            "r1": "6.93 / 21.62 / -",
+            "r5": "20.58 / 47.98 / 3.66",
+            "r10": "29.90 / 61.72 / 6.96",
+            "r50": "58.88 / 90.34 / 26.28"
+          }
+        },
+        {
+          "method": "MeVTR (avg)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "35.00",
+            "r1": "8.52 / 26.91 / -",
+            "r5": "23.56 / 54.18 / 3.86",
+            "r10": "32.95 / 67.13 / 7.79",
+            "r50": "61.26 / 92.50 / 27.80"
+          }
+        },
+        {
+          "method": "InternVideo2-1b (Baseline)",
+          "type": "Training-Free",
+          "role": "baseline",
+          "values": {
+            "mrank": "45.00",
+            "r1": "8.29 / 26.04 / -",
+            "r5": "21.54 / 51.59 / 2.75",
+            "r10": "30.00 / 64.94 / 5.72",
+            "r50": "56.47 / 89.97 / 23.93"
+          }
+        },
+        {
+          "method": "MoMo (Ours)",
+          "type": "Training-Free",
+          "role": "ours",
+          "values": {
+            "mrank": "27.00",
+            "r1": "11.35 / 36.74 / -",
+            "r5": "28.77 / 64.66 / 4.36",
+            "r10": "37.90 / 76.10 / 8.71",
+            "r50": "67.72 / 95.72 / 32.00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "t2v_charades",
+      "title": "Charades Text2Video Retrieval",
+      "subtitle": "mRank and Recall@K on Charades-Event.",
+      "dataset": "Charades",
+      "task": "Text2Video",
+      "metric_mode": "single",
+      "columns": [
+        {
+          "key": "mrank",
+          "label": "mRank",
+          "lower_is_better": true,
+          "source_key": "charades_mrank"
+        },
+        {
+          "key": "r1",
+          "label": "R@1",
+          "source_key": "charades_r1"
+        },
+        {
+          "key": "r5",
+          "label": "R@5",
+          "source_key": "charades_r5"
+        },
+        {
+          "key": "r10",
+          "label": "R@10",
+          "source_key": "charades_r10"
+        },
+        {
+          "key": "r50",
+          "label": "R@50",
+          "source_key": "charades_r50"
+        }
+      ],
+      "rows": [
+        {
+          "method": "TC-MGC",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "0.70",
+            "r5": "3.40",
+            "r10": "6.60",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "T-MASS",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "0.90",
+            "r5": "3.80",
+            "r10": "6.60",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "Xpool",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "205.00",
+            "r1": "1.34",
+            "r5": "5.26",
+            "r10": "5.46",
+            "r50": "23.74"
+          }
+        },
+        {
+          "method": "TempMe",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "201.00",
+            "r1": "1.48",
+            "r5": "4.79",
+            "r10": "7.71",
+            "r50": "23.70"
+          }
+        },
+        {
+          "method": "Singularity",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "179.50",
+            "r1": "1.53",
+            "r5": "5.22",
+            "r10": "8.52",
+            "r50": "23.87"
+          }
+        },
+        {
+          "method": "CLIP4Clip (mean)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "136.00",
+            "r1": "1.53",
+            "r5": "6.48",
+            "r10": "10.54",
+            "r50": "29.38"
+          }
+        },
+        {
+          "method": "CenterCLIP",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "131.00",
+            "r1": "1.93",
+            "r5": "6.61",
+            "r10": "10.67",
+            "r50": "30.13"
+          }
+        },
+        {
+          "method": "CLIP4Clip (tight)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "127.00",
+            "r1": "1.45",
+            "r5": "5.54",
+            "r10": "9.35",
+            "r50": "30.11"
+          }
+        },
+        {
+          "method": "MS-SL++",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "1.50",
+            "r5": "5.20",
+            "r10": "9.30",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "MeVTR (avg)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "126.00",
+            "r1": "1.88",
+            "r5": "6.69",
+            "r10": "10.59",
+            "r50": "29.97"
+          }
+        },
+        {
+          "method": "Cap4Video",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "-",
+            "r1": "1.90",
+            "r5": "6.70",
+            "r10": "11.30",
+            "r50": "-"
+          }
+        },
+        {
+          "method": "MeVTR (max)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "112.00",
+            "r1": "2.02",
+            "r5": "7.61",
+            "r10": "12.74",
+            "r50": "34.49"
+          }
+        },
+        {
+          "method": "GMMFormer*",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "98.50",
+            "r1": "2.00",
+            "r5": "7.80",
+            "r10": "12.50",
+            "r50": "34.80"
+          }
+        },
+        {
+          "method": "InternVideo2-1b (Baseline)",
+          "type": "Training-Free",
+          "role": "baseline",
+          "values": {
+            "mrank": "98.00",
+            "r1": "2.87",
+            "r5": "9.46",
+            "r10": "14.65",
+            "r50": "37.96"
+          }
+        },
+        {
+          "method": "MoMo (Ours)",
+          "type": "Training-Free",
+          "role": "ours",
+          "values": {
+            "mrank": "60.00",
+            "r1": "3.63",
+            "r5": "12.58",
+            "r10": "19.73",
+            "r50": "45.89"
+          }
+        }
+      ]
+    },
+    {
+      "id": "v2t_charades",
+      "title": "Charades Video2Text Retrieval",
+      "subtitle": "Each Recall@K is Average / One-Hit / All-Hit.",
+      "dataset": "Charades",
+      "task": "Video2Text",
+      "metric_mode": "triple",
+      "columns": [
+        {
+          "key": "mrank",
+          "label": "mRank",
+          "lower_is_better": true
+        },
+        {
+          "key": "r1",
+          "label": "R@1"
+        },
+        {
+          "key": "r5",
+          "label": "R@5"
+        },
+        {
+          "key": "r10",
+          "label": "R@10"
+        },
+        {
+          "key": "r50",
+          "label": "R@50"
+        }
+      ],
+      "rows": [
+        {
+          "method": "Xpool",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "714.00",
+            "r1": "0.95 / 1.90 / -",
+            "r5": "3.75 / 7.07 / 2.12",
+            "r10": "5.11 / 10.22 / 2.65",
+            "r50": "12.59 / 24.51 / 5.60"
+          }
+        },
+        {
+          "method": "Singularity",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "621.50",
+            "r1": "0.95 / 2.17 / -",
+            "r5": "2.84 / 5.92 / 1.42",
+            "r10": "4.35 / 9.52 / 1.95",
+            "r50": "12.22 / 25.94 / 4.80"
+          }
+        },
+        {
+          "method": "TempMe",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "541.50",
+            "r1": "1.06 / 2.47 /-",
+            "r5": "3.96 / 7.75 / 1.91",
+            "r10": "6.27 / 11.79 / 3.47",
+            "r50": "15.76 / 28.14 / 7.60"
+          }
+        },
+        {
+          "method": "CLIP4Clip (mean)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "441.50",
+            "r1": "1.32 / 2.92 / -",
+            "r5": "4.07 / 8.32 / 1.80",
+            "r10": "5.65 / 11.84 / 2.55",
+            "r50": "16.84 / 32.01 / 7.65"
+          }
+        },
+        {
+          "method": "CenterCLIP",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "408.00",
+            "r1": "1.32 / 3.00 / -",
+            "r5": "3.71 / 7.87 / 1.57",
+            "r10": "6.33 / 13.42 / 2.62",
+            "r50": "17.37 / 33.43 / 7.72"
+          }
+        },
+        {
+          "method": "MeVTR (avg)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "406.00",
+            "r1": "1.39 / 3.22 / -",
+            "r5": "5.04 / 9.90 / 2.47",
+            "r10": "7.02 / 13.72 / 3.37",
+            "r50": "17.62 / 32.08 / 8.70"
+          }
+        },
+        {
+          "method": "CLIP4Clip (tight)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "391.00",
+            "r1": "0.80 / 1.80 / -",
+            "r5": "2.45 / 6.30 / 0.75",
+            "r10": "4.19 / 10.27 / 1.35",
+            "r50": "15.26 / 30.43 / 6.37"
+          }
+        },
+        {
+          "method": "MeVTR (max)",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "365.60",
+            "r1": "1.01 / 2.62 / -",
+            "r5": "4.03 / 9.00 / 1.72",
+            "r10": "6.39 / 13.72 / 2.70",
+            "r50": "19.08 / 36.66 / 8.10"
+          }
+        },
+        {
+          "method": "GMMFormer*",
+          "type": "Supervised",
+          "role": "supervised",
+          "values": {
+            "mrank": "342.25",
+            "r1": "0.61 / 1.27 / -",
+            "r5": "2.74 / 5.92 / 1.20",
+            "r10": "4.34 / 9.82 / 1.57",
+            "r50": "16.15 / 30.96 / 6.82"
+          }
+        },
+        {
+          "method": "InternVideo2-1b (Baseline)",
+          "type": "Training-Free",
+          "role": "baseline",
+          "values": {
+            "mrank": "108.00",
+            "r1": "2.04 / 4.80 / -",
+            "r5": "5.34 / 12.29 / 1.87",
+            "r10": "7.61 / 16.41 / 3.00",
+            "r50": "19.39 / 36.88 / 8.47"
+          }
+        },
+        {
+          "method": "MoMo (Ours)",
+          "type": "Training-Free",
+          "role": "ours",
+          "values": {
+            "mrank": "68.00",
+            "r1": "2.33 / 5.40 / -",
+            "r5": "6.26 / 14.24 / 2.40",
+            "r10": "9.37 / 20.24 / 3.97",
+            "r50": "23.45 / 43.03 / 10.57"
+          }
+        }
+      ]
+    }
+  ]
+};

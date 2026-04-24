@@ -1,173 +1,152 @@
-<html lang="en-GB">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Micro Clues to Macro Events: Training-Free Retrieval of Multi-Event Videos</title>
-    <meta name="description" content="We've presented Clarity, a minimalist and elegant website template for AI research.">
+    <meta name="description" content="Anonymous project-page preview for structured retrieval of multi-event videos, with curated ActivityNet video-to-text and text-to-video cases.">
     <meta name="referrer" content="no-referrer-when-downgrade">
     <meta name="robots" content="all">
-    <meta content="en_EN" property="og:locale">
-    <meta content="website" property="og:type">
-    <meta content="https://shikun.io/projects/clarity" property="og:url">
-    <meta content="Clarity" property="og:title">
-    <meta content="Website Template for AI Research" property="og:description">
-
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="From Micro Clues to Macro Events: Training-Free Retrieval of Multi-Event Videos">
+    <meta property="og:description" content="An anonymous interactive preview of structured multi-event retrieval on curated ActivityNet examples.">
+    <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@your_twitter_id">
-    <meta name="twitter:description" content="Clarity: A Minimalist Website Template for AI Research">
-    <meta name="twitter:image:src" content="assets/figures/clarity.png">
-    
-    <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/main_free.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="clarity/clarity.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/foundation.min.css">
-    <link href="assets/fontawesome-free-7.2.0-web/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"/>
-    <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
-    <script src="assets/scripts/navbar.js"></script>  <!-- Comment to remove table of content. -->
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            "HTML-CSS": {
-              scale: 95,
-              fonts: ["Gyre-Pagella"],
-              imageFont: null,
-              undefinedFamily: "'Arial Unicode MS', cmbright"
-            },
-            tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                processEscapes: true
-              }
-          });
-    </script>
-    <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <style>
-        #first-content.container {
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
+    <meta name="twitter:title" content="From Micro Clues to Macro Events: Training-Free Retrieval of Multi-Event Videos">
+    <meta name="twitter:description" content="Anonymous interactive preview of structured multi-event video retrieval.">
 
-        #first-content .blog-title.no-cover .blog-intro {
-            --hero-max-width: 1320px;
-            --content-gutter: clamp(16px, 2.4vw, 44px);
-            --abstract-side-padding: 6vw;
-            padding: 6vh 0 !important;
-        }
-
-        #first-content .blog-title.no-cover .blog-intro .hero-header {
-            width: 100%;
-            max-width: var(--hero-max-width);
-            margin: 0 auto 10px;
-            padding: 0 var(--content-gutter);
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        #first-content .blog-title.no-cover .blog-intro .hero-title {
-            font-size: clamp(34px, 4.2vw, 56px);
-            line-height: 1.12;
-            letter-spacing: -0.01em;
-            max-width: none;
-            padding: 0 !important;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        #first-content .blog-title.no-cover .blog-intro .abstract-panel {
-            width: calc(100vw - (2 * var(--abstract-side-padding)));
-            margin: 18px auto 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @media screen and (min-width: 769px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 15vw;
-            }
-        }
-
-        @media screen and (min-width: 992px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 20vw;
-            }
-        }
-
-        @media screen and (min-width: 1200px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 24vw;
-            }
-        }
-
-        @media screen and (min-width: 1600px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 27vw;
-            }
-        }
-
-        @media screen and (min-width: 2000px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 30vw;
-            }
-        }
-
-        @media screen and (min-width: 2400px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 32vw;
-            }
-        }
-
-        @media screen and (min-width: 3200px) {
-            #first-content .blog-title.no-cover .blog-intro {
-                --abstract-side-padding: 38vw;
-            }
-        }
-
-        #first-content .blog-title.no-cover .blog-intro .abstract-title {
-            margin: 0;
-            padding: 0 0 10px;
-            text-align: left;
-            font-size: 1.15em;
-            font-weight: 600;
-        }
-
-        #first-content .blog-title.no-cover .blog-intro p.abstract.abstract-body {
-            margin: 0;
-            text-align: justify;
-            text-justify: inter-word;
-            hyphens: auto;
-            font-family: "Charter", sans-serif;
-            font-size: 1em;
-            line-height: 1.65;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/momo-page.css">
+    <script defer src="assets/data/momo-page-data.js"></script>
+    <script defer src="assets/data/momo-results.js"></script>
+    <script defer src="assets/scripts/momo-page.js"></script>
 </head>
 
 <body>
-    <!-- Title Page -->
-    <!-- Dark Theme Example: Change the background colour dark and change the following div "blog-title" into "blog-title white". -->
-    <div class="container blog" id="first-content" style="background-color: #E0E4E6;">
-        <!-- If you don't have a project cover: Change "blog-title" into "blog-title no-cover"  -->
-        <div class="blog-title no-cover">
-            <div class="blog-intro">
-                <div class="hero-header">
-                    <h1 class="title hero-title">From Micro Clues to Macro Events:<br>Training-Free Retrieval of Multi-Event Videos</h1>
+    <div class="page-shell">
+        <header class="hero-shell">
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="top-nav">
+                        <a href="#abstract">Abstract</a>
+                        <a href="#video-to-text">Video2Text</a>
+                        <a href="#text-to-video">Text2Video</a>
+                        <a href="#intuition">Method</a>
+                        <a href="#results">Results</a>
+                        <a href="#contributions">Contributions</a>
+                    </div>
+
+                    <h1>
+                        <span>From Micro Clues to Macro Events:</span>
+                        <span>Training-Free Retrieval of Multi-Event Videos</span>
+                    </h1>
+
+                    <div class="abstract-card" id="abstract">
+                        <h2>Abstract</h2>
+                        <p>
+                            Multi-event video-text retrieval is challenging because long videos and long-form descriptions are not aligned as flat one-to-one semantic units. A candidate video may contain multiple semantic scopes, while a description may target only part of the video and mix global narrative with local evidence. This creates a scope-evidence mismatch, where flat matching either preserves coarse relevance while missing decisive clues, or overreacts to local evidence without establishing a globally valid match. To address this issue, we propose <strong>MoMo</strong>, a training-free framework for structured multi-event video-text alignment and retrieval. Instead of absorbing structural complexity through additional task-specific training, MoMo organizes text and video into retrieval-compatible structures and performs <strong>M</strong>acr<strong>O</strong>-scope and <strong>M</strong>icr<strong>O</strong>-evidence alignment through joint cross-level evaluation. In this way, candidate ranking is determined not only by high-level semantic compatibility, but also by whether event-local evidence can verify the matched scope, whether description-level support remains sufficiently complete, and whether the final match is temporally plausible. Extensive experiments on Charades-Event and ActivityNet-Event show that this structured training-free formulation substantially improves multi-event retrieval over strong baselines.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="section-shell" id="video-to-text">
+                <div class="section-header">
+                    <div class="section-title-block">
+                        <span class="section-kicker">Video Query</span>
+                        <h2>Video2Text Retrieval</h2>
+                        <p class="section-lede">
+                            Select a query video to inspect its temporal decomposition and the retrieved text structures.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="abstract-panel">
-                    <h2 class="abstract-title">Abstract</h2>
-                    <p class="abstract abstract-body">
-                        Multi-event video-text retrieval is challenging because long videos and long-form descriptions are not aligned as flat one-to-one semantic units. A candidate video may contain multiple semantic scopes, while a description may target only part of the video and mix global narrative with local evidence. This creates a scope-evidence mismatch, where flat matching either preserves coarse relevance while missing decisive clues, or overreacts to local evidence without establishing a globally valid match. To address this issue, we propose <b>MoMo</b>, a training-free framework for structured multi-event video-text alignment and retrieval. Instead of absorbing structural complexity through additional task-specific training, MoMo organizes text and video into retrieval-compatible structures and performs <b>MacrO</b>-scope and <b>MicrO</b>-evidence alignment through joint cross-level evaluation. In this way, candidate ranking is determined not only by high-level semantic compatibility, but also by whether event-local evidence can verify the matched scope, whether description-level support remains sufficiently complete, and whether the final match is temporally plausible. Extensive experiments on Charades-Event and ActivityNet-Event show that this structured training-free formulation substantially improves multi-event retrieval over strong baselines. Code and data will be open-sourced at <a href="https://momoevent.github.io">https://momoevent.github.io</a>.
-                    </p>
+                <div class="marquee" data-role="v2t-marquee"></div>
+                <div data-role="v2t-detail"></div>
+            </section>
+
+            <section class="section-shell" id="text-to-video">
+                <div class="section-header">
+                    <div class="section-title-block">
+                        <span class="section-kicker">Text Query</span>
+                        <h2>Text2Video Retrieval</h2>
+                        <p class="section-lede">
+                            Select a text query to inspect its action decomposition and the retrieved video structures.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="marquee" data-role="t2v-marquee"></div>
+                <div data-role="t2v-detail"></div>
+            </section>
+
+            <section class="section-shell method-shell" id="intuition">
+                <div class="section-header">
+                    <div class="section-title-block">
+                        <span class="section-kicker">Method</span>
+                        <h2>Momo aligns global scope with local evidence.</h2>
+                        <p class="section-lede">
+                            These examples are meant to show why flat matching struggles on long, multi-event content and why
+                            scope-aware, evidence-aware retrieval behaves more reliably.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="intro-grid">
+                    <figure class="paper-figure paper-figure-wide">
+                        <img src="assets/figures/momo/framework.png" alt="MoMo framework diagram">
+                        <figcaption>Framework overview: MoMo builds retrieval-compatible structures and evaluates macro scope with micro evidence.</figcaption>
+                    </figure>
+                    <figure class="paper-figure paper-figure-wide">
+                        <img src="assets/figures/momo/qualitative_02.png" alt="Qualitative retrieval example from supplementary material">
+                        <figcaption>Qualitative example from supplementary material, showing how structured evidence changes the retrieval ranking.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section-shell results-shell" id="results">
+                <div class="section-header">
+                    <div class="section-title-block">
+                        <span class="section-kicker">SoTA Comparison</span>
+                        <h2>Retrieval results across benchmarks.</h2>
+                        <p class="section-lede">
+                            The tables below reproduce the paper results for Text2Video and Video2Text retrieval.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-role="results-showcase"></div>
+            </section>
+
+            <section class="section-shell contribution-shell" id="contributions">
+                <div class="section-header">
+                    <div class="section-title-block">
+                        <span class="section-kicker">Contributions</span>
+                        <h2>What MoMo contributes.</h2>
+                    </div>
+                </div>
+
+                <div class="intro-grid contribution-grid">
+                    <article class="intro-card">
+                        <h3>Structured formulation</h3>
+                        <p>MoMo reframes multi-event retrieval as scope-aware and evidence-aware alignment, rather than flat video-text matching.</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>Training-free alignment</h3>
+                        <p>The method decomposes text and video into retrieval-compatible structures and performs joint cross-level evaluation without task-specific training.</p>
+                    </article>
+                    <article class="intro-card">
+                        <h3>Consistent empirical gains</h3>
+                        <p>Experiments on Charades-Event and ActivityNet-Event show clear improvements over strong flat baselines in both Text2Video and Video2Text retrieval.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="clarity/clarity.js"></script>    
-    <script src="assets/scripts/main.js"></script>
 </body>
 </html>

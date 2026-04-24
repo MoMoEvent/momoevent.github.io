@@ -1,0 +1,115 @@
+ {
+  "meta": {
+    "created_at": "2026-04-24",
+    "selection_policy": "balanced_10_v2t_10_t2v_with_quality_and_diversity"
+  },
+  "notes": {
+    "video_to_text": "Prefer large rank delta, clean multi-level video decomposition, and retrieved text queries with non-trivial action structure.",
+    "text_to_video": "Prefer strong rank improvement, query trees with 2-4 actions, and GT/retrieved videos whose temporal segmentation is visually readable.",
+    "diversity": "Spread examples across sports, performance, DIY, home activity, outdoor activity, social interaction, and exhibit-like scenes."
+  },
+  "video_to_text": [
+    {
+      "video_id": "v_GoFV8lTD4ug",
+      "category": "performance",
+      "reason": "Stage performance with clear event progression and non-flat retrieved text trees."
+    },
+    {
+      "video_id": "v_4zLTW7lT3fs",
+      "category": "sports",
+      "reason": "Weightlifting/training sequence with strong retrieval gain and rich video hierarchy."
+    },
+    {
+      "video_id": "v_4ImpZRtbzYw",
+      "category": "diy_craft",
+      "reason": "Furniture/table workflow has clean procedural structure and readable segmentation."
+    },
+    {
+      "video_id": "v_TqcoukXhXeA",
+      "category": "outdoor_play",
+      "reason": "Outdoor kite-string sequence keeps the open-air diversity while staying on a browser-friendly mp4 asset."
+    },
+    {
+      "video_id": "v_wu0G4yQIwKo",
+      "category": "home_lifestyle",
+      "reason": "Domestic painting task adds everyday-action coverage with balanced video/text structure."
+    },
+    {
+      "video_id": "v_9ZboVy59qrw",
+      "category": "ceremony_event",
+      "reason": "Award/podium-style event adds public-ceremony coverage and keeps the segmentation readable."
+    },
+    {
+      "video_id": "v_rMZtiiLAqoY",
+      "category": "indoor_game",
+      "reason": "Table-football interaction introduces a compact indoor game scene with a distinct semantic type."
+    },
+    {
+      "video_id": "v_z08g5S7J-CY",
+      "category": "vehicle_lifestyle",
+      "reason": "Car-wash themed scene adds a vehicle-oriented lifestyle example with usable video hierarchy."
+    },
+    {
+      "video_id": "v_B7t85SESTXI",
+      "category": "family_social",
+      "reason": "Home viewing/popcorn scene adds a softer social-living example that differs from performance and sports."
+    },
+    {
+      "video_id": "v_M6FdaEstXbI",
+      "category": "urban_stunt",
+      "reason": "Stilt/bouncing city sequence adds fast-motion urban action while keeping strong retrieval improvement."
+    }
+  ],
+  "text_to_video": [
+    {
+      "query_id": "v_Q3tPDohXUYc_q002",
+      "category": "sports",
+      "reason": "Long-jump slow-motion query has concise but non-trivial text structure and good retrieval contrast."
+    },
+    {
+      "query_id": "v_aBdrTqSnWbw_q000",
+      "category": "field_action",
+      "reason": "Obstacle-course/military-style query is visually distinct and matches a well-segmented target video."
+    },
+    {
+      "query_id": "v_R4oYA0Zu-m0_q002",
+      "category": "social_game",
+      "reason": "Interpersonal transition into table tennis gives a strong text-to-video structure example."
+    },
+    {
+      "query_id": "v_JLDZdxTf5TA_q001",
+      "category": "performance",
+      "reason": "Public bagpipe performance adds event diversity without overlapping heavily with the V2T set."
+    },
+    {
+      "query_id": "v_HytB88Fhqw8_q002",
+      "category": "indoor_dialogue",
+      "reason": "Indoor bathhouse/towel scene keeps the set visually distinct while using a stable mp4 target video."
+    },
+    {
+      "query_id": "v_VhzPqd0Su5I_q000",
+      "category": "camera_pov",
+      "reason": "POV-style camera interaction is visually distinctive and expands the query distribution beyond standard event narration."
+    },
+    {
+      "query_id": "v_E2Vd-sOC_ik_q005",
+      "category": "atrium_performance",
+      "reason": "Atrium stilt-jumping scene gives a strong repetitive-motion query with clearly segmented target video."
+    },
+    {
+      "query_id": "v_HtkuvF7VbSQ_q003",
+      "category": "street_transition",
+      "reason": "Shop-to-street transition provides a clean temporal sequence and an everyday outdoor movement case."
+    },
+    {
+      "query_id": "v_IjwOh2YmT9U_q000",
+      "category": "screen_media",
+      "reason": "Screen/logo/webpage content introduces a media-centric query type absent from the other selected examples."
+    },
+    {
+      "query_id": "v_dBNZf90PLJ0_q005",
+      "category": "celebration_social",
+      "reason": "Clinking-glasses celebration gives a compact group-interaction example with readable query structure."
+    }
+  ]
+}
