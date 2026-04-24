@@ -134,12 +134,15 @@ function findT2VFocusedVideo(caseData) {
     return caseData.best_top5[0] || caseData.baseline_top5[0] || null;
 }
 
-function createVideoElement(src, className, { autoplay = false, controls = false } = {}) {
+function createVideoElement(src, className, { autoplay = false, controls = false, poster = null } = {}) {
     const video = createElement("video", className);
     video.playsInline = true;
     video.muted = true;
     video.loop = true;
     video.preload = "metadata";
+    if (poster) {
+        video.poster = poster;
+    }
     if (controls) {
         video.controls = true;
     }
@@ -152,11 +155,38 @@ function createVideoElement(src, className, { autoplay = false, controls = false
     return video;
 }
 
+function markVideoReady(video) {
+    const shell = video.closest(".video-shell");
+    if (shell) {
+        shell.classList.add("is-ready");
+    }
+}
+
+function getVideoElement(previewElement) {
+    if (!previewElement) {
+        return null;
+    }
+    if (previewElement.tagName === "VIDEO") {
+        return previewElement;
+    }
+    return previewElement.querySelector("video");
+}
+
 function isBrowserFriendlyVideo(src) {
     return Boolean(src && /\.(mp4|webm|mov)$/i.test(src));
 }
 
-function createVideoPreview(src, { className = "feature-video", autoplay = false, controls = false, fallbackMessage } = {}) {
+function createVideoLoadingOverlay() {
+    const overlay = createElement("div", "video-loading-overlay");
+    overlay.appendChild(createElement("span", "video-loading-spinner"));
+    overlay.appendChild(createElement("span", "", "Video is loading"));
+    return overlay;
+}
+
+function createVideoPreview(
+    src,
+    { className = "feature-video", autoplay = false, controls = false, poster = null, fallbackMessage } = {}
+) {
     if (!isBrowserFriendlyVideo(src)) {
         const fallback = createElement("div", "empty-card");
         fallback.appendChild(
@@ -168,7 +198,21 @@ function createVideoPreview(src, { className = "feature-video", autoplay = false
         );
         return fallback;
     }
-    return createVideoElement(src, className, { autoplay, controls });
+    const shell = createElement("div", `video-shell ${className}`);
+    const video = createVideoElement(src, "video-node", { autoplay, controls, poster });
+    ["loadeddata", "canplay", "playing"].forEach((eventName) => {
+        video.addEventListener(eventName, () => markVideoReady(video), { once: true });
+    });
+    video.addEventListener("error", () => {
+        shell.classList.add("is-error");
+        const label = shell.querySelector(".video-loading-overlay span:last-child");
+        if (label) {
+            label.textContent = "Preview unavailable";
+        }
+    });
+    shell.appendChild(video);
+    shell.appendChild(createVideoLoadingOverlay());
+    return shell;
 }
 
 function renderTextTree(tree, titleText) {
@@ -276,7 +320,7 @@ function renderVideoTree(tree, { videoElement = null } = {}) {
 
     wrapper.appendChild(map);
     const labelPanel = createElement("div", "segment-label-panel");
-    labelPanel.appendChild(createElement("h4", "", "Visual segment labels"));
+    labelPanel.appendChild(createElement("h4", "", "Visual Evidence Atom"));
     const labelNote = createElement("p", "segment-label-note");
     labelNote.appendChild(
         createElement("strong", "", "* Segment text is shown only to make video segments readable; it is not part of the retrieval input.")
@@ -383,6 +427,7 @@ function renderVideoResultCard(item, { active, onClick }) {
         createVideoPreview(item.media?.src, {
             className: "video-result-preview",
             autoplay: true,
+            poster: item.media?.poster,
             fallbackMessage: "Preview unavailable",
         })
     );
@@ -462,13 +507,15 @@ function renderV2TDetail() {
     mediaTitleWrap.appendChild(createElement("p", "panel-subtitle", caseData.video_id));
     mediaTop.appendChild(mediaTitleWrap);
     mediaPanel.appendChild(mediaTop);
-    const queryVideo = createVideoPreview(caseData.media?.src, {
+    const queryPreview = createVideoPreview(caseData.media?.src, {
         className: "feature-video",
         autoplay: true,
         controls: true,
+        poster: caseData.media?.poster,
         fallbackMessage: "The selected query video is available locally, but its file format is not ideal for in-browser preview.",
     });
-    mediaPanel.appendChild(queryVideo);
+    mediaPanel.appendChild(queryPreview);
+    const queryVideo = getVideoElement(queryPreview);
     mediaPanel.appendChild(renderVideoTree(caseData.video_tree, { videoElement: queryVideo }));
     mediaPanel.appendChild(
         renderAnnotationList(caseData.annotation, {
@@ -530,7 +577,7 @@ function renderT2VDetail() {
     const queryPanel = createElement("article", "panel panel-primary structure-panel query-wide-panel");
     const queryTop = createElement("div", "panel-topline");
     const queryTitleWrap = createElement("div", "");
-    queryTitleWrap.appendChild(createElement("h3", "", "Query text"));
+    queryTitleWrap.appendChild(createElement("h3", "", "Query text and Textual Evidence Atom"));
     queryTitleWrap.appendChild(createElement("p", "panel-subtitle", caseData.query_id));
     queryTop.appendChild(queryTitleWrap);
     queryPanel.appendChild(queryTop);
@@ -580,13 +627,15 @@ function renderT2VSelectedVideo() {
 
     videoPanel.appendChild(createElement("h3", "", "Selected video evidence"));
     if (focusedVideo) {
-        const retrievedVideo = createVideoPreview(focusedVideo.media?.src, {
+        const retrievedPreview = createVideoPreview(focusedVideo.media?.src, {
             className: "feature-video",
             autoplay: true,
             controls: true,
+            poster: focusedVideo.media?.poster,
             fallbackMessage: "This retrieved result is available locally, but the current file format may not preview reliably in the browser.",
         });
-        videoPanel.appendChild(retrievedVideo);
+        videoPanel.appendChild(retrievedPreview);
+        const retrievedVideo = getVideoElement(retrievedPreview);
         videoPanel.appendChild(renderVideoTree(focusedVideo.video_tree, { videoElement: retrievedVideo }));
         videoPanel.appendChild(
             renderAnnotationList(focusedVideo.annotation, {
@@ -643,6 +692,7 @@ function buildV2TMarqueeItem(caseData, index) {
         createVideoPreview(caseData.media?.src, {
             className: "marquee-video",
             autoplay: true,
+            poster: caseData.media?.poster,
             fallbackMessage: "Preview unavailable",
         })
     );

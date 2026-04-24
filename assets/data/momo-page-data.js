@@ -17,6 +17,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_GoFV8lTD4ug.mp4",
+        "poster": "assets/images/momo-posters/v_GoFV8lTD4ug.jpg",
         "filename": "v_GoFV8lTD4ug.mp4"
       },
       "annotation": {
@@ -787,6 +788,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_4zLTW7lT3fs.mp4",
+        "poster": "assets/images/momo-posters/v_4zLTW7lT3fs.jpg",
         "filename": "v_4zLTW7lT3fs.mp4"
       },
       "annotation": {
@@ -1509,6 +1511,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_4ImpZRtbzYw.mp4",
+        "poster": "assets/images/momo-posters/v_4ImpZRtbzYw.jpg",
         "filename": "v_4ImpZRtbzYw.mp4"
       },
       "annotation": {
@@ -2119,6 +2122,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_TqcoukXhXeA.mp4",
+        "poster": "assets/images/momo-posters/v_TqcoukXhXeA.jpg",
         "filename": "v_TqcoukXhXeA.mp4"
       },
       "annotation": {
@@ -2819,6 +2823,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_wu0G4yQIwKo.mp4",
+        "poster": "assets/images/momo-posters/v_wu0G4yQIwKo.jpg",
         "filename": "v_wu0G4yQIwKo.mp4"
       },
       "annotation": {
@@ -3426,6 +3431,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_9ZboVy59qrw.mp4",
+        "poster": "assets/images/momo-posters/v_9ZboVy59qrw.jpg",
         "filename": "v_9ZboVy59qrw.mp4"
       },
       "annotation": {
@@ -4051,6 +4057,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_rMZtiiLAqoY.mp4",
+        "poster": "assets/images/momo-posters/v_rMZtiiLAqoY.jpg",
         "filename": "v_rMZtiiLAqoY.mp4"
       },
       "annotation": {
@@ -4576,6 +4583,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_z08g5S7J-CY.mp4",
+        "poster": "assets/images/momo-posters/v_z08g5S7J-CY.jpg",
         "filename": "v_z08g5S7J-CY.mp4"
       },
       "annotation": {
@@ -5281,6 +5289,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_B7t85SESTXI.mp4",
+        "poster": "assets/images/momo-posters/v_B7t85SESTXI.jpg",
         "filename": "v_B7t85SESTXI.mp4"
       },
       "annotation": {
@@ -5939,6 +5948,7 @@ window.MOMO_PAGE_DATA = {
       },
       "media": {
         "src": "assets/videos/momo/v_M6FdaEstXbI.mp4",
+        "poster": "assets/images/momo-posters/v_M6FdaEstXbI.jpg",
         "filename": "v_M6FdaEstXbI.mp4"
       },
       "annotation": {
@@ -6854,6 +6864,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_O-YKLVm0ciI.mp4",
           "media": {
             "src": "assets/videos/momo/v_O-YKLVm0ciI.mp4",
+            "poster": "assets/images/momo-posters/v_O-YKLVm0ciI.jpg",
             "filename": "v_O-YKLVm0ciI.mp4"
           },
           "annotation": {
@@ -7302,6 +7313,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_r97vYbzloD8.mp4",
           "media": {
             "src": "assets/videos/momo/v_r97vYbzloD8.mp4",
+            "poster": "assets/images/momo-posters/v_r97vYbzloD8.jpg",
             "filename": "v_r97vYbzloD8.mp4"
           },
           "annotation": {
@@ -7445,6 +7457,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_2mXGnG6ZBDA.mp4",
           "media": {
             "src": "assets/videos/momo/v_2mXGnG6ZBDA.mp4",
+            "poster": "assets/images/momo-posters/v_2mXGnG6ZBDA.jpg",
             "filename": "v_2mXGnG6ZBDA.mp4"
           },
           "annotation": {
@@ -7517,6 +7530,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_Q3tPDohXUYc.mp4",
           "media": {
             "src": "assets/videos/momo/v_Q3tPDohXUYc.mp4",
+            "poster": "assets/images/momo-posters/v_Q3tPDohXUYc.jpg",
             "filename": "v_Q3tPDohXUYc.mp4"
           },
           "annotation": {
@@ -7736,6 +7750,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_GSFyEkGCUVo.mp4",
           "media": {
             "src": "assets/videos/momo/v_GSFyEkGCUVo.mp4",
+            "poster": "assets/images/momo-posters/v_GSFyEkGCUVo.jpg",
             "filename": "v_GSFyEkGCUVo.mp4"
           },
           "annotation": {
@@ -7921,6 +7936,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_EDkYPikPWW8.mp4",
           "media": {
             "src": "assets/videos/momo/v_EDkYPikPWW8.mp4",
+            "poster": "assets/images/momo-posters/v_EDkYPikPWW8.jpg",
             "filename": "v_EDkYPikPWW8.mp4"
           },
           "annotation": {
@@ -8048,6 +8064,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_2mXGnG6ZBDA.mp4",
           "media": {
             "src": "assets/videos/momo/v_2mXGnG6ZBDA.mp4",
+            "poster": "assets/images/momo-posters/v_2mXGnG6ZBDA.jpg",
             "filename": "v_2mXGnG6ZBDA.mp4"
           },
           "annotation": {
@@ -8120,6 +8137,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_QacSWR8c-8Y.mp4",
           "media": {
             "src": "assets/videos/momo/v_QacSWR8c-8Y.mp4",
+            "poster": "assets/images/momo-posters/v_QacSWR8c-8Y.jpg",
             "filename": "v_QacSWR8c-8Y.mp4"
           },
           "annotation": {
@@ -8258,6 +8276,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_Ujgmih4OtMs.mkv",
           "media": {
             "src": "assets/videos/momo/v_Ujgmih4OtMs.mp4",
+            "poster": "assets/images/momo-posters/v_Ujgmih4OtMs.jpg",
             "filename": "v_Ujgmih4OtMs.mkv"
           },
           "annotation": {
@@ -8590,6 +8609,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_N5x5VUK7Kx8.mp4",
           "media": {
             "src": "assets/videos/momo/v_N5x5VUK7Kx8.mp4",
+            "poster": "assets/images/momo-posters/v_N5x5VUK7Kx8.jpg",
             "filename": "v_N5x5VUK7Kx8.mp4"
           },
           "annotation": {
@@ -8758,6 +8778,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_FJ7yrh2UiQ8.mp4",
           "media": {
             "src": "assets/videos/momo/v_FJ7yrh2UiQ8.mp4",
+            "poster": "assets/images/momo-posters/v_FJ7yrh2UiQ8.jpg",
             "filename": "v_FJ7yrh2UiQ8.mp4"
           },
           "annotation": {
@@ -9202,6 +9223,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_aBdrTqSnWbw.mp4",
           "media": {
             "src": "assets/videos/momo/v_aBdrTqSnWbw.mp4",
+            "poster": "assets/images/momo-posters/v_aBdrTqSnWbw.jpg",
             "filename": "v_aBdrTqSnWbw.mp4"
           },
           "annotation": {
@@ -9508,6 +9530,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_H_dERoTis5Y.mp4",
           "media": {
             "src": "assets/videos/momo/v_H_dERoTis5Y.mp4",
+            "poster": "assets/images/momo-posters/v_H_dERoTis5Y.jpg",
             "filename": "v_H_dERoTis5Y.mp4"
           },
           "annotation": {
@@ -10137,6 +10160,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_zzE2VrQMvbc.mkv",
           "media": {
             "src": "assets/videos/momo/v_zzE2VrQMvbc.mp4",
+            "poster": "assets/images/momo-posters/v_zzE2VrQMvbc.jpg",
             "filename": "v_zzE2VrQMvbc.mkv"
           },
           "annotation": {
@@ -10437,6 +10461,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_gtAl_FkXdR8.mp4",
           "media": {
             "src": "assets/videos/momo/v_gtAl_FkXdR8.mp4",
+            "poster": "assets/images/momo-posters/v_gtAl_FkXdR8.jpg",
             "filename": "v_gtAl_FkXdR8.mp4"
           },
           "annotation": {
@@ -10659,6 +10684,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_PJgy8J1f3jg.mp4",
           "media": {
             "src": "assets/videos/momo/v_PJgy8J1f3jg.mp4",
+            "poster": "assets/images/momo-posters/v_PJgy8J1f3jg.jpg",
             "filename": "v_PJgy8J1f3jg.mp4"
           },
           "annotation": {
@@ -10855,6 +10881,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_FJ7yrh2UiQ8.mp4",
           "media": {
             "src": "assets/videos/momo/v_FJ7yrh2UiQ8.mp4",
+            "poster": "assets/images/momo-posters/v_FJ7yrh2UiQ8.jpg",
             "filename": "v_FJ7yrh2UiQ8.mp4"
           },
           "annotation": {
@@ -11299,6 +11326,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_qNHfEf72V3g.mp4",
           "media": {
             "src": "assets/videos/momo/v_qNHfEf72V3g.mp4",
+            "poster": "assets/images/momo-posters/v_qNHfEf72V3g.jpg",
             "filename": "v_qNHfEf72V3g.mp4"
           },
           "annotation": {
@@ -11629,6 +11657,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_-5c9WHk408g.mp4",
           "media": {
             "src": "assets/videos/momo/v_-5c9WHk408g.mp4",
+            "poster": "assets/images/momo-posters/v_-5c9WHk408g.jpg",
             "filename": "v_-5c9WHk408g.mp4"
           },
           "annotation": {
@@ -11820,6 +11849,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_zzE2VrQMvbc.mkv",
           "media": {
             "src": "assets/videos/momo/v_zzE2VrQMvbc.mp4",
+            "poster": "assets/images/momo-posters/v_zzE2VrQMvbc.jpg",
             "filename": "v_zzE2VrQMvbc.mkv"
           },
           "annotation": {
@@ -12156,6 +12186,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_R4oYA0Zu-m0.mp4",
           "media": {
             "src": "assets/videos/momo/v_R4oYA0Zu-m0.mp4",
+            "poster": "assets/images/momo-posters/v_R4oYA0Zu-m0.jpg",
             "filename": "v_R4oYA0Zu-m0.mp4"
           },
           "annotation": {
@@ -12434,6 +12465,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_lbtW7nHTnwA.mp4",
           "media": {
             "src": "assets/videos/momo/v_lbtW7nHTnwA.mp4",
+            "poster": "assets/images/momo-posters/v_lbtW7nHTnwA.jpg",
             "filename": "v_lbtW7nHTnwA.mp4"
           },
           "annotation": {
@@ -12575,6 +12607,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_t0XM3ivJYUo.mkv",
           "media": {
             "src": "assets/videos/momo/v_t0XM3ivJYUo.mp4",
+            "poster": "assets/images/momo-posters/v_t0XM3ivJYUo.jpg",
             "filename": "v_t0XM3ivJYUo.mkv"
           },
           "annotation": {
@@ -12845,6 +12878,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_iXaA7PVRhIY.mp4",
           "media": {
             "src": "assets/videos/momo/v_iXaA7PVRhIY.mp4",
+            "poster": "assets/images/momo-posters/v_iXaA7PVRhIY.jpg",
             "filename": "v_iXaA7PVRhIY.mp4"
           },
           "annotation": {
@@ -13015,6 +13049,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_wmrrBnxbHjk.mp4",
           "media": {
             "src": "assets/videos/momo/v_wmrrBnxbHjk.mp4",
+            "poster": "assets/images/momo-posters/v_wmrrBnxbHjk.jpg",
             "filename": "v_wmrrBnxbHjk.mp4"
           },
           "annotation": {
@@ -13280,6 +13315,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_w1VJnYDYYY0.mp4",
           "media": {
             "src": "assets/videos/momo/v_w1VJnYDYYY0.mp4",
+            "poster": "assets/images/momo-posters/v_w1VJnYDYYY0.jpg",
             "filename": "v_w1VJnYDYYY0.mp4"
           },
           "annotation": {
@@ -13456,6 +13492,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_iXaA7PVRhIY.mp4",
           "media": {
             "src": "assets/videos/momo/v_iXaA7PVRhIY.mp4",
+            "poster": "assets/images/momo-posters/v_iXaA7PVRhIY.jpg",
             "filename": "v_iXaA7PVRhIY.mp4"
           },
           "annotation": {
@@ -13626,6 +13663,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_lbtW7nHTnwA.mp4",
           "media": {
             "src": "assets/videos/momo/v_lbtW7nHTnwA.mp4",
+            "poster": "assets/images/momo-posters/v_lbtW7nHTnwA.jpg",
             "filename": "v_lbtW7nHTnwA.mp4"
           },
           "annotation": {
@@ -13767,6 +13805,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_t0XM3ivJYUo.mkv",
           "media": {
             "src": "assets/videos/momo/v_t0XM3ivJYUo.mp4",
+            "poster": "assets/images/momo-posters/v_t0XM3ivJYUo.jpg",
             "filename": "v_t0XM3ivJYUo.mkv"
           },
           "annotation": {
@@ -14037,6 +14076,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_nVHL9qP11aA.mp4",
           "media": {
             "src": "assets/videos/momo/v_nVHL9qP11aA.mp4",
+            "poster": "assets/images/momo-posters/v_nVHL9qP11aA.jpg",
             "filename": "v_nVHL9qP11aA.mp4"
           },
           "annotation": {
@@ -14463,6 +14503,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_UR1e1MIRvvc.mp4",
           "media": {
             "src": "assets/videos/momo/v_UR1e1MIRvvc.mp4",
+            "poster": "assets/images/momo-posters/v_UR1e1MIRvvc.jpg",
             "filename": "v_UR1e1MIRvvc.mp4"
           },
           "annotation": {
@@ -14539,6 +14580,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_mh_0QLZhrSY.mp4",
           "media": {
             "src": "assets/videos/momo/v_mh_0QLZhrSY.mp4",
+            "poster": "assets/images/momo-posters/v_mh_0QLZhrSY.jpg",
             "filename": "v_mh_0QLZhrSY.mp4"
           },
           "annotation": {
@@ -14611,6 +14653,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_8v2ewQE-QK0.mp4",
           "media": {
             "src": "assets/videos/momo/v_8v2ewQE-QK0.mp4",
+            "poster": "assets/images/momo-posters/v_8v2ewQE-QK0.jpg",
             "filename": "v_8v2ewQE-QK0.mp4"
           },
           "annotation": {
@@ -14886,6 +14929,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_JLDZdxTf5TA.mp4",
           "media": {
             "src": "assets/videos/momo/v_JLDZdxTf5TA.mp4",
+            "poster": "assets/images/momo-posters/v_JLDZdxTf5TA.jpg",
             "filename": "v_JLDZdxTf5TA.mp4"
           },
           "annotation": {
@@ -15145,6 +15189,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_j7Tk8I_DCtw.mp4",
           "media": {
             "src": "assets/videos/momo/v_j7Tk8I_DCtw.mp4",
+            "poster": "assets/images/momo-posters/v_j7Tk8I_DCtw.jpg",
             "filename": "v_j7Tk8I_DCtw.mp4"
           },
           "annotation": {
@@ -15229,6 +15274,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_mh_0QLZhrSY.mp4",
           "media": {
             "src": "assets/videos/momo/v_mh_0QLZhrSY.mp4",
+            "poster": "assets/images/momo-posters/v_mh_0QLZhrSY.jpg",
             "filename": "v_mh_0QLZhrSY.mp4"
           },
           "annotation": {
@@ -15301,6 +15347,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_UR1e1MIRvvc.mp4",
           "media": {
             "src": "assets/videos/momo/v_UR1e1MIRvvc.mp4",
+            "poster": "assets/images/momo-posters/v_UR1e1MIRvvc.jpg",
             "filename": "v_UR1e1MIRvvc.mp4"
           },
           "annotation": {
@@ -15377,6 +15424,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_j7Tk8I_DCtw.mp4",
           "media": {
             "src": "assets/videos/momo/v_j7Tk8I_DCtw.mp4",
+            "poster": "assets/images/momo-posters/v_j7Tk8I_DCtw.jpg",
             "filename": "v_j7Tk8I_DCtw.mp4"
           },
           "annotation": {
@@ -15459,6 +15507,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_sSVG3g2iKL8.mp4",
           "media": {
             "src": "assets/videos/momo/v_sSVG3g2iKL8.mp4",
+            "poster": "assets/images/momo-posters/v_sSVG3g2iKL8.jpg",
             "filename": "v_sSVG3g2iKL8.mp4"
           },
           "annotation": {
@@ -15601,6 +15650,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_TVmuh_sR1KI.mp4",
           "media": {
             "src": "assets/videos/momo/v_TVmuh_sR1KI.mp4",
+            "poster": "assets/images/momo-posters/v_TVmuh_sR1KI.jpg",
             "filename": "v_TVmuh_sR1KI.mp4"
           },
           "annotation": {
@@ -15774,6 +15824,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_HytB88Fhqw8.mp4",
           "media": {
             "src": "assets/videos/momo/v_HytB88Fhqw8.mp4",
+            "poster": "assets/images/momo-posters/v_HytB88Fhqw8.jpg",
             "filename": "v_HytB88Fhqw8.mp4"
           },
           "annotation": {
@@ -16039,6 +16090,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_UhgVO1QaP2s.mp4",
           "media": {
             "src": "assets/videos/momo/v_UhgVO1QaP2s.mp4",
+            "poster": "assets/images/momo-posters/v_UhgVO1QaP2s.jpg",
             "filename": "v_UhgVO1QaP2s.mp4"
           },
           "annotation": {
@@ -16397,6 +16449,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_5-vAXCUN8X0.mp4",
           "media": {
             "src": "assets/videos/momo/v_5-vAXCUN8X0.mp4",
+            "poster": "assets/images/momo-posters/v_5-vAXCUN8X0.jpg",
             "filename": "v_5-vAXCUN8X0.mp4"
           },
           "annotation": {
@@ -16866,6 +16919,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_bG7hnpAeja0.mkv",
           "media": {
             "src": "assets/videos/momo/v_bG7hnpAeja0.mp4",
+            "poster": "assets/images/momo-posters/v_bG7hnpAeja0.jpg",
             "filename": "v_bG7hnpAeja0.mkv"
           },
           "annotation": {
@@ -17134,6 +17188,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_ORKAMBnsX64.mp4",
           "media": {
             "src": "assets/videos/momo/v_ORKAMBnsX64.mp4",
+            "poster": "assets/images/momo-posters/v_ORKAMBnsX64.jpg",
             "filename": "v_ORKAMBnsX64.mp4"
           },
           "annotation": {
@@ -17375,6 +17430,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_r8hXEpP7HH0.mp4",
           "media": {
             "src": "assets/videos/momo/v_r8hXEpP7HH0.mp4",
+            "poster": "assets/images/momo-posters/v_r8hXEpP7HH0.jpg",
             "filename": "v_r8hXEpP7HH0.mp4"
           },
           "annotation": {
@@ -17487,6 +17543,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_-HZtgP41I_o.mp4",
           "media": {
             "src": "assets/videos/momo/v_-HZtgP41I_o.mp4",
+            "poster": "assets/images/momo-posters/v_-HZtgP41I_o.jpg",
             "filename": "v_-HZtgP41I_o.mp4"
           },
           "annotation": {
@@ -17674,6 +17731,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_rvcSqYeUZ9s.mp4",
           "media": {
             "src": "assets/videos/momo/v_rvcSqYeUZ9s.mp4",
+            "poster": "assets/images/momo-posters/v_rvcSqYeUZ9s.jpg",
             "filename": "v_rvcSqYeUZ9s.mp4"
           },
           "annotation": {
@@ -17774,6 +17832,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_NNOsdZr802w.mp4",
           "media": {
             "src": "assets/videos/momo/v_NNOsdZr802w.mp4",
+            "poster": "assets/images/momo-posters/v_NNOsdZr802w.jpg",
             "filename": "v_NNOsdZr802w.mp4"
           },
           "annotation": {
@@ -17929,6 +17988,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_uBPWqgUiQWA.mp4",
           "media": {
             "src": "assets/videos/momo/v_uBPWqgUiQWA.mp4",
+            "poster": "assets/images/momo-posters/v_uBPWqgUiQWA.jpg",
             "filename": "v_uBPWqgUiQWA.mp4"
           },
           "annotation": {
@@ -18147,6 +18207,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_VhzPqd0Su5I.mp4",
           "media": {
             "src": "assets/videos/momo/v_VhzPqd0Su5I.mp4",
+            "poster": "assets/images/momo-posters/v_VhzPqd0Su5I.jpg",
             "filename": "v_VhzPqd0Su5I.mp4"
           },
           "annotation": {
@@ -18319,6 +18380,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_UcVbSLmILaY.mp4",
           "media": {
             "src": "assets/videos/momo/v_UcVbSLmILaY.mp4",
+            "poster": "assets/images/momo-posters/v_UcVbSLmILaY.jpg",
             "filename": "v_UcVbSLmILaY.mp4"
           },
           "annotation": {
@@ -18418,6 +18480,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_BCdt22s9hlU.mp4",
           "media": {
             "src": "assets/videos/momo/v_BCdt22s9hlU.mp4",
+            "poster": "assets/images/momo-posters/v_BCdt22s9hlU.jpg",
             "filename": "v_BCdt22s9hlU.mp4"
           },
           "annotation": {
@@ -18545,6 +18608,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_81dGQTVec_s.mp4",
           "media": {
             "src": "assets/videos/momo/v_81dGQTVec_s.mp4",
+            "poster": "assets/images/momo-posters/v_81dGQTVec_s.jpg",
             "filename": "v_81dGQTVec_s.mp4"
           },
           "annotation": {
@@ -18687,6 +18751,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_Ld2a5ogu9k8.mp4",
           "media": {
             "src": "assets/videos/momo/v_Ld2a5ogu9k8.mp4",
+            "poster": "assets/images/momo-posters/v_Ld2a5ogu9k8.jpg",
             "filename": "v_Ld2a5ogu9k8.mp4"
           },
           "annotation": {
@@ -18815,6 +18880,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_Q-fUXywUo7o.mp4",
           "media": {
             "src": "assets/videos/momo/v_Q-fUXywUo7o.mp4",
+            "poster": "assets/images/momo-posters/v_Q-fUXywUo7o.jpg",
             "filename": "v_Q-fUXywUo7o.mp4"
           },
           "annotation": {
@@ -19053,6 +19119,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_nCzB1iXKYk4.mp4",
           "media": {
             "src": "assets/videos/momo/v_nCzB1iXKYk4.mp4",
+            "poster": "assets/images/momo-posters/v_nCzB1iXKYk4.jpg",
             "filename": "v_nCzB1iXKYk4.mp4"
           },
           "annotation": {
@@ -19187,6 +19254,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_BCdt22s9hlU.mp4",
           "media": {
             "src": "assets/videos/momo/v_BCdt22s9hlU.mp4",
+            "poster": "assets/images/momo-posters/v_BCdt22s9hlU.jpg",
             "filename": "v_BCdt22s9hlU.mp4"
           },
           "annotation": {
@@ -19314,6 +19382,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_jl7aBkPfcS8.mp4",
           "media": {
             "src": "assets/videos/momo/v_jl7aBkPfcS8.mp4",
+            "poster": "assets/images/momo-posters/v_jl7aBkPfcS8.jpg",
             "filename": "v_jl7aBkPfcS8.mp4"
           },
           "annotation": {
@@ -19556,6 +19625,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_5T_P4x0q0VM.mp4",
           "media": {
             "src": "assets/videos/momo/v_5T_P4x0q0VM.mp4",
+            "poster": "assets/images/momo-posters/v_5T_P4x0q0VM.jpg",
             "filename": "v_5T_P4x0q0VM.mp4"
           },
           "annotation": {
@@ -19697,6 +19767,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_E2Vd-sOC_ik.mp4",
           "media": {
             "src": "assets/videos/momo/v_E2Vd-sOC_ik.mp4",
+            "poster": "assets/images/momo-posters/v_E2Vd-sOC_ik.jpg",
             "filename": "v_E2Vd-sOC_ik.mp4"
           },
           "annotation": {
@@ -20270,6 +20341,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_13Y47Uk_w1o.mp4",
           "media": {
             "src": "assets/videos/momo/v_13Y47Uk_w1o.mp4",
+            "poster": "assets/images/momo-posters/v_13Y47Uk_w1o.jpg",
             "filename": "v_13Y47Uk_w1o.mp4"
           },
           "annotation": {
@@ -20576,6 +20648,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_2AQg1DDVYHI.mp4",
           "media": {
             "src": "assets/videos/momo/v_2AQg1DDVYHI.mp4",
+            "poster": "assets/images/momo-posters/v_2AQg1DDVYHI.jpg",
             "filename": "v_2AQg1DDVYHI.mp4"
           },
           "annotation": {
@@ -20843,6 +20916,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_ASXqlsSfZ5E.mp4",
           "media": {
             "src": "assets/videos/momo/v_ASXqlsSfZ5E.mp4",
+            "poster": "assets/images/momo-posters/v_ASXqlsSfZ5E.jpg",
             "filename": "v_ASXqlsSfZ5E.mp4"
           },
           "annotation": {
@@ -20967,6 +21041,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_AVIMCVsLrVw.mp4",
           "media": {
             "src": "assets/videos/momo/v_AVIMCVsLrVw.mp4",
+            "poster": "assets/images/momo-posters/v_AVIMCVsLrVw.jpg",
             "filename": "v_AVIMCVsLrVw.mp4"
           },
           "annotation": {
@@ -21428,6 +21503,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_ASXqlsSfZ5E.mp4",
           "media": {
             "src": "assets/videos/momo/v_ASXqlsSfZ5E.mp4",
+            "poster": "assets/images/momo-posters/v_ASXqlsSfZ5E.jpg",
             "filename": "v_ASXqlsSfZ5E.mp4"
           },
           "annotation": {
@@ -21552,6 +21628,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_63d_t0U1pXw.mp4",
           "media": {
             "src": "assets/videos/momo/v_63d_t0U1pXw.mp4",
+            "poster": "assets/images/momo-posters/v_63d_t0U1pXw.jpg",
             "filename": "v_63d_t0U1pXw.mp4"
           },
           "annotation": {
@@ -21791,6 +21868,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_uyzQkTArIwU.mp4",
           "media": {
             "src": "assets/videos/momo/v_uyzQkTArIwU.mp4",
+            "poster": "assets/images/momo-posters/v_uyzQkTArIwU.jpg",
             "filename": "v_uyzQkTArIwU.mp4"
           },
           "annotation": {
@@ -22016,6 +22094,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_oSDHYvvYo5M.mp4",
           "media": {
             "src": "assets/videos/momo/v_oSDHYvvYo5M.mp4",
+            "poster": "assets/images/momo-posters/v_oSDHYvvYo5M.jpg",
             "filename": "v_oSDHYvvYo5M.mp4"
           },
           "annotation": {
@@ -22097,6 +22176,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_iUGuDzgow2I.mp4",
           "media": {
             "src": "assets/videos/momo/v_iUGuDzgow2I.mp4",
+            "poster": "assets/images/momo-posters/v_iUGuDzgow2I.jpg",
             "filename": "v_iUGuDzgow2I.mp4"
           },
           "annotation": {
@@ -22294,6 +22374,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_DfOiHMcrCbs.mp4",
           "media": {
             "src": "assets/videos/momo/v_DfOiHMcrCbs.mp4",
+            "poster": "assets/images/momo-posters/v_DfOiHMcrCbs.jpg",
             "filename": "v_DfOiHMcrCbs.mp4"
           },
           "annotation": {
@@ -22528,6 +22609,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_HtkuvF7VbSQ.mp4",
           "media": {
             "src": "assets/videos/momo/v_HtkuvF7VbSQ.mp4",
+            "poster": "assets/images/momo-posters/v_HtkuvF7VbSQ.jpg",
             "filename": "v_HtkuvF7VbSQ.mp4"
           },
           "annotation": {
@@ -22757,6 +22839,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_CaQkeVwKiUs.mp4",
           "media": {
             "src": "assets/videos/momo/v_CaQkeVwKiUs.mp4",
+            "poster": "assets/images/momo-posters/v_CaQkeVwKiUs.jpg",
             "filename": "v_CaQkeVwKiUs.mp4"
           },
           "annotation": {
@@ -23067,6 +23150,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_IN4nGNF9gi8.mp4",
           "media": {
             "src": "assets/videos/momo/v_IN4nGNF9gi8.mp4",
+            "poster": "assets/images/momo-posters/v_IN4nGNF9gi8.jpg",
             "filename": "v_IN4nGNF9gi8.mp4"
           },
           "annotation": {
@@ -23306,6 +23390,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_G8OyFOhVGCI.mp4",
           "media": {
             "src": "assets/videos/momo/v_G8OyFOhVGCI.mp4",
+            "poster": "assets/images/momo-posters/v_G8OyFOhVGCI.jpg",
             "filename": "v_G8OyFOhVGCI.mp4"
           },
           "annotation": {
@@ -23495,6 +23580,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_R8WbSI3m1lI.mp4",
           "media": {
             "src": "assets/videos/momo/v_R8WbSI3m1lI.mp4",
+            "poster": "assets/images/momo-posters/v_R8WbSI3m1lI.jpg",
             "filename": "v_R8WbSI3m1lI.mp4"
           },
           "annotation": {
@@ -23711,6 +23797,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_y-X0DjEHD_k.mp4",
           "media": {
             "src": "assets/videos/momo/v_y-X0DjEHD_k.mp4",
+            "poster": "assets/images/momo-posters/v_y-X0DjEHD_k.jpg",
             "filename": "v_y-X0DjEHD_k.mp4"
           },
           "annotation": {
@@ -23853,6 +23940,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_RTwa2d6Oqvo.mp4",
           "media": {
             "src": "assets/videos/momo/v_RTwa2d6Oqvo.mp4",
+            "poster": "assets/images/momo-posters/v_RTwa2d6Oqvo.jpg",
             "filename": "v_RTwa2d6Oqvo.mp4"
           },
           "annotation": {
@@ -23939,6 +24027,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_M7Lc8nh9auA.mp4",
           "media": {
             "src": "assets/videos/momo/v_M7Lc8nh9auA.mp4",
+            "poster": "assets/images/momo-posters/v_M7Lc8nh9auA.jpg",
             "filename": "v_M7Lc8nh9auA.mp4"
           },
           "annotation": {
@@ -24099,6 +24188,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_TqcoukXhXeA.mp4",
           "media": {
             "src": "assets/videos/momo/v_TqcoukXhXeA.mp4",
+            "poster": "assets/images/momo-posters/v_TqcoukXhXeA.jpg",
             "filename": "v_TqcoukXhXeA.mp4"
           },
           "annotation": {
@@ -24400,6 +24490,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_IjwOh2YmT9U.mp4",
           "media": {
             "src": "assets/videos/momo/v_IjwOh2YmT9U.mp4",
+            "poster": "assets/images/momo-posters/v_IjwOh2YmT9U.jpg",
             "filename": "v_IjwOh2YmT9U.mp4"
           },
           "annotation": {
@@ -24979,6 +25070,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_r64pATF3vCI.mp4",
           "media": {
             "src": "assets/videos/momo/v_r64pATF3vCI.mp4",
+            "poster": "assets/images/momo-posters/v_r64pATF3vCI.jpg",
             "filename": "v_r64pATF3vCI.mp4"
           },
           "annotation": {
@@ -25078,6 +25170,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_gSwjTXkXK3Q.mp4",
           "media": {
             "src": "assets/videos/momo/v_gSwjTXkXK3Q.mp4",
+            "poster": "assets/images/momo-posters/v_gSwjTXkXK3Q.jpg",
             "filename": "v_gSwjTXkXK3Q.mp4"
           },
           "annotation": {
@@ -25632,6 +25725,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_xDc407xoYUM.mp4",
           "media": {
             "src": "assets/videos/momo/v_xDc407xoYUM.mp4",
+            "poster": "assets/images/momo-posters/v_xDc407xoYUM.jpg",
             "filename": "v_xDc407xoYUM.mp4"
           },
           "annotation": {
@@ -25839,6 +25933,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_XBMiD_7fdF4.mp4",
           "media": {
             "src": "assets/videos/momo/v_XBMiD_7fdF4.mp4",
+            "poster": "assets/images/momo-posters/v_XBMiD_7fdF4.jpg",
             "filename": "v_XBMiD_7fdF4.mp4"
           },
           "annotation": {
@@ -26083,6 +26178,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_6rfFmqz6s8M.mp4",
           "media": {
             "src": "assets/videos/momo/v_6rfFmqz6s8M.mp4",
+            "poster": "assets/images/momo-posters/v_6rfFmqz6s8M.jpg",
             "filename": "v_6rfFmqz6s8M.mp4"
           },
           "annotation": {
@@ -26285,6 +26381,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_GV_BDNmUiLY.mp4",
           "media": {
             "src": "assets/videos/momo/v_GV_BDNmUiLY.mp4",
+            "poster": "assets/images/momo-posters/v_GV_BDNmUiLY.jpg",
             "filename": "v_GV_BDNmUiLY.mp4"
           },
           "annotation": {
@@ -26599,6 +26696,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_mShwD_I43ao.mp4",
           "media": {
             "src": "assets/videos/momo/v_mShwD_I43ao.mp4",
+            "poster": "assets/images/momo-posters/v_mShwD_I43ao.jpg",
             "filename": "v_mShwD_I43ao.mp4"
           },
           "annotation": {
@@ -26742,6 +26840,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_FNlEHAIh6LQ.mp4",
           "media": {
             "src": "assets/videos/momo/v_FNlEHAIh6LQ.mp4",
+            "poster": "assets/images/momo-posters/v_FNlEHAIh6LQ.jpg",
             "filename": "v_FNlEHAIh6LQ.mp4"
           },
           "annotation": {
@@ -26965,6 +27064,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_NGBaYycOQT0.mp4",
           "media": {
             "src": "assets/videos/momo/v_NGBaYycOQT0.mp4",
+            "poster": "assets/images/momo-posters/v_NGBaYycOQT0.jpg",
             "filename": "v_NGBaYycOQT0.mp4"
           },
           "annotation": {
@@ -27211,6 +27311,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_6fyIc1vrK4Q.mp4",
           "media": {
             "src": "assets/videos/momo/v_6fyIc1vrK4Q.mp4",
+            "poster": "assets/images/momo-posters/v_6fyIc1vrK4Q.jpg",
             "filename": "v_6fyIc1vrK4Q.mp4"
           },
           "annotation": {
@@ -27407,6 +27508,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_D9hS68pULz0.mp4",
           "media": {
             "src": "assets/videos/momo/v_D9hS68pULz0.mp4",
+            "poster": "assets/images/momo-posters/v_D9hS68pULz0.jpg",
             "filename": "v_D9hS68pULz0.mp4"
           },
           "annotation": {
@@ -27554,6 +27656,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_dBNZf90PLJ0.mp4",
           "media": {
             "src": "assets/videos/momo/v_dBNZf90PLJ0.mp4",
+            "poster": "assets/images/momo-posters/v_dBNZf90PLJ0.jpg",
             "filename": "v_dBNZf90PLJ0.mp4"
           },
           "annotation": {
@@ -28018,6 +28121,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_83oa1S0x9zI.mp4",
           "media": {
             "src": "assets/videos/momo/v_83oa1S0x9zI.mp4",
+            "poster": "assets/images/momo-posters/v_83oa1S0x9zI.jpg",
             "filename": "v_83oa1S0x9zI.mp4"
           },
           "annotation": {
@@ -28404,6 +28508,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_gSwjTXkXK3Q.mp4",
           "media": {
             "src": "assets/videos/momo/v_gSwjTXkXK3Q.mp4",
+            "poster": "assets/images/momo-posters/v_gSwjTXkXK3Q.jpg",
             "filename": "v_gSwjTXkXK3Q.mp4"
           },
           "annotation": {
@@ -28960,6 +29065,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_Pfc7KbwqdYk.mp4",
           "media": {
             "src": "assets/videos/momo/v_Pfc7KbwqdYk.mp4",
+            "poster": "assets/images/momo-posters/v_Pfc7KbwqdYk.jpg",
             "filename": "v_Pfc7KbwqdYk.mp4"
           },
           "annotation": {
@@ -29082,6 +29188,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_D9hS68pULz0.mp4",
           "media": {
             "src": "assets/videos/momo/v_D9hS68pULz0.mp4",
+            "poster": "assets/images/momo-posters/v_D9hS68pULz0.jpg",
             "filename": "v_D9hS68pULz0.mp4"
           },
           "annotation": {
@@ -29229,6 +29336,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_6fyIc1vrK4Q.mp4",
           "media": {
             "src": "assets/videos/momo/v_6fyIc1vrK4Q.mp4",
+            "poster": "assets/images/momo-posters/v_6fyIc1vrK4Q.jpg",
             "filename": "v_6fyIc1vrK4Q.mp4"
           },
           "annotation": {
@@ -29425,6 +29533,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_J1fcLhB-Slg.mp4",
           "media": {
             "src": "assets/videos/momo/v_J1fcLhB-Slg.mp4",
+            "poster": "assets/images/momo-posters/v_J1fcLhB-Slg.jpg",
             "filename": "v_J1fcLhB-Slg.mp4"
           },
           "annotation": {
@@ -29553,6 +29662,7 @@ window.MOMO_PAGE_DATA = {
           "filename": "v_lyJpgvmTOpo.mp4",
           "media": {
             "src": "assets/videos/momo/v_lyJpgvmTOpo.mp4",
+            "poster": "assets/images/momo-posters/v_lyJpgvmTOpo.jpg",
             "filename": "v_lyJpgvmTOpo.mp4"
           },
           "annotation": {
