@@ -4,30 +4,30 @@ window.MOMO_RESULTS_DATA = {
       "id": "t2v_charades_r10",
       "label": "T2V Charades",
       "metric": "R@10",
-      "value": 19.73,
+      "value": 16.85,
       "reference_label": "vs baseline",
       "reference_value": 14.65,
-      "delta": 5.08,
+      "delta": 2.2,
       "tone": "blue"
     },
     {
       "id": "t2v_activitynet_r1",
       "label": "T2V ActivityNet",
       "metric": "R@1",
-      "value": 24.33,
+      "value": 24.63,
       "reference_label": "vs best supervised",
       "reference_value": 15.99,
-      "delta": 8.34,
+      "delta": 8.64,
       "tone": "green"
     },
     {
       "id": "v2t_activitynet_mrank",
       "label": "V2T ActivityNet",
       "metric": "mRank",
-      "value": 27.0,
+      "value": 20.0,
       "reference_label": "vs baseline",
       "reference_value": 45.0,
-      "delta": -18.0,
+      "delta": -25.0,
       "tone": "rose",
       "lower_is_better": true
     }
@@ -214,7 +214,7 @@ window.MOMO_RESULTS_DATA = {
           }
         },
         {
-          "method": "InternVideo2-1b (Baseline)",
+          "method": "InternVideo2-1B (Baseline)",
           "type": "Training-Free",
           "role": "baseline",
           "values": {
@@ -230,11 +230,11 @@ window.MOMO_RESULTS_DATA = {
           "type": "Training-Free",
           "role": "ours",
           "values": {
-            "mrank": "7.00",
-            "r1": "24.33",
-            "r5": "47.07",
-            "r10": "58.64",
-            "r50": "81.14"
+            "mrank": "6.00",
+            "r1": "24.63",
+            "r5": "48.21",
+            "r10": "60.31",
+            "r50": "82.40"
           }
         }
       ]
@@ -276,7 +276,7 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "77.00",
-            "r1": "2.62 / 8.60 / -",
+            "r1": "2.62 / 8.60 /-",
             "r5": "10.11 / 28.71 / 0.47",
             "r10": "17.14 / 43.63 / 1.40",
             "r50": "45.00 / 80.56 / 13.93"
@@ -288,8 +288,8 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "64.50",
-            "r1": "4.83 / 14.68 / -",
-            "r5": "15.1 / 37.79 / 1.95",
+            "r1": "4.83 / 14.68 /-",
+            "r5": "15.10 / 37.79 / 1.95",
             "r10": "22.23 / 49.50 / 4.41",
             "r50": "48.96 / 81.94 / 19.38"
           }
@@ -300,7 +300,7 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "49.50",
-            "r1": "5.23 / 16.45 / -",
+            "r1": "5.23 / 16.45 /-",
             "r5": "16.74 / 41.94 / 1.77",
             "r10": "25.50 / 57.37 / 4.23",
             "r50": "54.22 / 88.00 / 21.52"
@@ -312,7 +312,7 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "49.00",
-            "r1": "6.98 / 22.72 / -",
+            "r1": "6.98 / 22.72 /-",
             "r5": "18.72 / 46.37 / 2.30",
             "r10": "27.04 / 60.62 / 5.76",
             "r50": "54.19 / 88.37 / 20.90"
@@ -324,7 +324,7 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "39.00",
-            "r1": "6.60 / 20.74 / -",
+            "r1": "6.60 / 20.74 /-",
             "r5": "20.32 / 47.02 / 3.46",
             "r10": "29.37 / 61.26 / 6.71",
             "r50": "58.41 / 89.77 / 26.24"
@@ -336,7 +336,7 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "38.00",
-            "r1": "6.93 / 21.62 / -",
+            "r1": "6.93 / 21.62 /-",
             "r5": "20.58 / 47.98 / 3.66",
             "r10": "29.90 / 61.72 / 6.96",
             "r50": "58.88 / 90.34 / 26.28"
@@ -348,21 +348,21 @@ window.MOMO_RESULTS_DATA = {
           "role": "supervised",
           "values": {
             "mrank": "35.00",
-            "r1": "8.52 / 26.91 / -",
+            "r1": "8.52 / 26.91 /-",
             "r5": "23.56 / 54.18 / 3.86",
             "r10": "32.95 / 67.13 / 7.79",
             "r50": "61.26 / 92.50 / 27.80"
           }
         },
         {
-          "method": "InternVideo2-1b (Baseline)",
+          "method": "InternVideo2-1B (Baseline)",
           "type": "Training-Free",
           "role": "baseline",
           "values": {
             "mrank": "45.00",
-            "r1": "8.29 / 26.04 / -",
-            "r5": "21.54 / 51.59 / 2.75",
-            "r10": "30.00 / 64.94 / 5.72",
+            "r1": "8.30 / 26.04 /-",
+            "r5": "21.55 / 51.59 / 2.75",
+            "r10": "30.02 / 64.94 / 5.72",
             "r50": "56.47 / 89.97 / 23.93"
           }
         },
@@ -371,11 +371,11 @@ window.MOMO_RESULTS_DATA = {
           "type": "Training-Free",
           "role": "ours",
           "values": {
-            "mrank": "27.00",
-            "r1": "11.35 / 36.74 / -",
-            "r5": "28.77 / 64.66 / 4.36",
-            "r10": "37.90 / 76.10 / 8.71",
-            "r50": "67.72 / 95.72 / 32.00"
+            "mrank": "20.00",
+            "r1": "14.41 / 46.20 / -",
+            "r5": "34.43 / 71.21 / 7.20",
+            "r10": "44.33 / 81.09 / 13.55",
+            "r50": "70.38 / 96.70 / 38.20"
           }
         }
       ]
@@ -573,7 +573,7 @@ window.MOMO_RESULTS_DATA = {
           }
         },
         {
-          "method": "InternVideo2-1b (Baseline)",
+          "method": "InternVideo2-1B (Baseline)",
           "type": "Training-Free",
           "role": "baseline",
           "values": {
@@ -589,11 +589,11 @@ window.MOMO_RESULTS_DATA = {
           "type": "Training-Free",
           "role": "ours",
           "values": {
-            "mrank": "60.00",
-            "r1": "3.63",
-            "r5": "12.58",
-            "r10": "19.73",
-            "r50": "45.89"
+            "mrank": "75.00",
+            "r1": "3.36",
+            "r5": "10.67",
+            "r10": "16.85",
+            "r50": "42.55"
           }
         }
       ]
@@ -738,7 +738,7 @@ window.MOMO_RESULTS_DATA = {
           }
         },
         {
-          "method": "InternVideo2-1b (Baseline)",
+          "method": "InternVideo2-1B (Baseline)",
           "type": "Training-Free",
           "role": "baseline",
           "values": {
@@ -754,11 +754,11 @@ window.MOMO_RESULTS_DATA = {
           "type": "Training-Free",
           "role": "ours",
           "values": {
-            "mrank": "68.00",
-            "r1": "2.33 / 5.40 / -",
-            "r5": "6.26 / 14.24 / 2.40",
-            "r10": "9.37 / 20.24 / 3.97",
-            "r50": "23.45 / 43.03 / 10.57"
+            "mrank": "57.00",
+            "r1": "3.02 / 7.27 / -",
+            "r5": "8.79 / 19.34 / 3.90",
+            "r10": "12.58 / 26.46 / 5.25",
+            "r50": "28.21 / 48.35 / 14.17"
           }
         }
       ]

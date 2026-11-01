@@ -47,7 +47,7 @@
                     <div class="abstract-card" id="abstract">
                         <h2>Abstract</h2>
                         <p>
-                            Multi-event video-text retrieval is challenging because long videos and long-form descriptions are not aligned as flat one-to-one semantic units. A candidate video may contain multiple semantic scopes, while a description may target only part of the video and mix global narrative with local evidence. This creates a scope-evidence mismatch, where flat matching either preserves coarse relevance while missing decisive clues, or overreacts to local evidence without establishing a globally valid match. To address this issue, we propose <strong>MoMo</strong>, a training-free framework for structured multi-event video-text alignment and retrieval. Instead of absorbing structural complexity through additional task-specific training, MoMo organizes text and video into retrieval-compatible structures and performs <strong>M</strong>acr<strong>O</strong>-scope and <strong>M</strong>icr<strong>O</strong>-evidence alignment through joint cross-level evaluation. In this way, candidate ranking is determined not only by high-level semantic compatibility, but also by whether event-local evidence can verify the matched scope, whether description-level support remains sufficiently complete, and whether the final match is temporally plausible. Extensive experiments on Charades-Event and ActivityNet-Event show that this structured training-free formulation substantially improves multi-event retrieval over strong baselines.
+                            Multi-event video-text retrieval supports bidirectional search between videos containing multiple events and textual descriptions. These descriptions vary in semantic scope and granularity, ranging from overall narratives to individual events and fine-grained actions or objects. Flat matching does not explicitly distinguish semantic scopes from their supporting local evidence, leaving relevant details obscured or isolated cues overemphasized. To address this scope-evidence mismatch, we propose <strong>MoMo</strong>, a training-free framework that reformulates retrieval as structured alignment between semantic scopes and local evidence. MoMo retains the full description and extracts textual evidence atoms (TEAs), while grouping visual evidence atoms (VEAs) into video event units. MoMo uses micro-level TEA-VEA evidence to assess macro-level compatibility between the full description and event units. Evidence within each event refines scope compatibility according to local support, while evidence across the video is adaptively consolidated to assess coverage of the description's cues. A soft temporal term further penalizes inconsistencies between the temporal order of the matched evidence and the order specified in the description. These signals jointly determine a structured retrieval score. Experiments on Charades-Event and ActivityNet-Event show that MoMo outperforms a flat baseline built on the same frozen encoder in both retrieval directions and outperforms the compared supervised methods.
                         </p>
                     </div>
                 </div>
@@ -89,22 +89,22 @@
                 <div class="section-header">
                     <div class="section-title-block">
                         <span class="section-kicker">Method</span>
-                        <h2>Momo aligns global scope with local evidence.</h2>
+                        <h2>MoMo aligns macro scopes with micro evidence.</h2>
                         <p class="section-lede">
-                            These examples are meant to show why flat matching struggles on long, multi-event content and why
-                            scope-aware, evidence-aware retrieval behaves more reliably.
+                            MoMo refines full-description/event compatibility with event-local evidence; the refined event scores are averaged across events.
+                            In parallel, adaptive Max/Mean consolidation measures description-wide evidence support, while a soft temporal term checks the order of matched evidence.
                         </p>
                     </div>
                 </div>
 
                 <div class="intro-grid">
                     <figure class="paper-figure paper-figure-wide">
-                        <img src="assets/figures/momo/framework.png" alt="MoMo framework diagram">
-                        <figcaption>Framework overview: MoMo builds retrieval-compatible structures and evaluates macro scope with micro evidence.</figcaption>
+                        <img src="assets/figures/momo/framework.png" alt="MoMo framework linking full descriptions and video event units through textual and visual evidence atoms">
+                        <figcaption>Framework overview: MoMo instantiates text and video structures, refines event-scope compatibility with local evidence, and combines averaged event scores with description-wide evidence support and a soft temporal term.</figcaption>
                     </figure>
                     <figure class="paper-figure paper-figure-wide">
-                        <img src="assets/figures/momo/qualitative_02.png" alt="Qualitative retrieval example from supplementary material">
-                        <figcaption>Qualitative example from supplementary material, showing how structured evidence changes the retrieval ranking.</figcaption>
+                        <img src="assets/figures/momo/qualitative_02.png" alt="Intermediate cross-level matching analysis of one positive and one hard negative candidate, showing root-event and TEA-VEA scores">
+                        <figcaption>Intermediate cross-level matching analysis from the main paper: one positive and one hard negative candidate, with initial root-event scores, TEA-VEA evidence, refined event scores, and video-wide description-evidence support. Displayed scores are illustrative.</figcaption>
                     </figure>
                 </div>
             </section>
@@ -134,15 +134,15 @@
                 <div class="intro-grid contribution-grid">
                     <article class="intro-card">
                         <h3>Structured formulation</h3>
-                        <p>MoMo reframes multi-event retrieval as scope-aware and evidence-aware alignment, rather than flat video-text matching.</p>
+                        <p>MoMo addresses scope-evidence mismatch by distinguishing a description's semantic scope from the local evidence that supports it.</p>
                     </article>
                     <article class="intro-card">
                         <h3>Training-free alignment</h3>
-                        <p>The method decomposes text and video into retrieval-compatible structures and performs joint cross-level evaluation without task-specific training.</p>
+                        <p>Textual and visual evidence atoms support event-scope verification, description-wide evidence consolidation, and soft temporal checking without task-specific training.</p>
                     </article>
                     <article class="intro-card">
                         <h3>Consistent empirical gains</h3>
-                        <p>Experiments on Charades-Event and ActivityNet-Event show clear improvements over strong flat baselines in both Text2Video and Video2Text retrieval.</p>
+                        <p>On Charades-Event and ActivityNet-Event, MoMo improves both retrieval directions over a flat baseline using the same frozen encoder and outperforms the compared supervised methods.</p>
                     </article>
                 </div>
             </section>
